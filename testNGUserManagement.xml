@@ -1,0 +1,31 @@
+<suite name ="OrangeHRM Final Project" >
+
+  <!--  <test name = "Admin user management test 2.1" dependsOnTests=" Prerequisite for tests" dependsOnMethods ="validLoginCredentials">
+        <classes>
+            <class name="testClasses.UserManagementTest">
+                <methods>
+                    <include name="userManagement" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>-->
+    <test name = "Admin User management test 2.2 " dependsOnMethods ="validLoginCredentials">
+        <classes>
+            <class  name="testClasses.UserManagementTest">
+                <methods>
+                    <include name="deleteUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name=" Prerequisite for tests">
+        <classes>
+            <class name = "testClasses.LoginTest" >
+                <methods>
+                    <include name = "validLoginCredentials" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

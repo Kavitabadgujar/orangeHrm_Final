@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="OrangeHRM Final Project">
+    <test name = "Login Test 1.1 ">
+        <classes>
+            <class name = "testClasses.LoginTest">
+                <methods>
+                    <include name="validLoginCredentials" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test 1.2" enabled="false">
+        <classes>
+            <class name="testClasses.LoginTest" >
+                <methods>
+                    <include name = "validUsernameEmptyPassword" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login Test 1.3" enabled="false">
+        <classes>
+            <class name="testClasses.LoginTest" >
+                <methods>
+                    <include name = "invalidUsernameValidPassword" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
