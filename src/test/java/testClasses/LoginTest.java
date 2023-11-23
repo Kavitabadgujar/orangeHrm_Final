@@ -1,17 +1,24 @@
 package testClasses;
 
 import baseTest.BaseTest;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 import pageClasses.LoginPage;
 
+import java.time.Duration;
+
 public class LoginTest extends BaseTest {
+    public WebDriver driver = getDriver();
     LoginPage loginPage;
 
     @BeforeTest
     public void setLog(){
+        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
+        driver.manage().window().maximize();
+        driver.get(baseURL);
         loginPage = new LoginPage(driver) ;
     }
 

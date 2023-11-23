@@ -11,17 +11,27 @@ import pageClasses.MainMenu;
 import java.time.Duration;
 
 public class BaseTest {
-    protected WebDriver driver;
+   // protected static WebDriver driver;
 
-    static String baseURL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+    public static String baseURL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 
+    private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
-    @BeforeSuite
-    public void setUp(){
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
-        driver.manage().window().maximize();
-        driver.get(baseURL);
-
+    public static WebDriver getDriver() {
+        if (driverThreadLocal.get() == null) {
+            WebDriver driver = new ChromeDriver();  // You can use other drivers too
+            driverThreadLocal.set(driver);
+        }
+        return driverThreadLocal.get();
     }
+
+    public static void quitDriver() {
+        if (driverThreadLocal.get() != null) {
+            driverThreadLocal.get().quit();
+            driverThreadLocal.remove();
+        }
+    }
+    /*public void tearDown(){
+        driver.quit();
+    }*/
 }

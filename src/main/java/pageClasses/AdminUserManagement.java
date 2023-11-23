@@ -2,12 +2,15 @@ package pageClasses;
 
 import baseClasses.BaseClass;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.asserts.Assertion;
 
 import java.util.List;
 
@@ -26,6 +29,12 @@ public class AdminUserManagement extends BaseClass {
     WebElement resetButton;
     @FindBy(xpath = "//i[contains(@class,'trash')]")
     WebElement deleteButton;
+    @FindBy(xpath = "//*[text()=' Yes, Delete ']")
+    WebElement delete;
+    @FindBy(xpath = "//div[contains(@class,'orangehrm-horizontal-padding')]/span")
+    WebElement recordsHeader;
+    @FindBy(xpath = "//p[contains(@class,'oxd-text--toast-message')]")
+    WebElement infoMessage;
     public AdminUserManagement(WebDriver driver){
         super(driver);
         //this.driver = driver;
@@ -71,15 +80,33 @@ public class AdminUserManagement extends BaseClass {
     public void reset(){
         resetButton.click();
     }
-    public void delete(String user){
+    public void delete(String user) throws InterruptedException {
         getByUserName( user);
         searchUser();
-        deleteButton.click();
+
+        String records = recordsHeader.getText();
+        if( records.matches(".*\\d.*")){
+           deleteButton.click();
+           delete.click();
+
+        }
+        else
+            System.out.println("User does not exist");
+
+        /*Thread.sleep(3000);
+        try{
+            deleteButton.isDisplayed();
+            deleteButton.click();
+            delete.click();
+        }catch (NoSuchElementException e ){
+            System.out.println("element not found" + e);
+           // Assert.assertFalse(deleteButton.isDisplayed(),infoMessage.getText());
+        }
+*/
+
     }
 
 
 }
-/*(//div[@role='row'])[2]//i[contains(@class,'trash')]
-//div[contains(text(),'Admin')]/parent::div/following-sibling::div//i[contains(@class,'trash')]
-*/
+
 

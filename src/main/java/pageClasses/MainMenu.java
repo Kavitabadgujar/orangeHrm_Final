@@ -7,14 +7,21 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MainMenu extends BaseClass {
-    WebDriver driver;
+    //WebDriver driver;
     @FindBy(xpath = "//a[contains(@href,'admin/viewAdminModule')]")
     WebElement Admin;
     @FindBy(xpath = "//a[contains(@href,'leave/viewLeaveModule')]") WebElement Leave;
-    public MainMenu(WebDriver driver){
+    public MainMenu(WebDriver driver)  {
         super(driver);
-        this.driver = driver;
+       /* try{
+            this.driver = driver;
+        }
+        catch (NullPointerException e) {
+            Thread.sleep(3000);
+            this.driver = driver;
+        }*/
         PageFactory.initElements(driver,this);
+
     }
 
     public void getAdminPage(){
