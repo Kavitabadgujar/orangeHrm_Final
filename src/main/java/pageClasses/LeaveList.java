@@ -13,31 +13,31 @@ import java.util.List;
 
 public class LeaveList extends BaseClass {
 
-    @FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[1]")
+    @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[1]")
     WebElement fromDate;
-    @FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]")
+    @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]")
     WebElement toDate;
     @FindBy(xpath = "//div[contains(@class,'month-selected')]")
     WebElement fMonthSelector;
-    @FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]/parent::div/following-sibling::div//div[contains(@class,'month-selected')]")
+    @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'month-selected')]")
     WebElement tMonthSelector;
     @FindAll(@FindBy(xpath = " //li[contains(@class,'option')]"))
     List<WebElement> calList;
-    @FindAll(@FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]/parent::div/following-sibling::div//div[contains(@class,'month-selected')]/following-sibling::ul/li"))
+    @FindAll(@FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'month-selected')]/following-sibling::ul/li"))
     List<WebElement> tMonthlist;
     @FindBy(xpath = "//div[contains(@class,'year-selected')]")
     WebElement fYearSelector;
-    @FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]/parent::div/following-sibling::div//div[contains(@class,'year-selected')]")
+    @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'year-selected')]")
     WebElement tYearSelector;
-    @FindAll(@FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]/parent::div/following-sibling::div//div[contains(@class,'year-selected')]/following-sibling::ul/li"))
+    @FindAll(@FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'year-selected')]/following-sibling::ul/li"))
     List<WebElement> tYearList;
     @FindAll(@FindBy(xpath = "//div[contains(@class,'non-working-day')]"))
     List<WebElement> nonWorkingDays;
-    @FindAll(@FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]/parent::div/following-sibling::div//div[contains(@class,'non-working-day')]"))
+    @FindAll(@FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'non-working-day')]"))
     List<WebElement> tNonWorkingDays;
     @FindAll(@FindBy(xpath = " //div[@class='oxd-calendar-date']"))
     List<WebElement> workingDays;
-    @FindAll(@FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]/parent::div/following-sibling::div//div[@class='oxd-calendar-date']"))
+    @FindAll(@FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[@class='oxd-calendar-date']"))
     List<WebElement> tWorkingDays;
     @FindBy(xpath = "(//div[contains(@class,'oxd-grid-4')])[1]//div[@class='oxd-select-text-input'][1]")
     WebElement status;
@@ -74,6 +74,7 @@ public class LeaveList extends BaseClass {
         FDate = day +"-"+ month +"-"+ year;
         fromDate.click();
         fMonthSelector.click();
+        scrollIntoView(fMonthSelector);
         for(WebElement element : calList){
             if (month.equals(element.getText())) {
                 element.click();
@@ -81,6 +82,7 @@ public class LeaveList extends BaseClass {
             }
         }
         fYearSelector.click();
+        scrollIntoView(fYearSelector);
         for(WebElement element : calList){
             if (year.equals(element.getText())) {
                 element.click();
