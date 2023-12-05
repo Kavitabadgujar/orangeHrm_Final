@@ -1,6 +1,7 @@
 package pageClasses;
 
 import baseClasses.BaseClass;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -25,34 +26,49 @@ public class LoginPage extends BaseClass {
     WebElement passRequired;
     @FindBy(xpath = "//div[@role='alert']//p")
     WebElement alert;
+    @FindBy(xpath = "//span[contains(@class,'userdropdown')]")
+    WebElement user;
+    @FindBy(xpath = "//a[contains(@href,'logout')]")
+    WebElement logOut;
     public LoginPage(WebDriver driver){
         super(driver);
        // this.driver = driver;
         PageFactory.initElements(driver,this);
     }
     public void login(String username , String password){
-        UserName.click();
-        UserName.sendKeys(username);
-        Password.sendKeys(password);
-        loginButton.click();
+        try {
+            UserName.click();
+            UserName.sendKeys(username);
+            Password.sendKeys(password);
+            loginButton.click();
+        }
+        catch (NoSuchElementException e){
+            user.click();
+            logOut.click();
+            UserName.click();
+            UserName.sendKeys(username);
+            Password.sendKeys(password);
+            loginButton.click();
+        }
     }
-    public ArrayList<String> errorMessage() {
+    public String errorMessage() {
 
         ArrayList<String> error = new ArrayList<>();
         if(!required.isEmpty()) {
 
            try {
                if (usernameRequired.isDisplayed()) {
-                   error.add(usernameRequired.getText());
+                   error.add("Username "+usernameRequired.getText());
                }
            }
            catch (Exception NoSuchElementException) {
                if (passRequired.isDisplayed()) {
-                   error.add(passRequired.getText());
+                   error.add("Password "+passRequired.getText());
                }
            }
         }
-        return error;
+       return arrayListToString(error);
+
     }
     public String alertMessage() {
             String Alert ;

@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BaseClass {
@@ -42,5 +43,18 @@ public class BaseClass {
     public void waitStaleElement(WebElement element , int duration){
         WebDriverWait w = new WebDriverWait(driver ,Duration.ofMillis(duration));
         w.until(ExpectedConditions.stalenessOf(element));
+    }
+
+    public static String arrayListToString(ArrayList<String> arrayList) {
+        StringBuilder stringBuilder = new StringBuilder();
+
+        // Iterate through the ArrayList and append each element to the StringBuilder
+        for (String str : arrayList) {
+            stringBuilder.append(str);
+
+        }
+
+        // Convert StringBuilder to String
+        return stringBuilder.toString();
     }
 }

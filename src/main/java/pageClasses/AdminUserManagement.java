@@ -33,14 +33,16 @@ public class AdminUserManagement extends BaseClass {
     WebElement delete;
     @FindBy(xpath = "//div[contains(@class,'orangehrm-horizontal-padding')]/span")
     WebElement recordsHeader;
-    @FindBy(xpath = "//p[contains(@class,'oxd-text--toast-message')]")
-    WebElement infoMessage;
+    @FindBy(xpath = "//p[contains(@class,'title')]")
+    WebElement toastTittle;
+    @FindBy(xpath = "//p[contains(@class,'toast-message')]")
+    WebElement toastMessage;
     public AdminUserManagement(WebDriver driver){
         super(driver);
         //this.driver = driver;
         PageFactory.initElements(driver,this);
     }
-
+    String records;
     public void getByUserName(String user){
         UserName.click();
         UserName.sendKeys(user);
@@ -74,39 +76,30 @@ public class AdminUserManagement extends BaseClass {
                     actions.keyDown(Keys.ARROW_DOWN).keyUp(Keys.ARROW_DOWN).keyDown(Keys.ARROW_DOWN).keyUp(Keys.ARROW_DOWN).click().perform();
         }
     }
-    public void searchUser(){
+    public String searchUser(){
         searchButton.click();
+        records = recordsHeader.getText();
+        return records;
     }
     public void reset(){
         resetButton.click();
     }
-    public void delete(String user) throws InterruptedException {
+    public String delete(String user) throws InterruptedException {
         getByUserName( user);
         searchUser();
-
-        String records = recordsHeader.getText();
-        if( records.matches(".*\\d.*")){
+        records = recordsHeader.getText();
+        if( records.matches(".*\\d.*")){   //checking if string contains any digit
            deleteButton.click();
            delete.click();
 
         }
-        else
+        /*else {
             System.out.println("User does not exist");
+            Assert.assertFalse(records.matches(".*\\d.*"),"User does not exist");
 
-        /*Thread.sleep(3000);
-        try{
-            deleteButton.isDisplayed();
-            deleteButton.click();
-            delete.click();
-        }catch (NoSuchElementException e ){
-            System.out.println("element not found" + e);
-           // Assert.assertFalse(deleteButton.isDisplayed(),infoMessage.getText());
-        }
-*/
-
+        }*/
+        return toastTittle.getText() + toastMessage.getText();
     }
-
-
 }
 
 

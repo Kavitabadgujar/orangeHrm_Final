@@ -1,6 +1,8 @@
 package testClasses;
 
 import baseTest.BaseTest;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
@@ -18,17 +20,22 @@ public class LeaveListTest extends BaseTest {
     LeaveMenu leaveMenu ;
     LeaveList leaveList ;
     LoginPage loginPage;
+
+    private static final Logger log = LogManager.getLogger(LeaveListTest.class.getName());
+
     @BeforeTest
     public void set() throws InterruptedException {
         //driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
         driver.manage().window().maximize();
         driver.get(baseURL);
+        log.info("BaseURL loaded");
         loginPage = new LoginPage(driver);
         mainMenu = new MainMenu(driver);
         leaveMenu = new LeaveMenu(driver);
         leaveList = new LeaveList(driver);
         loginPage.login("Admin","admin123");
+        log.info("login successful");
     }
 
     @Test
@@ -38,12 +45,13 @@ public class LeaveListTest extends BaseTest {
         leaveList.setFromDate(2,"June","2020");
         leaveList.setToDate(5,"July",2021);
         leaveList.setStatus("Rejected");
+        log.info("status selected");
       //  leaveList.setLeaveType("US - Matternity");
        // leaveList.getByEmployeeName("a");
         //leaveList.setSubUnit("Administration");
         //leaveList.setIncludePastEmpChkBox(true);
         leaveList.submit();
-
+        log.error("this is error log");
     }
     @Test
     public void leaveListByLeaveType() throws InterruptedException {

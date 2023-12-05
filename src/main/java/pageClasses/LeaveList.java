@@ -1,6 +1,8 @@
 package pageClasses;
 
 import baseClasses.BaseClass;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +14,7 @@ import org.testng.Assert;
 import java.util.List;
 
 public class LeaveList extends BaseClass {
-
+    private static final Logger log = LogManager.getLogger(LeaveList.class.getName());
     @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[1]")
     WebElement fromDate;
     @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]")
@@ -166,7 +168,7 @@ public class LeaveList extends BaseClass {
         By elementLocator = By.xpath("(//div[@class='oxd-select-text-input'])[2]/parent::div/following-sibling::div/div");
         waitTillAllListLoaded(elementLocator,3000);
         for (WebElement element : options) {
-            System.out.println(element.getText());
+
             scrollIntoView(element);
             if (name.equals(element.getText())) {
                 System.out.println(element.getText());
@@ -203,7 +205,8 @@ public class LeaveList extends BaseClass {
     }
     public void submit(){
         submitButton.click();
-        System.out.println(recordHeader.getText());
+        log.info("Records: {}", recordHeader.getText());
+
     }
     public void reset(){
         resetButton.click();

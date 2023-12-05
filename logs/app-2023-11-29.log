@@ -1,0 +1,12 @@
+10:19:15.741 INFO  LeaveListTest -BaseURL loaded
+10:19:28.308 INFO  LeaveListTest -status selected
+10:19:28.386 ERROR LeaveListTest -this is error log
+10:21:21.707 INFO  LeaveListTest -BaseURL loaded
+10:21:34.679 INFO  LeaveListTest -status selected
+10:21:34.766 ERROR LeaveListTest -this is error log
+10:27:38.659 INFO  LeaveListTest -BaseURL loaded
+10:27:44.687 INFO  LeaveList -Record Header Text: (12) Records Found
+10:27:50.299 INFO  LeaveListTest -status selected
+10:27:50.368 INFO  LeaveList -Record Header Text: (12) Records Found
+10:27:50.369 ERROR LeaveListTest -this is error log
+10:30:40.370 INFO  LeaveListTest -BaseURL loaded
