@@ -3,6 +3,7 @@ package testClasses;
 import baseTest.BaseTest;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import pageClasses.AdminMenu;
@@ -18,7 +19,7 @@ public class UserManagementTest extends BaseTest {
     AdminMenu adminMenu = new AdminMenu(driver);
     AdminUserManagement adminUserManage  = new AdminUserManagement(driver);
     LoginPage loginPage;
-   @BeforeSuite
+   @BeforeClass
    public void setUp() {
        test = extent.createTest("setup");
       // driver = new ChromeDriver();
