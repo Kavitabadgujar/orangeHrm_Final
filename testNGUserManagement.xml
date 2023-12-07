@@ -1,22 +1,7 @@
 <suite name ="OrangeHRM Final Project" >
     <test name = "Admin User management test 2.2 " >
         <classes>
-            <class  name="testClasses.UserManagementTest">
-                <methods>
-                    <include name="deleteUser" />
-                </methods>
-            </class>
+            <class  name="testClasses.UserManagementTest" />
         </classes>
     </test>
-    <test name = "Admin user management test 2.1" >
-        <classes>
-            <class name="testClasses.UserManagementTest">
-                <methods>
-                    <include name="userManagement" />
-                </methods>
-            </class>
-
-        </classes>
-    </test>
-
 </suite>

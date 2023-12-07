@@ -41,6 +41,7 @@ public class BaseTest {
             // Log failure details
             test.log(Status.FAIL, "Test failed due to: " + result.getThrowable());
         }
+        extent.flush();
     }
 
     @AfterSuite
@@ -49,7 +50,7 @@ public class BaseTest {
             driverThreadLocal.get().quit();
             driverThreadLocal.remove();
         }
-        extent.flush();
+      //  extent.flush();
     }
     /*public void tearDown(){
         driver.quit();

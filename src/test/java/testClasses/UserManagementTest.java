@@ -39,7 +39,7 @@ public class UserManagementTest extends BaseTest {
     public void searchUserTest() throws InterruptedException {
         test = extent.createTest("Search User Test");
         mainMenu.getAdminPage();
-        //adminMenu.userManagementPage();
+        adminMenu.userManagementPage();
         adminUserManage.getByUserName("Admin");
         adminUserManage.getByUserRoll("Admin");
         adminUserManage.getByEmployeeName("Paul");
@@ -53,7 +53,7 @@ public class UserManagementTest extends BaseTest {
     public void deleteUser() throws InterruptedException {
        test = extent.createTest("Delete user");
         mainMenu.getAdminPage();
-       // adminMenu.userManagementPage();
+        adminMenu.userManagementPage();
         String message = adminUserManage.delete("cccccc");
         test.log(Status.INFO, message);
     }
