@@ -9,29 +9,40 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 
 import java.time.Duration;
 
 public class BaseTest {
    // protected static WebDriver driver;
-
+    public WebDriver driver;
     public static String baseURL = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
     public ExtentReports extent;
     public ExtentTest test;
 
     private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
 
-    public WebDriver getDriver() {
-        extent = new ExtentReports();
-        extent.setSystemInfo("Project Name", "Selenium Final Project");
-        extent.setSystemInfo("Organisation", "org.example");
-        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("ExtentReports/ExtentReport.html");
-        extent.attachReporter(sparkReporter);
-        if (driverThreadLocal.get() == null) {
-            WebDriver driver = new ChromeDriver();  // You can use other drivers too
-            driverThreadLocal.set(driver);
+    @BeforeTest
+    public void getExtent() {
+        if (extent == null) {
+            extent = new ExtentReports();
+            extent.setSystemInfo("Project Name", "Selenium Final Project");
+            extent.setSystemInfo("Organisation", "org.example");
+            ExtentSparkReporter sparkReporter = new ExtentSparkReporter("ExtentReports/ExtentReport.html");
+            extent.attachReporter(sparkReporter);
         }
+    }
+    //@BeforeSuite
+    public WebDriver getDriver(){
+        if (driverThreadLocal.get() == null) {
+            driver = new ChromeDriver();  // You can use other drivers too
+            driverThreadLocal.set(driver);
+            driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
+            driver.manage().window().maximize();
+        }
+
         return driverThreadLocal.get();
     }
     @AfterMethod
@@ -52,7 +63,5 @@ public class BaseTest {
         }
       //  extent.flush();
     }
-    /*public void tearDown(){
-        driver.quit();
-    }*/
+
 }

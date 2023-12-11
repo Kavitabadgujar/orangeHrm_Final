@@ -15,21 +15,27 @@ import java.time.Duration;
 
 public class UserManagementTest extends BaseTest {
     public WebDriver driver = getDriver();
-    MainMenu mainMenu = new MainMenu(driver);
-    AdminMenu adminMenu = new AdminMenu(driver);
-    AdminUserManagement adminUserManage  = new AdminUserManagement(driver);
+    MainMenu mainMenu ;//= new MainMenu(driver);
+    AdminMenu adminMenu ;// = new AdminMenu(driver);
+    AdminUserManagement adminUserManage  ;//= new AdminUserManagement(driver);
     LoginPage loginPage;
    @BeforeClass
    public void setUp() {
-       test = extent.createTest("setup");
+
       // driver = new ChromeDriver();
        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
        driver.manage().window().maximize();
-
+       try {
+           test = extent.createTest("setup");
+       }
+       catch (NullPointerException e){
+           getExtent();
+           test = extent.createTest("setup");
+       }
        loginPage = new LoginPage(driver);
-      // mainMenu = new MainMenu(driver);
-       //adminMenu = new AdminMenu(driver);
-       //adminUserManage = new AdminUserManagement(driver);
+       mainMenu = new MainMenu(driver);
+       adminMenu = new AdminMenu(driver);
+       adminUserManage = new AdminUserManagement(driver);
        driver.get(baseURL);
        test.log(Status.INFO,"Base page loaded");
        loginPage.login("Admin","admin123");
@@ -55,7 +61,7 @@ public class UserManagementTest extends BaseTest {
        test = extent.createTest("Delete user");
         mainMenu.getAdminPage();
         adminMenu.userManagementPage();
-        String message = adminUserManage.delete("cccccc");
+        String message = adminUserManage.delete("JJSwift");
         test.log(Status.INFO, message);
     }
 }

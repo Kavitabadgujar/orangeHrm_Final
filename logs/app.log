@@ -1,5 +1,32 @@
-08:41:03.614 INFO  LeaveListTest -BaseURL loaded
-08:41:13.197 INFO  LeaveList -Records: No Records Found
-08:41:23.708 INFO  LeaveListTest -status selected
-08:41:23.834 INFO  LeaveList -Records: No Records Found
-08:41:23.834 ERROR LeaveListTest -this is error log
+06:56:52.703 INFO  LeaveListTest -BaseURL loaded
+06:56:53.500 INFO  LeaveListTest -login successful
+06:56:59.343 INFO  LeaveList -Records: (5) Records Found
+06:57:05.793 INFO  LeaveListTest -status selected
+06:57:05.864 INFO  LeaveList -Records: (5) Records Found
+06:57:05.864 ERROR LeaveListTest -this is error log
+07:14:43.864 INFO  LeaveListTest -BaseURL loaded
+07:14:44.871 INFO  LeaveListTest -login successful
+07:14:50.443 INFO  LeaveList -Records: No Records Found
+07:16:42.109 INFO  LeaveListTest -BaseURL loaded
+07:16:42.626 INFO  LeaveListTest -login successful
+07:16:48.570 INFO  LeaveList -Records: No Records Found
+07:30:05.477 INFO  LeaveListTest -BaseURL loaded
+07:30:13.019 INFO  LeaveListTest -login successful
+07:30:19.676 INFO  LeaveList -Records: No Records Found
+07:30:26.003 INFO  LeaveListTest -status selected
+07:30:26.076 INFO  LeaveList -Records: No Records Found
+07:34:17.793 INFO  LeaveListTest -BaseURL loaded
+07:34:24.581 INFO  LeaveListTest -login successful
+07:34:30.106 INFO  LeaveList -Records: No Records Found
+07:34:35.422 INFO  LeaveListTest -status selected
+07:34:35.484 INFO  LeaveList -Records: No Records Found
+07:39:31.864 INFO  LeaveListTest -BaseURL loaded
+07:39:38.345 INFO  LeaveListTest -login successful
+07:39:43.883 INFO  LeaveList -Records: No Records Found
+07:39:49.821 INFO  LeaveListTest -status selected
+07:39:49.881 INFO  LeaveList -Records: No Records Found
+07:41:38.406 INFO  LeaveListTest -BaseURL loaded
+07:41:45.021 INFO  LeaveListTest -login successful
+07:41:51.440 INFO  LeaveList -Records: No Records Found
+07:41:57.465 INFO  LeaveListTest -status selected
+07:41:57.525 INFO  LeaveList -Records: No Records Found

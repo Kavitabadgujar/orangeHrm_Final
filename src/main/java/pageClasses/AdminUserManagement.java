@@ -85,19 +85,24 @@ public class AdminUserManagement extends BaseClass {
         resetButton.click();
     }
     public String delete(String user) throws InterruptedException {
-        getByUserName( user);
+        MainMenu mainMenu = new MainMenu(driver);
+        mainMenu.getPimPage();
+        PimModule pim = new PimModule(driver);
+        pim.addEmployee(user);
+        mainMenu.getAdminPage();
+        getByUserName(user);
         searchUser();
         records = recordsHeader.getText();
         if( records.matches(".*\\d.*")){   //checking if string contains any digit
+          scrollIntoView(deleteButton);
            deleteButton.click();
-           delete.click();
-
+           try {
+               delete.click();
+           }catch (NoSuchElementException e){
+               //delete.click();
+               return toastTittle.getText() + toastMessage.getText();
+           }
         }
-        /*else {
-            System.out.println("User does not exist");
-            Assert.assertFalse(records.matches(".*\\d.*"),"User does not exist");
-
-        }*/
         return toastTittle.getText() + toastMessage.getText();
     }
 }

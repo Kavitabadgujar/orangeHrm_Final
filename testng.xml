@@ -1,0 +1,19 @@
+<suite name="OrangeHRM Final Project">
+    <test name="login Test " >
+        <classes>
+            <class name="testClasses.LoginTest"/>
+            <class name="testClasses.UserManagementTest"/>
+            <class name="testClasses.LeaveListTest"/>
+        </classes>
+    </test>
+    <!--<test name = "usermanagement test" >
+        <classes>
+            <class name="testClasses.UserManagementTest"/>
+        </classes>
+    </test>
+    <test name = "vleave test">
+        <classes>
+            <class name="testClasses.LeaveListTest"/>
+        </classes>
+    </test> -->>
+</suite>

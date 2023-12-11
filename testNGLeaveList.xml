@@ -2,7 +2,6 @@
     <test name = "Leave list test">
         <classes>
             <class name ="testClasses.LeaveListTest" />
-
         </classes>
     </test>
 </suite>

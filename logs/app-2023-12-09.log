@@ -1,0 +1,12 @@
+08:02:44.489 INFO  LeaveListTest -BaseURL loaded
+08:02:45.593 INFO  LeaveListTest -login successful
+08:02:50.730 INFO  LeaveList -Records: (13) Records Found
+08:02:56.822 INFO  LeaveListTest -status selected
+08:02:56.897 INFO  LeaveList -Records: (13) Records Found
+08:02:56.897 ERROR LeaveListTest -this is error log
+16:43:36.336 INFO  LeaveListTest -BaseURL loaded
+16:43:38.426 INFO  LeaveListTest -login successful
+16:43:45.559 INFO  LeaveList -Records: (13) Records Found
+16:43:56.875 INFO  LeaveListTest -status selected
+16:43:57.080 INFO  LeaveList -Records: (13) Records Found
+16:43:57.081 ERROR LeaveListTest -this is error log

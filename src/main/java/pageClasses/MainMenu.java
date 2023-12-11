@@ -11,17 +11,11 @@ public class MainMenu extends BaseClass {
     @FindBy(xpath = "//a[contains(@href,'admin/viewAdminModule')]")
     WebElement Admin;
     @FindBy(xpath = "//a[contains(@href,'leave/viewLeaveModule')]") WebElement Leave;
+    @FindBy(xpath = "//a[contains(@href,'viewPimModule')]")
+    WebElement Pim;
     public MainMenu(WebDriver driver)  {
         super(driver);
-       /* try{
-            this.driver = driver;
-        }
-        catch (NullPointerException e) {
-            Thread.sleep(3000);
-            this.driver = driver;
-        }*/
         PageFactory.initElements(driver,this);
-
     }
 
     public void getAdminPage(){
@@ -29,5 +23,8 @@ public class MainMenu extends BaseClass {
     }
     public void getLeavePage(){
         Leave.click();
+    }
+    public void getPimPage(){
+        Pim.click();
     }
 }

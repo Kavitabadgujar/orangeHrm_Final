@@ -4,6 +4,7 @@ import baseTest.BaseTest;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageClasses.LoginPage;
@@ -15,11 +16,11 @@ public class LoginTest extends BaseTest {
     LoginPage loginPage;
 
 
-    @BeforeTest
+    @BeforeClass
     public void setLog(){
         test = extent.createTest("setup");
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
-        driver.manage().window().maximize();
+      //  driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
+       // driver.manage().window().maximize();
         driver.get(baseURL);
         test.log(Status.INFO,"Base page loaded");
         loginPage = new LoginPage(driver) ;
