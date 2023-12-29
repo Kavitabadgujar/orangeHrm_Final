@@ -1,0 +1,777 @@
+09:14:39.092 INFO  AdminUserManagement -delete()
+09:14:39.132 INFO  AdminUserManagement -(30) Records Found
+09:14:39.588 INFO  AdminUserManagement -JJSwift userName is entered
+09:14:39.664 INFO  AdminUserManagement -(30) Records Found
+09:14:39.864 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:14:40.089 INFO  AdminUserManagement -search button is clicked
+09:14:40.614 INFO  AdminUserManagement -No Records Found
+09:14:40.645 INFO  AdminUserManagement -username records after refresh: No Records Found
+09:14:41.524 INFO  AdminUserManagement -add button clicked to add user
+09:14:42.654 INFO  AdminUserManagement -Searching....
+09:14:44.462 INFO  AdminUserManagement -没有找到记录 after wait in getByEmployeeName()
+09:14:44.703 INFO  AdminUserManagement -clicked on userRoll
+09:14:44.848 INFO  AdminUserManagement -userRoll list after wait
+09:14:45.035 INFO  AdminUserManagement -ESS is selected
+09:14:45.188 INFO  AdminUserManagement -无效
+09:14:55.772 INFO  AdminUserManagement -employee : JJ Swift is available
+09:14:55.772 INFO  AdminUserManagement -employee name entered
+09:14:55.772 INFO  AdminUserManagement -user roll entered
+09:14:55.948 INFO  AdminUserManagement -after wait_isClickable(status)
+09:14:56.117 INFO  AdminUserManagement -clicked on status
+09:14:56.344 INFO  AdminUserManagement -status list after wait
+09:14:56.390 INFO  AdminUserManagement --- Select --
+09:14:56.438 INFO  AdminUserManagement -启用
+09:14:56.485 INFO  AdminUserManagement -禁用
+09:14:56.507 INFO  AdminUserManagement -status entered
+09:14:56.964 INFO  AdminUserManagement -JJSwift userName is entered
+09:14:56.964 INFO  AdminUserManagement -username entered
+09:14:57.192 INFO  AdminUserManagement -password entered
+09:14:57.481 INFO  AdminUserManagement -password confirmed
+09:14:57.637 INFO  AdminUserManagement -after wait_isClickable(saveButton)
+09:14:57.846 INFO  AdminUserManagement -save button clicked
+09:15:03.689 INFO  AdminUserManagement -delete()
+09:15:03.689 INFO  AdminUserManagement -(30) Records Found
+09:15:04.020 INFO  AdminUserManagement -LMorgan userName is entered
+09:15:04.052 INFO  AdminUserManagement -(30) Records Found
+09:15:04.189 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:15:04.506 INFO  AdminUserManagement -search button is clicked
+09:15:04.759 INFO  AdminUserManagement -No Records Found
+09:15:04.774 INFO  AdminUserManagement -username records after refresh: No Records Found
+09:15:05.477 INFO  AdminUserManagement -add button clicked to add user
+09:15:06.334 INFO  AdminUserManagement -Searching....
+09:15:07.489 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+09:15:07.774 INFO  AdminUserManagement -clicked on userRoll
+09:15:07.931 INFO  AdminUserManagement -userRoll list after wait
+09:15:07.963 INFO  AdminUserManagement -user added
+09:15:07.963 INFO  AdminUserManagement -before wait_pageRedirecthttps://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+09:15:08.235 INFO  AdminUserManagement -ESS is selected
+09:15:08.295 INFO  AdminUserManagement -无效
+09:15:13.080 INFO  AdminUserManagement -navigate to viewSystemUsers page in catch block
+09:15:13.087 INFO  AdminUserManagement -redirected to user management- user page
+09:15:13.355 INFO  AdminUserManagement -JJSwift userName is entered
+09:15:13.355 INFO  AdminUserManagement -UserName entered
+09:15:17.055 INFO  AdminUserManagement -Alice.Duval userName is entered
+09:15:17.324 INFO  AdminUserManagement -clicked on userRoll
+09:15:17.514 INFO  AdminUserManagement -userRoll list after wait
+09:15:18.115 INFO  AdminUserManagement -ESS is selected
+09:15:18.477 INFO  AdminUserManagement -Searching....
+09:15:20.163 INFO  AdminUserManagement -没有找到记录 after wait in getByEmployeeName()
+09:15:20.273 INFO  AdminUserManagement -after wait_isClickable(status)
+09:15:20.557 INFO  AdminUserManagement -clicked on status
+09:15:20.635 INFO  AdminUserManagement -status list after wait
+09:15:20.652 INFO  AdminUserManagement --- Select --
+09:15:20.683 INFO  AdminUserManagement -启用
+09:15:20.701 INFO  AdminUserManagement -禁用
+09:15:20.730 INFO  AdminUserManagement -(30) Records Found
+09:15:20.762 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:15:26.460 INFO  AdminUserManagement -Alice.Duval userName is entered
+09:15:26.714 INFO  AdminUserManagement -clicked on userRoll
+09:15:26.824 INFO  AdminUserManagement -userRoll list after wait
+09:15:27.031 INFO  AdminUserManagement -ESS is selected
+09:15:27.430 INFO  AdminUserManagement -Searching....
+09:15:29.155 INFO  AdminUserManagement -没有找到记录 after wait in getByEmployeeName()
+09:15:29.274 INFO  AdminUserManagement -after wait_isClickable(status)
+09:15:29.366 INFO  AdminUserManagement -clicked on status
+09:15:29.477 INFO  AdminUserManagement -status list after wait
+09:15:29.509 INFO  AdminUserManagement --- Select --
+09:15:29.549 INFO  AdminUserManagement -启用
+09:15:29.586 INFO  AdminUserManagement -禁用
+09:15:29.646 INFO  AdminUserManagement -(30) Records Found
+09:15:29.743 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:15:34.543 INFO  LeaveListTest -BaseURL loaded
+09:15:37.597 INFO  LeaveListTest -login successful
+09:15:38.353 INFO  LeaveListTest -BaseURL loaded
+09:15:40.395 INFO  LeaveListTest -login successful
+09:18:49.595 INFO  AdminUserManagement -delete()
+09:18:49.601 INFO  AdminUserManagement -(30) Records Found
+09:18:49.856 INFO  AdminUserManagement -JJSwift userName is entered
+09:18:49.914 INFO  AdminUserManagement -(30) Records Found
+09:18:50.021 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:18:50.148 INFO  AdminUserManagement -search button is clicked
+09:18:50.684 INFO  AdminUserManagement -No Records Found
+09:18:50.716 INFO  AdminUserManagement -username records after refresh: No Records Found
+09:18:51.594 INFO  AdminUserManagement -add button clicked to add user
+09:18:52.701 INFO  AdminUserManagement -Searching....
+09:18:53.944 INFO  AdminUserManagement -没有找到记录 after wait in getByEmployeeName()
+09:18:54.098 INFO  AdminUserManagement -clicked on userRoll
+09:18:54.209 INFO  AdminUserManagement -userRoll list after wait
+09:18:54.449 INFO  AdminUserManagement -ESS is selected
+09:18:54.558 INFO  AdminUserManagement -无效
+09:19:02.384 INFO  AdminUserManagement -addEmployee() : 成功保存
+09:19:04.119 INFO  AdminUserManagement -delete()
+09:19:04.119 INFO  AdminUserManagement -(30) Records Found
+09:19:04.515 INFO  AdminUserManagement -LMorgan userName is entered
+09:19:04.560 INFO  AdminUserManagement -(30) Records Found
+09:19:04.798 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:19:05.178 INFO  AdminUserManagement -search button is clicked
+09:19:05.429 INFO  AdminUserManagement -No Records Found
+09:19:05.448 INFO  AdminUserManagement -username records after refresh: No Records Found
+09:19:06.376 INFO  AdminUserManagement -add button clicked to add user
+09:19:07.495 INFO  AdminUserManagement -Searching....
+09:19:09.264 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+09:19:09.550 INFO  AdminUserManagement -clicked on userRoll
+09:19:09.748 INFO  AdminUserManagement -userRoll list after wait
+09:19:10.140 INFO  AdminUserManagement -ESS is selected
+09:19:10.160 INFO  AdminUserManagement -无效
+09:19:14.863 INFO  AdminUserManagement -Alice.Duval userName is entered
+09:19:14.977 INFO  AdminUserManagement -clicked on userRoll
+09:19:15.236 INFO  AdminUserManagement -userRoll list after wait
+09:19:15.408 INFO  AdminUserManagement -ESS is selected
+09:19:15.740 INFO  AdminUserManagement -Searching....
+09:19:16.903 INFO  AdminUserManagement -没有找到记录 after wait in getByEmployeeName()
+09:19:17.047 INFO  AdminUserManagement -after wait_isClickable(status)
+09:19:17.151 INFO  AdminUserManagement -clicked on status
+09:19:17.292 INFO  AdminUserManagement -status list after wait
+09:19:17.325 INFO  AdminUserManagement --- Select --
+09:19:17.358 INFO  AdminUserManagement -启用
+09:19:17.393 INFO  AdminUserManagement -禁用
+09:19:17.443 INFO  AdminUserManagement -(30) Records Found
+09:19:17.516 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:19:18.383 INFO  AdminUserManagement -addEmployee() : 成功保存
+09:19:25.149 INFO  AdminUserManagement -Searching....
+09:19:26.421 INFO  LeaveListTest -BaseURL loaded
+09:19:26.841 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+09:19:27.192 INFO  AdminUserManagement -Lisa Morgan clicked
+09:19:27.474 INFO  AdminUserManagement -clicked on userRoll
+09:19:27.674 INFO  AdminUserManagement -userRoll list after wait
+09:19:28.067 INFO  AdminUserManagement -ESS is selected
+09:19:28.067 INFO  AdminUserManagement -employee name entered
+09:19:28.067 INFO  AdminUserManagement -user roll entered
+09:19:28.647 INFO  AdminUserManagement -after wait_isClickable(status)
+09:19:28.689 INFO  LeaveListTest -login successful
+09:19:28.881 INFO  AdminUserManagement -clicked on status
+09:19:28.973 INFO  AdminUserManagement -status list after wait
+09:19:28.988 INFO  AdminUserManagement --- Select --
+09:19:29.041 INFO  AdminUserManagement -启用
+09:19:29.103 INFO  AdminUserManagement -禁用
+09:19:29.133 INFO  AdminUserManagement -status entered
+09:19:29.529 INFO  AdminUserManagement -LMorgan userName is entered
+09:19:29.530 INFO  AdminUserManagement -username entered
+09:19:29.604 INFO  AdminUserManagement -password entered
+09:19:29.704 INFO  AdminUserManagement -password confirmed
+09:19:29.752 INFO  AdminUserManagement -after wait_isClickable(saveButton)
+09:19:29.984 INFO  AdminUserManagement -save button clicked
+09:19:40.036 INFO  AdminUserManagement -user added
+09:19:41.631 INFO  AdminUserManagement -before wait_pageRedirecthttps://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+09:19:54.252 INFO  AdminUserManagement -navigate to viewSystemUsers page in catch block
+09:22:58.970 INFO  AdminUserManagement -Alice.Duval userName is entered
+09:22:59.244 INFO  AdminUserManagement -clicked on userRoll
+09:22:59.636 INFO  AdminUserManagement -userRoll list after wait
+09:22:59.927 INFO  AdminUserManagement -ESS is selected
+09:23:00.210 INFO  AdminUserManagement -Searching....
+09:23:01.912 INFO  AdminUserManagement -没有找到记录 after wait in getByEmployeeName()
+09:23:02.043 INFO  AdminUserManagement -after wait_isClickable(status)
+09:23:02.342 INFO  AdminUserManagement -clicked on status
+09:23:02.450 INFO  AdminUserManagement -status list after wait
+09:23:02.464 INFO  AdminUserManagement --- Select --
+09:23:02.494 INFO  AdminUserManagement -启用
+09:23:02.525 INFO  AdminUserManagement -禁用
+09:23:02.552 INFO  AdminUserManagement -(30) Records Found
+09:23:02.613 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+09:23:17.576 INFO  LeaveListTest -BaseURL loaded
+09:23:20.713 INFO  LeaveListTest -login successful
+10:29:28.051 INFO  AdminUserManagement -delete()
+10:29:28.060 INFO  AdminUserManagement -(37) Records Found
+10:29:28.338 INFO  AdminUserManagement -JJSwift userName is entered
+10:29:28.378 INFO  AdminUserManagement -(37) Records Found
+10:29:28.505 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+10:29:28.599 INFO  AdminUserManagement -search button is clicked
+10:29:29.124 INFO  AdminUserManagement -No Records Found
+10:29:29.162 INFO  AdminUserManagement -username records after refresh: No Records Found
+10:29:29.969 INFO  AdminUserManagement -add button clicked to add user
+10:29:30.741 INFO  AdminUserManagement -Searching....
+10:29:31.951 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+10:29:32.089 INFO  AdminUserManagement -clicked on userRoll
+10:29:32.218 INFO  AdminUserManagement -userRoll list after wait
+10:29:32.418 INFO  AdminUserManagement -ESS is selected
+10:29:32.486 INFO  AdminUserManagement -Invalid
+10:29:42.909 INFO  AdminUserManagement -Alice.Duval userName is entered
+10:29:43.197 INFO  AdminUserManagement -clicked on userRoll
+10:29:43.553 INFO  AdminUserManagement -userRoll list after wait
+10:29:44.009 INFO  AdminUserManagement -ESS is selected
+10:29:44.383 INFO  AdminUserManagement -Searching....
+10:29:44.638 INFO  AdminUserManagement -Alice.Duval userName is entered
+10:29:44.852 INFO  AdminUserManagement -clicked on userRoll
+10:29:45.067 INFO  AdminUserManagement -userRoll list after wait
+10:29:45.446 INFO  AdminUserManagement -ESS is selected
+10:29:45.539 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+10:29:45.774 INFO  AdminUserManagement -Searching....
+10:29:45.824 INFO  AdminUserManagement -Alice Duval clicked
+10:29:45.874 INFO  AdminUserManagement -after wait_isClickable(status)
+10:29:46.108 INFO  AdminUserManagement -clicked on status
+10:29:46.226 INFO  AdminUserManagement -status list after wait
+10:29:46.244 INFO  AdminUserManagement --- Select --
+10:29:46.249 INFO  AdminUserManagement -Enabled
+10:29:46.530 INFO  AdminUserManagement -Enabled is selected
+10:29:46.578 INFO  AdminUserManagement -(37) Records Found
+10:29:46.636 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+10:29:46.901 INFO  AdminUserManagement -search button is clicked
+10:29:47.078 INFO  AdminUserManagement -(1) Record Found
+10:29:47.501 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+10:29:47.610 INFO  AdminUserManagement -Alice Duval clicked
+10:29:47.683 INFO  AdminUserManagement -after wait_isClickable(status)
+10:29:47.766 INFO  AdminUserManagement -clicked on status
+10:29:47.868 INFO  AdminUserManagement -status list after wait
+10:29:47.911 INFO  AdminUserManagement --- Select --
+10:29:47.945 INFO  AdminUserManagement -Enabled
+10:29:48.070 INFO  AdminUserManagement -Enabled is selected
+10:29:48.102 INFO  AdminUserManagement -(37) Records Found
+10:29:48.182 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+10:29:48.353 INFO  AdminUserManagement -search button is clicked
+10:29:48.784 INFO  AdminUserManagement -(1) Record Found
+10:29:56.664 INFO  LeaveListTest -BaseURL loaded
+10:29:57.806 INFO  LeaveListTest -login successful
+10:30:05.741 INFO  LeaveList -Records: (13) Records Found
+10:30:06.891 INFO  LeaveListTest -BaseURL loaded
+10:30:10.075 INFO  LeaveListTest -login successful
+10:30:15.995 INFO  LeaveListTest -status selected
+10:30:16.302 INFO  LeaveList -Records: (13) Records Found
+10:30:25.787 INFO  LeaveList -Records: (13) Records Found
+17:03:30.589 INFO  AdminUserManagement -delete()
+17:03:30.594 INFO  AdminUserManagement -(36) Records Found
+17:03:30.722 INFO  AdminUserManagement -JJSwift userName is entered
+17:03:30.740 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:03:30.740 INFO  AdminUserManagement -delete()
+17:03:30.740 INFO  AdminUserManagement -(36) Records Found
+17:03:30.784 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:03:30.840 INFO  AdminUserManagement -search button is clicked
+17:03:31.102 INFO  AdminUserManagement -LMorgan userName is entered
+17:03:31.112 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:03:31.144 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:03:31.236 INFO  AdminUserManagement -No Records Found after search button is clicked
+17:03:31.404 INFO  AdminUserManagement -search button is clicked
+17:03:31.414 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:03:31.528 INFO  AdminUserManagement -No Records Found after search button is clicked
+17:03:31.544 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:03:31.902 INFO  AdminUserManagement -add button clicked to add user
+17:03:32.060 INFO  AdminUserManagement -add button clicked to add user
+17:03:32.437 INFO  AdminUserManagement -Searching....
+17:03:32.717 INFO  AdminUserManagement -Searching....
+17:03:33.610 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+17:03:33.708 INFO  AdminUserManagement -clicked on userRoll
+17:03:33.761 INFO  AdminUserManagement -userRoll list after wait
+17:03:33.777 INFO  AdminUserManagement -ESS not found
+17:03:33.809 INFO  AdminUserManagement -Invalid
+17:03:34.552 INFO  PimModule -in addEmployee()
+17:03:45.073 INFO  PimModule -add button clicked
+17:03:45.463 INFO  PimModule -first name entered
+17:03:56.344 INFO  AdminUserManagement -employee : JJ Swift is available
+17:03:56.344 INFO  AdminUserManagement -employee name entered
+17:03:56.344 INFO  AdminUserManagement -user roll entered
+17:03:56.412 INFO  AdminUserManagement -after wait_isClickable(status)
+17:03:58.280 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:03:58.525 INFO  AdminUserManagement -clicked on userRoll
+17:03:58.610 INFO  AdminUserManagement -userRoll list after wait
+17:03:58.615 INFO  AdminUserManagement -ESS not found
+17:03:58.874 INFO  AdminUserManagement -Searching....
+17:04:00.294 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:04:00.362 INFO  AdminUserManagement -clicked on userRoll
+17:04:00.444 INFO  AdminUserManagement -userRoll list after wait
+17:04:00.459 INFO  AdminUserManagement -ESS not found
+17:04:00.509 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+17:04:00.758 INFO  AdminUserManagement -Searching....
+17:04:00.760 INFO  AdminUserManagement -Alice Duval clicked
+17:04:00.791 INFO  AdminUserManagement -after wait_isClickable(status)
+17:04:01.011 INFO  AdminUserManagement -clicked on status
+17:04:01.121 INFO  AdminUserManagement -status list after wait
+17:04:02.563 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+17:04:02.630 INFO  AdminUserManagement -Alice Duval clicked
+17:04:02.669 INFO  AdminUserManagement -after wait_isClickable(status)
+17:04:02.709 INFO  AdminUserManagement -clicked on status
+17:04:02.767 INFO  AdminUserManagement -status list after wait
+17:04:11.141 INFO  AdminUserManagement -Enabled not found
+17:04:11.151 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:04:11.187 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:04:12.778 INFO  AdminUserManagement -Enabled not found
+17:04:12.793 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:04:12.840 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:04:12.900 INFO  AdminUserManagement -search button is clicked
+17:04:19.924 INFO  LeaveListTest -BaseURL loaded
+17:04:21.570 INFO  LeaveListTest -login successful
+17:04:25.833 INFO  LeaveListTest -BaseURL loaded
+17:04:26.647 INFO  LeaveListTest -login successful
+17:04:32.221 INFO  LeaveList -Records: (12) Records Found
+17:04:35.441 INFO  LeaveList -Records: (12) Records Found
+17:26:27.784 INFO  AdminUserManagement -delete()
+17:26:27.789 INFO  AdminUserManagement -(36) Records Found
+17:26:27.894 INFO  AdminUserManagement -JJSwift userName is entered
+17:26:27.913 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:26:27.962 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:26:28.018 INFO  AdminUserManagement -search button is clicked
+17:26:28.368 INFO  AdminUserManagement -No Records Found after search button is clicked
+17:26:28.379 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:26:28.840 INFO  AdminUserManagement -add button clicked to add user
+17:26:29.331 INFO  AdminUserManagement -Searching....
+17:26:30.489 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+17:26:30.567 INFO  AdminUserManagement -clicked on userRoll
+17:26:30.633 INFO  AdminUserManagement -userRoll list after wait
+17:26:30.740 INFO  AdminUserManagement -ESS is selected
+17:26:30.740 INFO  AdminUserManagement -ESS not found
+17:26:30.779 INFO  AdminUserManagement -Invalid
+17:26:31.516 INFO  PimModule -in addEmployee()
+17:26:32.542 INFO  PimModule -add button clicked
+17:26:32.959 INFO  PimModule -first name entered
+17:26:33.037 INFO  PimModule -last name entered
+17:26:35.171 INFO  PimModule -save button clicked
+17:26:37.223 INFO  PimModule -Successfully Saved
+17:26:37.238 INFO  AdminUserManagement -addEmployee() : Successfully Saved
+17:26:42.477 INFO  AdminUserManagement -Searching....
+17:26:42.755 INFO  AdminUserManagement -delete()
+17:26:42.755 INFO  AdminUserManagement -(36) Records Found
+17:26:43.010 INFO  AdminUserManagement -LMorgan userName is entered
+17:26:43.026 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:26:43.079 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:26:43.329 INFO  AdminUserManagement -search button is clicked
+17:26:43.468 INFO  AdminUserManagement -No Records Found after search button is clicked
+17:26:43.479 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:26:43.973 INFO  AdminUserManagement -add button clicked to add user
+17:26:44.147 INFO  AdminUserManagement -JJ Swift after wait in getByEmployeeName()
+17:26:44.227 INFO  AdminUserManagement -JJ Swift clicked
+17:26:44.277 INFO  AdminUserManagement -clicked on userRoll
+17:26:44.344 INFO  AdminUserManagement -userRoll list after wait
+17:26:44.503 INFO  AdminUserManagement -ESS is selected
+17:26:44.503 INFO  AdminUserManagement -ESS not found
+17:26:44.503 INFO  AdminUserManagement -employee name entered
+17:26:44.503 INFO  AdminUserManagement -user roll entered
+17:26:44.540 INFO  AdminUserManagement -after wait_isClickable(status)
+17:26:44.580 INFO  AdminUserManagement -clicked on status
+17:26:44.648 INFO  AdminUserManagement -status list after wait
+17:26:44.662 INFO  AdminUserManagement --- Select --
+17:26:44.719 INFO  AdminUserManagement -Enabled
+17:26:44.824 INFO  AdminUserManagement -Enabled is selected
+17:26:44.824 INFO  AdminUserManagement -Enabled not found
+17:26:44.927 INFO  AdminUserManagement -Searching....
+17:26:44.948 INFO  AdminUserManagement -JJSwift userName is entered
+17:26:44.948 INFO  AdminUserManagement -username entered
+17:26:45.020 INFO  AdminUserManagement -password entered
+17:26:45.104 INFO  AdminUserManagement -password confirmed
+17:26:45.142 INFO  AdminUserManagement -after wait_isClickable(saveButton)
+17:26:45.187 INFO  AdminUserManagement -save button clicked
+17:26:46.001 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+17:26:46.257 INFO  AdminUserManagement -clicked on userRoll
+17:26:46.305 INFO  AdminUserManagement -userRoll list after wait
+17:26:46.556 INFO  AdminUserManagement -ESS is selected
+17:26:46.556 INFO  AdminUserManagement -ESS not found
+17:26:46.572 INFO  AdminUserManagement -Invalid
+17:26:46.932 INFO  AdminUserManagement -user added
+17:26:47.305 INFO  PimModule -in addEmployee()
+17:26:47.305 INFO  AdminUserManagement -before wait_pageRedirecthttps://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+17:26:48.902 INFO  PimModule -add button clicked
+17:26:49.279 INFO  PimModule -first name entered
+17:26:49.296 INFO  PimModule -last name entered
+17:26:50.918 INFO  AdminUserManagement -navigate to viewSystemUsers page in catch block
+17:26:50.918 INFO  AdminUserManagement -redirected to user management- user page
+17:26:51.052 INFO  AdminUserManagement -JJSwift userName is entered
+17:26:51.052 INFO  AdminUserManagement -UserName entered
+17:26:51.089 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+17:26:51.132 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:26:51.192 INFO  AdminUserManagement -search button is clicked
+17:26:51.574 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+17:26:51.580 INFO  PimModule -save button clicked
+17:26:51.661 INFO  AdminUserManagement -delete button clicked
+17:26:51.721 INFO  AdminUserManagement -confirmed delete
+17:26:54.223 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:26:54.268 INFO  AdminUserManagement -clicked on userRoll
+17:26:54.322 INFO  AdminUserManagement -userRoll list after wait
+17:26:54.431 INFO  AdminUserManagement -ESS is selected
+17:26:54.431 INFO  AdminUserManagement -ESS not found
+17:26:54.675 INFO  AdminUserManagement -Searching....
+17:26:55.809 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+17:26:55.880 INFO  AdminUserManagement -Alice Duval clicked
+17:26:55.920 INFO  AdminUserManagement -after wait_isClickable(status)
+17:26:55.969 INFO  AdminUserManagement -clicked on status
+17:26:56.024 INFO  AdminUserManagement -status list after wait
+17:26:56.042 INFO  AdminUserManagement --- Select --
+17:26:56.063 INFO  AdminUserManagement -Enabled
+17:26:56.137 INFO  AdminUserManagement -Enabled is selected
+17:26:56.137 INFO  AdminUserManagement -Enabled not found
+17:26:56.155 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:26:56.193 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:26:56.236 INFO  AdminUserManagement -search button is clicked
+17:26:56.639 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+17:27:03.612 INFO  AdminUserManagement -employee : Lisa Morgan is available
+17:27:03.612 INFO  AdminUserManagement -employee name entered
+17:27:03.612 INFO  AdminUserManagement -user roll entered
+17:27:03.642 INFO  AdminUserManagement -after wait_isClickable(status)
+17:27:03.893 INFO  AdminUserManagement -clicked on status
+17:27:03.956 INFO  AdminUserManagement -status list after wait
+17:27:03.966 INFO  AdminUserManagement --- Select --
+17:27:03.980 INFO  AdminUserManagement -Enabled
+17:27:04.246 INFO  AdminUserManagement -Enabled is selected
+17:27:04.246 INFO  AdminUserManagement -Enabled not found
+17:27:04.526 INFO  AdminUserManagement -LMorgan userName is entered
+17:27:04.526 INFO  AdminUserManagement -username entered
+17:27:05.832 INFO  LeaveListTest -BaseURL loaded
+17:27:06.721 INFO  LeaveListTest -login successful
+17:27:12.525 INFO  LeaveList -Records: (12) Records Found
+17:27:17.121 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:27:17.345 INFO  AdminUserManagement -clicked on userRoll
+17:27:17.392 INFO  AdminUserManagement -userRoll list after wait
+17:27:17.646 INFO  AdminUserManagement -ESS is selected
+17:27:17.646 INFO  AdminUserManagement -ESS not found
+17:27:17.898 INFO  AdminUserManagement -Searching....
+17:27:18.020 INFO  LeaveListTest -status selected
+17:27:18.085 INFO  LeaveList -Records: (12) Records Found
+17:27:19.505 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+17:27:19.763 INFO  AdminUserManagement -Alice Duval clicked
+17:27:19.807 INFO  AdminUserManagement -after wait_isClickable(status)
+17:27:20.032 INFO  AdminUserManagement -clicked on status
+17:27:20.127 INFO  AdminUserManagement -status list after wait
+17:27:20.142 INFO  AdminUserManagement --- Select --
+17:27:20.158 INFO  AdminUserManagement -Enabled
+17:27:20.424 INFO  AdminUserManagement -Enabled is selected
+17:27:20.424 INFO  AdminUserManagement -Enabled not found
+17:27:20.442 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:27:20.473 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:27:20.712 INFO  AdminUserManagement -search button is clicked
+17:27:20.855 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+17:27:38.351 INFO  LeaveListTest -BaseURL loaded
+17:27:39.785 INFO  LeaveListTest -login successful
+17:27:53.612 INFO  LeaveList -Records: (12) Records Found
+18:02:17.263 INFO  AdminUserManagement -delete()
+18:02:17.266 INFO  AdminUserManagement -(36) Records Found
+18:02:17.385 INFO  AdminUserManagement -JJSwift userName is entered
+18:02:17.404 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:02:17.468 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:02:17.525 INFO  AdminUserManagement -search button is clicked
+18:02:18.150 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:02:18.160 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:02:18.589 INFO  AdminUserManagement -add button clicked to add user
+18:02:18.602 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:02:19.091 INFO  AdminUserManagement -Searching....
+18:02:20.203 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+18:02:20.278 INFO  AdminUserManagement -clicked on userRoll
+18:02:20.345 INFO  AdminUserManagement -userRoll list after wait
+18:02:20.447 INFO  AdminUserManagement -ESS is selected
+18:02:20.448 INFO  AdminUserManagement -ESS not found
+18:02:20.488 INFO  AdminUserManagement -Invalid
+18:02:21.464 INFO  PimModule -in addEmployee()
+18:02:22.548 INFO  PimModule -add button clicked
+18:02:22.900 INFO  PimModule -first name entered
+18:02:22.986 INFO  PimModule -last name entered
+18:02:25.094 INFO  PimModule -save button clicked
+18:02:27.151 INFO  PimModule -Successfully Saved
+18:02:27.169 INFO  AdminUserManagement -addEmployee() : Successfully Saved
+18:02:31.766 INFO  AdminUserManagement -delete()
+18:02:31.766 INFO  AdminUserManagement -(36) Records Found
+18:02:32.032 INFO  AdminUserManagement -LMorgan userName is entered
+18:02:32.044 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:02:32.080 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:02:32.315 INFO  AdminUserManagement -search button is clicked
+18:02:32.462 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:02:32.469 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:02:32.751 INFO  AdminUserManagement -Searching....
+18:02:32.966 INFO  AdminUserManagement -add button clicked to add user
+18:02:32.975 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:02:33.623 INFO  AdminUserManagement -Searching....
+18:02:34.394 INFO  AdminUserManagement -JJ Swift after wait in getByEmployeeName()
+18:02:34.485 INFO  AdminUserManagement -JJ Swift clicked
+18:02:34.535 INFO  AdminUserManagement -clicked on userRoll
+18:02:34.594 INFO  AdminUserManagement -userRoll list after wait
+18:02:34.707 INFO  AdminUserManagement -ESS is selected
+18:02:34.707 INFO  AdminUserManagement -ESS not found
+18:02:34.707 INFO  AdminUserManagement -employee name entered
+18:02:34.707 INFO  AdminUserManagement -user roll entered
+18:02:34.746 INFO  AdminUserManagement -after wait_isClickable(status)
+18:02:34.797 INFO  AdminUserManagement -clicked on status
+18:02:34.866 INFO  AdminUserManagement -status list after wait
+18:02:34.884 INFO  AdminUserManagement --- Select --
+18:02:34.905 INFO  AdminUserManagement -Enabled
+18:02:35.007 INFO  AdminUserManagement -Enabled is selected
+18:02:35.007 INFO  AdminUserManagement -Enabled not found
+18:02:35.138 INFO  AdminUserManagement -JJSwift userName is entered
+18:02:35.138 INFO  AdminUserManagement -username entered
+18:02:35.229 INFO  AdminUserManagement -password entered
+18:02:35.331 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+18:02:35.362 INFO  AdminUserManagement -password confirmed
+18:02:35.436 INFO  AdminUserManagement -after wait_isClickable(saveButton)
+18:02:35.474 INFO  AdminUserManagement -save button clicked
+18:02:35.630 INFO  AdminUserManagement -clicked on userRoll
+18:02:35.677 INFO  AdminUserManagement -userRoll list after wait
+18:02:35.926 INFO  AdminUserManagement -ESS is selected
+18:02:35.926 INFO  AdminUserManagement -ESS not found
+18:02:35.942 INFO  AdminUserManagement -Invalid
+18:02:36.800 INFO  PimModule -in addEmployee()
+18:02:37.070 INFO  AdminUserManagement -user added
+18:02:37.188 INFO  AdminUserManagement -before wait_pageRedirecthttps://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+18:02:38.037 INFO  PimModule -add button clicked
+18:02:38.484 INFO  PimModule -first name entered
+18:02:38.497 INFO  PimModule -last name entered
+18:02:40.808 INFO  PimModule -save button clicked
+18:02:41.249 INFO  AdminUserManagement -navigate to viewSystemUsers page in catch block
+18:02:41.249 INFO  AdminUserManagement -redirected to user management- user page
+18:02:41.422 INFO  AdminUserManagement -JJSwift userName is entered
+18:02:41.422 INFO  AdminUserManagement -UserName entered
+18:02:41.444 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+18:02:41.479 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:02:41.540 INFO  AdminUserManagement -search button is clicked
+18:02:41.903 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:02:41.986 INFO  AdminUserManagement -delete button clicked
+18:02:42.048 INFO  AdminUserManagement -confirmed delete
+18:02:44.435 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:02:44.495 INFO  AdminUserManagement -clicked on userRoll
+18:02:44.544 INFO  AdminUserManagement -userRoll list after wait
+18:02:44.734 INFO  AdminUserManagement -ESS is selected
+18:02:44.734 INFO  AdminUserManagement -ESS not found
+18:02:44.892 INFO  AdminUserManagement -Searching....
+18:02:46.012 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:02:46.076 INFO  AdminUserManagement -Alice Duval clicked
+18:02:46.115 INFO  AdminUserManagement -after wait_isClickable(status)
+18:02:46.196 INFO  AdminUserManagement -clicked on status
+18:02:46.248 INFO  AdminUserManagement -status list after wait
+18:02:46.266 INFO  AdminUserManagement --- Select --
+18:02:46.284 INFO  AdminUserManagement -Enabled
+18:02:46.363 INFO  AdminUserManagement -Enabled is selected
+18:02:46.363 INFO  AdminUserManagement -Enabled not found
+18:02:46.383 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:02:46.424 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:02:46.468 INFO  AdminUserManagement -search button is clicked
+18:02:46.874 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:02:52.849 INFO  AdminUserManagement -employee : Lisa Morgan is available
+18:02:52.850 INFO  AdminUserManagement -employee name entered
+18:02:52.850 INFO  AdminUserManagement -user roll entered
+18:02:52.906 INFO  AdminUserManagement -after wait_isClickable(status)
+18:02:53.139 INFO  AdminUserManagement -clicked on status
+18:02:53.223 INFO  AdminUserManagement -status list after wait
+18:02:53.231 INFO  AdminUserManagement --- Select --
+18:02:53.246 INFO  AdminUserManagement -Enabled
+18:02:53.499 INFO  AdminUserManagement -Enabled is selected
+18:02:53.500 INFO  AdminUserManagement -Enabled not found
+18:02:53.759 INFO  AdminUserManagement -LMorgan userName is entered
+18:02:53.760 INFO  AdminUserManagement -username entered
+18:02:55.946 INFO  LeaveListTest -BaseURL loaded
+18:02:57.129 INFO  LeaveListTest -login successful
+18:03:06.872 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:03:07.107 INFO  AdminUserManagement -clicked on userRoll
+18:03:07.168 INFO  AdminUserManagement -userRoll list after wait
+18:03:07.436 INFO  AdminUserManagement -ESS is selected
+18:03:07.436 INFO  AdminUserManagement -ESS not found
+18:03:07.718 INFO  AdminUserManagement -Searching....
+18:03:09.320 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:03:09.562 INFO  AdminUserManagement -Alice Duval clicked
+18:03:09.620 INFO  AdminUserManagement -after wait_isClickable(status)
+18:03:09.848 INFO  AdminUserManagement -clicked on status
+18:03:09.906 INFO  AdminUserManagement -status list after wait
+18:03:09.911 INFO  AdminUserManagement --- Select --
+18:03:09.924 INFO  AdminUserManagement -Enabled
+18:03:10.173 INFO  AdminUserManagement -Enabled is selected
+18:03:10.173 INFO  AdminUserManagement -Enabled not found
+18:03:10.186 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:03:10.225 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:03:10.482 INFO  AdminUserManagement -search button is clicked
+18:03:10.574 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:03:25.100 INFO  LeaveListTest -BaseURL loaded
+18:03:26.610 INFO  LeaveListTest -login successful
+18:03:40.555 INFO  LeaveList -Records: (13) Records Found
+18:52:37.168 INFO  AdminUserManagement -delete()
+18:52:37.181 INFO  AdminUserManagement -(36) Records Found
+18:52:37.581 INFO  AdminUserManagement -JJSwift userName is entered
+18:52:37.669 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:52:37.861 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:52:37.997 INFO  AdminUserManagement -search button is clicked
+18:52:38.483 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:52:38.517 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:52:39.422 INFO  AdminUserManagement -add button clicked to add user
+18:52:39.479 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:52:52.462 INFO  AdminUserManagement -delete()
+18:52:52.462 INFO  AdminUserManagement -(36) Records Found
+18:52:53.654 INFO  AdminUserManagement -LMorgan userName is entered
+18:52:53.691 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:52:53.758 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:52:54.022 INFO  AdminUserManagement -search button is clicked
+18:52:54.214 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:52:54.229 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:52:54.869 INFO  AdminUserManagement -add button clicked to add user
+18:52:54.885 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:52:56.106 INFO  AdminUserManagement -Searching....
+18:52:57.301 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+18:52:57.683 INFO  AdminUserManagement -Lisa Morgan clicked
+18:52:57.930 INFO  AdminUserManagement -clicked on userRoll
+18:52:58.065 INFO  AdminUserManagement -userRoll list after wait
+18:52:58.415 INFO  AdminUserManagement -ESS is selected
+18:53:08.439 INFO  AdminUserManagement -employee : Lisa Morgan is available
+18:53:08.440 INFO  AdminUserManagement -employee name entered
+18:53:08.440 INFO  AdminUserManagement -user roll entered
+18:53:08.611 INFO  AdminUserManagement -after wait_isClickable(status)
+18:53:08.854 INFO  AdminUserManagement -clicked on status
+18:53:09.064 INFO  AdminUserManagement -status list after wait
+18:53:09.104 INFO  AdminUserManagement --- Select --
+18:53:09.144 INFO  AdminUserManagement -Enabled
+18:53:09.433 INFO  AdminUserManagement -Enabled is selected
+18:53:09.684 INFO  AdminUserManagement -LMorgan userName is entered
+18:53:09.685 INFO  AdminUserManagement -username entered
+18:53:09.718 INFO  AdminUserManagement -password entered
+18:53:09.753 INFO  AdminUserManagement -password confirmed
+18:53:09.794 INFO  AdminUserManagement -after wait_isClickable(saveButton)
+18:53:10.026 INFO  AdminUserManagement -save button clicked
+18:53:11.784 INFO  AdminUserManagement -user added
+18:53:11.802 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:53:15.677 INFO  AdminUserManagement -after wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+18:53:15.677 INFO  AdminUserManagement -redirected to user management- user page
+18:53:16.142 INFO  AdminUserManagement -LMorgan userName is entered
+18:53:16.142 INFO  AdminUserManagement -UserName entered
+18:53:16.163 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+18:53:16.220 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:53:16.478 INFO  AdminUserManagement -search button is clicked
+18:53:16.714 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:53:17.076 INFO  AdminUserManagement -delete button clicked
+18:53:17.349 INFO  AdminUserManagement -confirmed delete
+18:53:21.149 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:53:21.820 INFO  AdminUserManagement -clicked on userRoll
+18:53:22.020 INFO  AdminUserManagement -userRoll list after wait
+18:53:22.416 INFO  AdminUserManagement -ESS is selected
+18:53:22.828 INFO  AdminUserManagement -Searching....
+18:53:23.995 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:53:24.280 INFO  AdminUserManagement -Alice Duval clicked
+18:53:24.359 INFO  AdminUserManagement -after wait_isClickable(status)
+18:53:24.612 INFO  AdminUserManagement -clicked on status
+18:53:24.754 INFO  AdminUserManagement -status list after wait
+18:53:24.785 INFO  AdminUserManagement --- Select --
+18:53:24.818 INFO  AdminUserManagement -Enabled
+18:53:25.131 INFO  AdminUserManagement -Enabled is selected
+18:53:25.151 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:53:25.237 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:53:25.491 INFO  AdminUserManagement -search button is clicked
+18:53:25.667 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:53:46.694 INFO  LeaveListTest -BaseURL loaded
+18:53:49.451 INFO  LeaveListTest -login successful
+18:54:05.094 INFO  LeaveList -Records: (13) Records Found
+18:55:15.027 INFO  AdminUserManagement -Searching....
+18:55:16.836 INFO  AdminUserManagement -JJ Swift after wait in getByEmployeeName()
+18:55:17.052 INFO  AdminUserManagement -JJ Swift clicked
+18:58:01.759 INFO  AdminUserManagement -clicked on userRoll
+18:58:01.971 INFO  AdminUserManagement -userRoll list after wait
+18:58:02.355 INFO  AdminUserManagement -ESS is selected
+18:58:12.400 INFO  AdminUserManagement -employee : JJ Swift is available
+18:58:12.400 INFO  AdminUserManagement -employee name entered
+18:58:12.400 INFO  AdminUserManagement -user roll entered
+19:00:45.863 INFO  AdminUserManagement -after wait_isClickable(status)
+19:00:46.052 INFO  AdminUserManagement -clicked on status
+19:00:46.215 INFO  AdminUserManagement -status list after wait
+19:00:46.283 INFO  AdminUserManagement --- Select --
+19:00:46.336 INFO  AdminUserManagement -Enabled
+19:00:46.578 INFO  AdminUserManagement -Enabled is selected
+19:00:46.791 INFO  AdminUserManagement -JJSwift userName is entered
+19:00:46.791 INFO  AdminUserManagement -username entered
+19:00:47.007 INFO  AdminUserManagement -password entered
+19:00:47.254 INFO  AdminUserManagement -password confirmed
+19:00:47.376 INFO  AdminUserManagement -after wait_isClickable(saveButton)
+19:00:47.527 INFO  AdminUserManagement -save button clicked
+19:03:14.255 INFO  AdminUserManagement -user added
+19:03:18.418 INFO  AdminUserManagement -Alice.Duval userName is entered
+19:03:18.679 INFO  AdminUserManagement -clicked on userRoll
+19:03:18.849 INFO  AdminUserManagement -userRoll list after wait
+19:03:19.144 INFO  AdminUserManagement -ESS is selected
+19:03:19.633 INFO  AdminUserManagement -Searching....
+19:03:20.891 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+19:03:21.116 INFO  AdminUserManagement -Alice Duval clicked
+19:03:21.237 INFO  AdminUserManagement -after wait_isClickable(status)
+19:03:21.385 INFO  AdminUserManagement -clicked on status
+19:03:21.539 INFO  AdminUserManagement -status list after wait
+19:03:21.588 INFO  AdminUserManagement --- Select --
+19:03:21.618 INFO  AdminUserManagement -Enabled
+19:03:21.824 INFO  AdminUserManagement -Enabled is selected
+19:03:21.880 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+19:03:22.005 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+19:03:22.180 INFO  AdminUserManagement -search button is clicked
+19:03:22.608 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+19:03:35.308 INFO  LeaveListTest -BaseURL loaded
+19:03:36.900 INFO  LeaveListTest -login successful
+19:03:44.028 INFO  LeaveList -Records: (13) Records Found
+19:03:54.586 INFO  LeaveListTest -status selected
+19:03:54.795 INFO  LeaveList -Records: (13) Records Found
+19:06:28.814 INFO  AdminUserManagement -delete()
+19:06:28.818 INFO  AdminUserManagement -(38) Records Found
+19:06:29.026 INFO  AdminUserManagement -JJSwift userName is entered
+19:06:29.070 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+19:06:29.174 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+19:06:29.288 INFO  AdminUserManagement -search button is clicked
+19:06:29.792 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+19:06:29.838 INFO  AdminUserManagement -username records after refresh: (1) Record Found
+19:06:30.114 INFO  AdminUserManagement -delete button clicked
+19:06:30.247 INFO  AdminUserManagement -confirmed delete
+19:06:34.758 INFO  AdminUserManagement -Alice.Duval userName is entered
+19:06:34.919 INFO  AdminUserManagement -clicked on userRoll
+19:06:35.023 INFO  AdminUserManagement -userRoll list after wait
+19:06:35.232 INFO  AdminUserManagement -ESS is selected
+19:06:35.542 INFO  AdminUserManagement -Searching....
+19:06:36.866 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+19:06:37.138 INFO  AdminUserManagement -Alice Duval clicked
+19:06:37.329 INFO  AdminUserManagement -after wait_isClickable(status)
+19:06:37.447 INFO  AdminUserManagement -clicked on status
+19:06:37.605 INFO  AdminUserManagement -status list after wait
+19:06:37.649 INFO  AdminUserManagement --- Select --
+19:06:37.702 INFO  AdminUserManagement -Enabled
+19:06:37.933 INFO  AdminUserManagement -Enabled is selected
+19:06:38.000 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+19:06:38.092 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+19:06:38.222 INFO  AdminUserManagement -search button is clicked
+19:06:38.770 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+19:06:40.088 INFO  AdminUserManagement -delete()
+19:06:40.088 INFO  AdminUserManagement -(37) Records Found
+19:06:40.413 INFO  AdminUserManagement -LMorgan userName is entered
+19:06:40.446 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+19:06:40.538 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+19:06:40.847 INFO  AdminUserManagement -search button is clicked
+19:06:41.074 INFO  AdminUserManagement -No Records Found after search button is clicked
+19:06:41.095 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:06:41.962 INFO  AdminUserManagement -add button clicked to add user
+19:06:41.995 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+19:06:42.744 INFO  AdminUserManagement -Searching....
+19:06:43.897 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+19:06:44.265 INFO  AdminUserManagement -Lisa Morgan clicked
+19:06:44.523 INFO  AdminUserManagement -clicked on userRoll
+19:06:44.691 INFO  AdminUserManagement -userRoll list after wait
+19:06:45.066 INFO  AdminUserManagement -ESS is selected
+19:06:55.098 INFO  AdminUserManagement -employee : Lisa Morgan is available
+19:06:55.098 INFO  AdminUserManagement -employee name entered
+19:06:55.098 INFO  AdminUserManagement -user roll entered
+19:06:55.195 INFO  AdminUserManagement -after wait_isClickable(status)
+19:06:55.493 INFO  AdminUserManagement -clicked on status
+19:06:55.662 INFO  AdminUserManagement -status list after wait
+19:06:55.696 INFO  AdminUserManagement --- Select --
+19:06:55.732 INFO  AdminUserManagement -Enabled
+19:06:56.064 INFO  AdminUserManagement -Enabled is selected
+19:06:56.366 INFO  AdminUserManagement -LMorgan userName is entered
+19:06:56.366 INFO  AdminUserManagement -username entered
+19:06:56.432 INFO  AdminUserManagement -password entered
+19:06:56.498 INFO  AdminUserManagement -password confirmed
+19:06:56.581 INFO  AdminUserManagement -after wait_isClickable(saveButton)
+19:06:56.841 INFO  AdminUserManagement -save button clicked
+19:06:58.204 INFO  AdminUserManagement -user added
+19:06:58.211 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+19:07:01.354 INFO  AdminUserManagement -after wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+19:07:01.354 INFO  AdminUserManagement -redirected to user management- user page
+19:07:02.552 INFO  AdminUserManagement -LMorgan userName is entered
+19:07:02.554 INFO  AdminUserManagement -UserName entered
+19:07:02.907 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+19:07:02.957 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+19:07:03.211 INFO  AdminUserManagement -search button is clicked
+19:07:03.408 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+19:07:03.762 INFO  AdminUserManagement -delete button clicked
+19:07:04.007 INFO  AdminUserManagement -confirmed delete
+19:07:08.261 INFO  AdminUserManagement -Alice.Duval userName is entered
+19:07:08.494 INFO  AdminUserManagement -clicked on userRoll
+19:07:08.650 INFO  AdminUserManagement -userRoll list after wait
+19:07:09.075 INFO  AdminUserManagement -ESS is selected
+19:07:09.405 INFO  AdminUserManagement -Searching....
+19:07:11.074 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+19:07:11.376 INFO  AdminUserManagement -Alice Duval clicked
+19:07:11.460 INFO  AdminUserManagement -after wait_isClickable(status)
+19:07:11.725 INFO  AdminUserManagement -clicked on status
+19:07:11.912 INFO  AdminUserManagement -status list after wait
+19:07:11.941 INFO  AdminUserManagement --- Select --
+19:07:11.978 INFO  AdminUserManagement -Enabled
+19:07:12.310 INFO  AdminUserManagement -Enabled is selected
+19:07:12.342 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+19:07:12.423 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+19:07:12.730 INFO  AdminUserManagement -search button is clicked
+19:07:12.933 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+19:07:37.177 INFO  LeaveListTest -BaseURL loaded
+19:07:39.884 INFO  LeaveListTest -login successful
+19:07:42.145 INFO  LeaveListTest -BaseURL loaded
+19:07:53.985 INFO  LeaveListTest -login successful
+19:07:55.234 INFO  LeaveList -Records: (13) Records Found
+19:08:01.304 INFO  LeaveList -Records: (13) Records Found
+19:08:11.500 INFO  LeaveListTest -status selected
+19:08:11.673 INFO  LeaveList -Records: (13) Records Found

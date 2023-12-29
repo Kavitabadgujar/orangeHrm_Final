@@ -1,32 +1,164 @@
-06:56:52.703 INFO  LeaveListTest -BaseURL loaded
-06:56:53.500 INFO  LeaveListTest -login successful
-06:56:59.343 INFO  LeaveList -Records: (5) Records Found
-06:57:05.793 INFO  LeaveListTest -status selected
-06:57:05.864 INFO  LeaveList -Records: (5) Records Found
-06:57:05.864 ERROR LeaveListTest -this is error log
-07:14:43.864 INFO  LeaveListTest -BaseURL loaded
-07:14:44.871 INFO  LeaveListTest -login successful
-07:14:50.443 INFO  LeaveList -Records: No Records Found
-07:16:42.109 INFO  LeaveListTest -BaseURL loaded
-07:16:42.626 INFO  LeaveListTest -login successful
-07:16:48.570 INFO  LeaveList -Records: No Records Found
-07:30:05.477 INFO  LeaveListTest -BaseURL loaded
-07:30:13.019 INFO  LeaveListTest -login successful
-07:30:19.676 INFO  LeaveList -Records: No Records Found
-07:30:26.003 INFO  LeaveListTest -status selected
-07:30:26.076 INFO  LeaveList -Records: No Records Found
-07:34:17.793 INFO  LeaveListTest -BaseURL loaded
-07:34:24.581 INFO  LeaveListTest -login successful
-07:34:30.106 INFO  LeaveList -Records: No Records Found
-07:34:35.422 INFO  LeaveListTest -status selected
-07:34:35.484 INFO  LeaveList -Records: No Records Found
-07:39:31.864 INFO  LeaveListTest -BaseURL loaded
-07:39:38.345 INFO  LeaveListTest -login successful
-07:39:43.883 INFO  LeaveList -Records: No Records Found
-07:39:49.821 INFO  LeaveListTest -status selected
-07:39:49.881 INFO  LeaveList -Records: No Records Found
-07:41:38.406 INFO  LeaveListTest -BaseURL loaded
-07:41:45.021 INFO  LeaveListTest -login successful
-07:41:51.440 INFO  LeaveList -Records: No Records Found
-07:41:57.465 INFO  LeaveListTest -status selected
-07:41:57.525 INFO  LeaveList -Records: No Records Found
+16:30:28.979 INFO  AdminUserManagement -ESS is selected
+16:30:29.206 INFO  AdminUserManagement -oLMorgan userName is entered
+16:30:29.207 INFO  AdminUserManagement -username entered oLMorgan in addUser(oLMorgan)
+16:30:29.230 INFO  AdminUserManagement -Searching....
+16:30:29.273 INFO  AdminUserManagement -password entered oLMorgan
+16:30:29.335 INFO  AdminUserManagement -password confirmed oLMorgan
+16:30:29.383 INFO  AdminUserManagement -after wait_isClickable(saveButton) oLMorgan in addUser(oLMorgan)
+16:30:29.609 INFO  AdminUserManagement -save button clicked oLMorgan in addUser(oLMorgan)
+16:30:30.672 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName(Alice Duval)
+16:30:30.875 INFO  AdminUserManagement -Alice Duval clicked
+16:30:30.980 INFO  AdminUserManagement -after wait_isClickable(status)
+16:30:31.138 INFO  AdminUserManagement -clicked on status
+16:30:31.264 INFO  AdminUserManagement -status list after wait for Enabled
+16:30:31.275 INFO  AdminUserManagement -
+16:30:31.275 INFO  AdminUserManagement -user added: oLMorgan  in addUser(oLMorgan)
+16:30:31.284 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+16:30:31.308 INFO  AdminUserManagement --- Select --
+16:30:31.361 INFO  AdminUserManagement -Enabled
+16:30:31.576 INFO  AdminUserManagement -Enabled is selected
+16:30:31.618 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+16:30:31.712 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:30:31.827 INFO  AdminUserManagement -search button is clicked
+16:30:32.244 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+16:30:34.396 INFO  AdminUserManagement -after wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+16:30:35.127 INFO  AdminUserManagement -redirected to user management- user page
+16:30:35.663 INFO  AdminUserManagement -oLMorgan userName is entered
+16:30:35.663 INFO  AdminUserManagement -oLMorgan UserName entered
+16:30:35.678 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+16:30:35.715 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:30:35.970 INFO  AdminUserManagement -search button is clicked
+16:30:36.169 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+16:30:36.478 INFO  AdminUserManagement -delete button clicked for oLMorgan
+16:30:36.730 INFO  AdminUserManagement -confirmed delete: oLMorgan
+16:30:40.829 INFO  AdminUserManagement -Alice.Duval userName is entered
+16:30:41.093 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:30:41.400 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:30:41.685 INFO  AdminUserManagement -clicked on ESS
+16:30:41.718 INFO  AdminUserManagement -ESS is selected
+16:30:42.073 INFO  AdminUserManagement -Searching....
+16:30:43.476 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName(Alice Duval)
+16:30:43.805 INFO  AdminUserManagement -Alice Duval clicked
+16:30:43.897 INFO  AdminUserManagement -after wait_isClickable(status)
+16:30:44.172 INFO  AdminUserManagement -clicked on status
+16:30:44.403 INFO  AdminUserManagement -status list after wait for Enabled
+16:30:44.428 INFO  AdminUserManagement --- Select --
+16:30:44.448 INFO  AdminUserManagement -Enabled
+16:30:44.476 INFO  LeaveListTest -BaseURL loaded
+16:30:44.738 INFO  AdminUserManagement -Enabled is selected
+16:30:44.771 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+16:30:44.850 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:30:45.152 INFO  AdminUserManagement -search button is clicked
+16:30:45.316 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+16:30:46.111 INFO  LeaveListTest -login successful
+16:30:50.351 INFO  LeaveMenu -clicked on leaveListPage
+16:30:50.914 INFO  LeaveList -clicked on leave type
+16:30:52.145 INFO  LeaveList -US - Matternity
+16:30:52.315 INFO  LeaveList -US - Matternity is clicked
+16:30:52.569 INFO  LeaveList -submit button clicked
+16:30:52.723 INFO  LeaveList -Records: (13) Records Found
+16:30:55.432 INFO  LeaveMenu -clicked on leaveListPage
+16:30:55.432 INFO  LeaveList -setFromDate()
+16:30:56.071 INFO  LeaveList -clicked on fromDate
+16:30:56.227 INFO  LeaveList -clicked on from month selector
+16:30:56.406 INFO  LeaveList -January from month selector
+16:30:56.444 INFO  LeaveList -February from month selector
+16:30:56.498 INFO  LeaveList -March from month selector
+16:30:56.842 INFO  LeaveList -April from month selector
+16:30:56.878 INFO  LeaveList -May from month selector
+16:30:56.905 INFO  LeaveList -June from month selector
+16:30:56.947 INFO  LeaveList -June
+16:30:57.133 INFO  LeaveList -from month selected
+16:30:58.524 INFO  LeaveList -clicked on from year selector
+16:31:01.317 INFO  LeaveList -1970 from year selector
+16:31:01.349 INFO  LeaveList -1971 from year selector
+16:31:01.380 INFO  LeaveList -1972 from year selector
+16:31:01.434 INFO  LeaveList -1973 from year selector
+16:31:01.497 INFO  LeaveList -1974 from year selector
+16:31:01.587 INFO  LeaveList -1975 from year selector
+16:31:01.664 INFO  LeaveList -1976 from year selector
+16:31:01.745 INFO  LeaveList -1977 from year selector
+16:31:01.820 INFO  LeaveList -1978 from year selector
+16:31:01.913 INFO  LeaveList -1979 from year selector
+16:31:01.993 INFO  LeaveList -1980 from year selector
+16:31:02.074 INFO  LeaveList -1981 from year selector
+16:31:02.150 INFO  LeaveList -1982 from year selector
+16:31:02.235 INFO  LeaveList -1983 from year selector
+16:31:02.320 INFO  LeaveList -1984 from year selector
+16:31:02.383 INFO  LeaveList -1985 from year selector
+16:31:02.430 INFO  LeaveList -1986 from year selector
+16:31:02.493 INFO  LeaveList -1987 from year selector
+16:31:02.578 INFO  LeaveList -1988 from year selector
+16:31:02.651 INFO  LeaveList -1989 from year selector
+16:31:02.736 INFO  LeaveList -1990 from year selector
+16:31:02.812 INFO  LeaveList -1991 from year selector
+16:31:02.894 INFO  LeaveList -1992 from year selector
+16:31:02.971 INFO  LeaveList -1993 from year selector
+16:31:03.040 INFO  LeaveList -1994 from year selector
+16:31:03.131 INFO  LeaveList -1995 from year selector
+16:31:03.208 INFO  LeaveList -1996 from year selector
+16:31:03.289 INFO  LeaveList -1997 from year selector
+16:31:03.375 INFO  LeaveList -1998 from year selector
+16:31:03.423 INFO  LeaveList -1999 from year selector
+16:31:03.453 INFO  LeaveList -2000 from year selector
+16:31:03.491 INFO  LeaveList -2001 from year selector
+16:31:03.531 INFO  LeaveList -2002 from year selector
+16:31:03.563 INFO  LeaveList -2003 from year selector
+16:31:03.621 INFO  LeaveList -2004 from year selector
+16:31:03.671 INFO  LeaveList -2005 from year selector
+16:31:03.721 INFO  LeaveList -2006 from year selector
+16:31:03.769 INFO  LeaveList -2007 from year selector
+16:31:03.811 INFO  LeaveList -2008 from year selector
+16:31:03.844 INFO  LeaveList -2009 from year selector
+16:31:03.863 INFO  LeaveList -2010 from year selector
+16:31:03.906 INFO  LeaveList -2011 from year selector
+16:31:03.948 INFO  LeaveList -2012 from year selector
+16:31:04.001 INFO  LeaveList -2013 from year selector
+16:31:04.050 INFO  LeaveList -2014 from year selector
+16:31:04.100 INFO  LeaveList -2015 from year selector
+16:31:04.149 INFO  LeaveList -2016 from year selector
+16:31:04.190 INFO  LeaveList -2017 from year selector
+16:31:04.228 INFO  LeaveList -2018 from year selector
+16:31:04.267 INFO  LeaveList -2019 from year selector
+16:31:04.310 INFO  LeaveList -2020 from year selector
+16:31:04.341 INFO  LeaveList -2020
+16:31:04.448 INFO  LeaveList -from year selected
+16:31:04.683 INFO  LeaveListTest -BaseURL loaded
+16:31:05.525 INFO  LeaveList -6 from non working day selector
+16:31:05.578 INFO  LeaveList -7 from non working day selector
+16:31:05.641 INFO  LeaveList -13 from non working day selector
+16:31:05.715 INFO  LeaveList -14 from non working day selector
+16:31:05.759 INFO  LeaveList -20 from non working day selector
+16:31:05.796 INFO  LeaveList -21 from non working day selector
+16:31:05.836 INFO  LeaveList -27 from non working day selector
+16:31:05.862 INFO  LeaveList -28 from non working day selector
+16:31:05.946 INFO  LeaveList -1 from working day selector
+16:31:05.990 INFO  LeaveList -2 from working day selector
+16:31:06.026 INFO  LeaveList -2
+16:31:06.222 INFO  LeaveList -from date selected
+16:31:06.222 INFO  LeaveList -setToDate()
+16:31:06.556 INFO  LeaveList -toDate is clear
+16:31:06.891 INFO  LeaveList -to date is clicked
+16:31:07.179 INFO  LeaveList -to month selector clicked
+16:31:07.535 INFO  LeaveList -July
+16:31:07.724 INFO  LeaveList -to month is selected
+16:31:07.760 INFO  LeaveListTest -login successful
+16:31:08.901 INFO  LeaveList -to year is clicked
+16:31:10.193 INFO  LeaveList -2021
+16:31:10.308 INFO  LeaveList -to year is selected
+16:31:10.822 INFO  LeaveMenu -clicked on leaveListPage
+16:31:11.062 INFO  LeaveList -clicked on leave type
+16:31:11.908 INFO  LeaveList -5
+16:31:12.108 INFO  LeaveList -to date is selected
+16:31:13.155 INFO  LeaveList -Rejected selected in else block
+16:31:13.158 INFO  LeaveListTest -status selected
+16:31:13.269 INFO  LeaveList -submit button clicked
+16:31:13.304 INFO  LeaveList -Records: (13) Records Found
+16:31:22.833 INFO  LeaveList -US - Matternity
+16:31:23.071 INFO  LeaveList -US - Matternity is clicked
+16:31:23.375 INFO  LeaveList -submit button clicked
+16:31:23.390 INFO  LeaveList -Records: (13) Records Found
+16:31:25.667 INFO  LeaveMenu -clicked on leaveListPage
+16:31:25.667 INFO  LeaveList -setFromDate()
+16:31:26.040 INFO  LeaveList -clicked on fromDate
+16:31:26.430 INFO  LeaveList -clicked on from month selector

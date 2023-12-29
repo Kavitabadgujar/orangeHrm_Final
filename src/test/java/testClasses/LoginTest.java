@@ -12,7 +12,7 @@ import pageClasses.LoginPage;
 import java.time.Duration;
 
 public class LoginTest extends BaseTest {
-    public WebDriver driver = getDriver();
+    //public WebDriver driver = getDriver();
     LoginPage loginPage;
 
 
@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest {
         test = extent.createTest("setup");
       //  driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
        // driver.manage().window().maximize();
-        driver.get(baseURL);
+       // driver.get(baseURL);
         test.log(Status.INFO,"Base page loaded");
         loginPage = new LoginPage(driver) ;
     }

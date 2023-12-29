@@ -1,0 +1,30 @@
+18:37:57.482 INFO  AdminUserManagement -delete()
+18:37:57.489 INFO  AdminUserManagement -(37) Records Found
+18:37:58.222 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:37:58.688 INFO  AdminUserManagement -add button clicked to add user
+18:37:58.719 INFO  AdminUserManagement -delete()
+18:37:58.719 INFO  AdminUserManagement -(37) Records Found
+18:37:59.317 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:37:59.345 INFO  AdminUserManagement -Searching....
+18:38:00.168 INFO  AdminUserManagement -add button clicked to add user
+18:38:00.671 INFO  AdminUserManagement -Searching....
+18:38:00.929 INFO  AdminUserManagement -Lisa Andrews after wait in getByEmployeeName()
+18:38:01.282 INFO  AdminUserManagement -Invalid
+18:38:24.383 INFO  AdminUserManagement -employee : Lisa Morgan is available
+18:38:24.383 INFO  AdminUserManagement -employee name entered
+18:38:24.383 INFO  AdminUserManagement -user roll entered
+18:38:25.015 INFO  AdminUserManagement -Searching....
+18:38:26.686 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:38:26.779 INFO  AdminUserManagement -Alice Duval clicked
+18:38:26.843 INFO  AdminUserManagement -enabled is selected
+18:38:27.589 INFO  AdminUserManagement -Searching....
+18:38:29.221 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:38:29.493 INFO  AdminUserManagement -Alice Duval clicked
+18:38:32.346 INFO  LeaveListTest -BaseURL loaded
+18:38:33.987 INFO  LeaveListTest -login successful
+18:38:38.472 INFO  LeaveList -Records: (13) Records Found
+18:38:40.878 INFO  LeaveListTest -BaseURL loaded
+18:38:42.383 INFO  LeaveListTest -login successful
+18:38:44.332 INFO  LeaveListTest -status selected
+18:38:44.429 INFO  LeaveList -Records: (13) Records Found
+18:38:56.041 INFO  LeaveList -Records: (13) Records Found

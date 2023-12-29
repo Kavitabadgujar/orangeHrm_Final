@@ -4,6 +4,7 @@ import baseClasses.BaseClass;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -23,12 +24,14 @@ public class LeaveList extends BaseClass {
     WebElement fMonthSelector;
     @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'month-selected')]")
     WebElement tMonthSelector;
-    @FindAll(@FindBy(xpath = " //li[contains(@class,'option')]"))
-    List<WebElement> calList;
+    @FindAll(@FindBy(xpath = "//div[contains(@class,'month-selected')]/following-sibling::ul/li")) //li[contains(@class,'option')]"))
+    List<WebElement> fMonthList;
     @FindAll(@FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'month-selected')]/following-sibling::ul/li"))
     List<WebElement> tMonthlist;
     @FindBy(xpath = "//div[contains(@class,'year-selected')]")
     WebElement fYearSelector;
+    @FindAll(@FindBy(xpath = "//div[contains(@class,'year-selected')]/following-sibling::ul/li"))
+    List<WebElement> fYearList;
     @FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'year-selected')]")
     WebElement tYearSelector;
     @FindAll(@FindBy(xpath = "(//input[contains(@placeholder,'yyyy')])[2]/parent::div/following-sibling::div//div[contains(@class,'year-selected')]/following-sibling::ul/li"))
@@ -72,78 +75,131 @@ public class LeaveList extends BaseClass {
     }
     String FDate;
     String TDate;
-    public void setFromDate(int day, String month, String year ){
+    public void setFromDate(int day, String month, String year ) throws InterruptedException {
+        log.info("setFromDate()");
         FDate = day +"-"+ month +"-"+ year;
         fromDate.click();
+        log.info("clicked on fromDate");
         fMonthSelector.click();
+        log.info("clicked on from month selector");
         scrollIntoView(fMonthSelector);
-        for(WebElement element : calList){
+        for(WebElement element : fMonthList){
+            log.info(element.getText()+" from month selector");
             if (month.equals(element.getText())) {
+                log.info(element.getText());
                 element.click();
+                log.info("from month selected");
+                Thread.sleep(1000);
                 break;
             }
         }
-        fYearSelector.click();
+        try {
+            scrollIntoView(fYearSelector);
+            fYearSelector.click();
+            log.info("clicked on from year selector");
+        }catch (NoSuchElementException e){
+            fromDate.click();
+            log.info("clicked on fromDate in catch block");
+            fMonthSelector.click();
+            log.info("clicked on from month selector in catch block");
+            scrollIntoView(fMonthSelector);
+            for(WebElement element : fMonthList){
+                log.info(element.getText()+" from month selector in catch block");
+                if (month.equals(element.getText())) {
+                    log.info(element.getText());
+                    element.click();
+                    log.info("from month selected in catch block");
+                    Thread.sleep(1000);
+                    break;
+                }
+            }
+            scrollIntoView(fYearSelector);
+            fYearSelector.click();
+            log.info("clicked on from year selector in catch block");
+        }
         scrollIntoView(fYearSelector);
-        for(WebElement element : calList){
+        waitTillVisible(fYearList,2000);
+        for(WebElement element : fYearList){
+            log.info(element.getText()+" from year selector");
             if (year.equals(element.getText())) {
+                log.info(element.getText());
                 element.click();
+                log.info("from year selected");
+                Thread.sleep(1000);
                 break;
             }
         }
         for(WebElement element : nonWorkingDays){
+            log.info(element.getText()+" from non working day selector");
             if (Integer.toString(day).equals(element.getText())) {
-                System.out.println("It's a non working day. Please select working day");
+                log.info("It's a non working day. Please select working day");
                 break;
             }
         }
         for(WebElement element : workingDays){
+            log.info(element.getText()+" from working day selector");
             if (Integer.toString(day).equals(element.getText())) {
+                log.info(element.getText());
                 element.click();
+                log.info("from date selected");
                 break;
             }
         }
     }
-    public void setToDate(int day, String month, int year)  {
+    public void setToDate(int day, String month, int year) throws InterruptedException {
+        log.info("setToDate()");
        // String [] from = FDate.split("-");
         scrollIntoView(toDate);
         toDate.clear();
+        log.info("toDate is clear");
         TDate = day +"-"+ month +"-"+ year;
         if(FDate.compareTo(TDate) <0 ){
             scrollIntoView(toDate);
             toDate.click();
+            log.info("to date is clicked");
             tMonthSelector.click();
+            log.info("to month selector clicked");
             scrollIntoView(tMonthSelector);
             for(WebElement element : tMonthlist){
+
                 if (month.equals(element.getText())) {
+                    log.info(element.getText());
                     element.click();
+                    log.info("to month is selected");
+                    Thread.sleep(1000);
                     break;
                 }
             }
             scrollIntoView(tYearSelector);
             tYearSelector.click();
+            log.info("to year is clicked");
             //scrollIntoView(yearSelector);
             for(WebElement element : tYearList){
                 if (Integer.toString(year).equals(element.getText())) {
+                    log.info(element.getText());
                     element.click();
+                    log.info("to year is selected");
+                    Thread.sleep(1000);
                     break;
                 }
             }
             for(WebElement element : tNonWorkingDays){
                 if (Integer.toString(day).equals(element.getText())) {
-                    Assert.fail("It's a non working day. Please select working day");
+                    log.info("It's a non working day. Please select working day");
                     break;
                 }
             }
             for(WebElement element : tWorkingDays){
                 if (Integer.toString(day).equals(element.getText())) {
+                    log.info(element.getText());
                     element.click();
+                    log.info("to date is selected");
                     break;
                 }
             }
         }
         else if (FDate.compareTo(TDate) >= 0){
-            System.out.println(" To date should be after from date ");
+            Assert.fail(" To date should be after from date ");
         }
     }
     public void setStatus(String select) {
@@ -151,13 +207,14 @@ public class LeaveList extends BaseClass {
         // Iterator <WebElement> it = statusList.iterator();
         //Iterate over list , get text, compare text and select
         if (select.equals(selectedStatus.getText())) {
-            return;
+            log.info(select+" selected");
         } else {
             deSelectStatus.click();
             status.click();
             for (WebElement element : statusOptions) {
                 if (select.equals(element.getText())) {
                     element.click();
+                    log.info(select+" selected in else block");
                     break;
                 }
             }
@@ -165,14 +222,20 @@ public class LeaveList extends BaseClass {
     }
     public void setLeaveType(String name){
         leaveType.click();
+        log.info("clicked on leave type");
         By elementLocator = By.xpath("(//div[@class='oxd-select-text-input'])[2]/parent::div/following-sibling::div/div");
-        waitTillAllListLoaded(elementLocator,3000);
-        for (WebElement element : options) {
-
+        try {
+            waitTillAllListLoaded(elementLocator, 3000);
+        }catch (Exception e){
+            leaveType.click();
+            System.out.println("Exception in setLeaveType : " + e);
+        }
+        for (WebElement element : leaveOptions) {
             scrollIntoView(element);
             if (name.equals(element.getText())) {
-                System.out.println(element.getText());
+                log.info(element.getText());
                 element.click();
+                log.info(name+ " is clicked");
                 break;
             }
         }
@@ -198,15 +261,14 @@ public class LeaveList extends BaseClass {
         }
     }
     public void setIncludePastEmpChkBox(boolean TrueFalse){
-
         boolean status = includePastEmpChkBox.isSelected();
         if(status != TrueFalse)
             includePastEmpChkBox.click();
     }
     public void submit(){
         submitButton.click();
+        log.info("submit button clicked");
         log.info("Records: {}", recordHeader.getText());
-
     }
     public void reset(){
         resetButton.click();

@@ -1,0 +1,340 @@
+09:21:57.622 INFO  AdminUserManagement -delete()
+09:21:57.631 INFO  AdminUserManagement -(75) Records Found
+09:21:58.661 INFO  AdminUserManagement -username records after refresh: No Records Found
+09:22:00.698 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+09:22:03.602 INFO  AdminUserManagement -No se encontraron registros
+09:22:03.876 INFO  AdminUserManagement -Inválido
+09:22:09.363 INFO  AdminUserManagement -addEmployee() : Guardado correctamente
+09:22:16.542 INFO  AdminUserManagement -Honda Swift
+09:22:16.761 INFO  AdminUserManagement -employee name entered
+09:22:16.761 INFO  AdminUserManagement -user roll entered
+09:22:16.833 INFO  AdminUserManagement -status entered
+09:22:17.509 INFO  AdminUserManagement -username entered
+09:22:17.589 INFO  AdminUserManagement -password entered
+09:22:17.672 INFO  AdminUserManagement -password confirmed
+09:22:19.729 INFO  AdminUserManagement -save button clicked
+09:22:24.997 INFO  AdminUserManagement -user added 4
+09:22:25.054 INFO  AdminUserManagement -delete button clicked
+09:22:29.732 INFO  AdminUserManagement -Alice Duval
+16:49:36.611 INFO  AdminUserManagement -delete()
+16:49:36.611 INFO  AdminUserManagement -(41) Records Found
+16:49:38.197 INFO  AdminUserManagement -username records after refresh: No Records Found
+16:49:38.644 INFO  AdminUserManagement -add button clicked to add user
+16:49:41.124 INFO  AdminUserManagement -No Records Found
+16:49:41.373 INFO  AdminUserManagement -Invalid
+16:49:46.479 INFO  AdminUserManagement -addEmployee() : Successfully Saved
+16:49:53.117 INFO  AdminUserManagement -Honda Swift
+16:49:53.360 INFO  AdminUserManagement -employee name entered
+16:49:53.360 INFO  AdminUserManagement -user roll entered
+16:49:53.448 INFO  AdminUserManagement -status entered
+16:49:54.028 INFO  AdminUserManagement -username entered
+16:49:54.113 INFO  AdminUserManagement -password entered
+16:49:54.202 INFO  AdminUserManagement -password confirmed
+16:49:56.262 INFO  AdminUserManagement -save button clicked
+16:50:00.096 INFO  AdminUserManagement -user added
+16:50:01.924 INFO  AdminUserManagement -delete button clicked
+16:50:01.995 INFO  AdminUserManagement -confirmed delete
+16:50:06.684 INFO  AdminUserManagement -Alice Duval
+17:15:42.890 INFO  AdminUserManagement -delete()
+17:15:42.893 INFO  AdminUserManagement -(42) Records Found
+17:15:44.327 INFO  AdminUserManagement -username records after refresh: (1) Record Found
+17:15:44.452 INFO  AdminUserManagement -delete button clicked
+17:15:44.525 INFO  AdminUserManagement -confirmed delete
+17:15:47.108 INFO  AdminUserManagement -Searching....
+17:15:49.121 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:15:49.137 INFO  AdminUserManagement -Alice Duval
+17:16:12.129 INFO  AdminUserManagement -delete()
+17:16:12.132 INFO  AdminUserManagement -(41) Records Found
+17:16:13.521 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:16:14.014 INFO  AdminUserManagement -add button clicked to add user
+17:16:14.632 INFO  AdminUserManagement -Searching....
+17:16:16.643 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:16:16.663 INFO  AdminUserManagement -Honda Swift
+17:16:27.029 INFO  AdminUserManagement -employee : Honda Swift is available
+17:16:27.029 INFO  AdminUserManagement -employee name entered
+17:16:27.029 INFO  AdminUserManagement -user roll entered
+17:16:27.140 INFO  AdminUserManagement -status entered
+17:16:27.719 INFO  AdminUserManagement -username entered
+17:16:27.815 INFO  AdminUserManagement -password entered
+17:16:27.919 INFO  AdminUserManagement -password confirmed
+17:16:30.001 INFO  AdminUserManagement -save button clicked
+17:16:33.707 INFO  AdminUserManagement -user added
+17:16:35.686 INFO  AdminUserManagement -delete button clicked
+17:16:58.710 INFO  AdminUserManagement -Searching....
+17:17:00.723 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:17:00.762 INFO  AdminUserManagement -Alice Duval
+17:39:15.080 INFO  AdminUserManagement -delete()
+17:39:15.084 INFO  AdminUserManagement -(42) Records Found
+17:39:16.166 INFO  AdminUserManagement -username records after refresh: (1) Record Found
+17:39:16.290 INFO  AdminUserManagement -delete button clicked
+17:39:16.363 INFO  AdminUserManagement -confirmed delete
+17:39:19.051 INFO  AdminUserManagement -Searching....
+17:39:21.052 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:39:21.099 INFO  AdminUserManagement -Alice Duval
+17:39:43.150 INFO  AdminUserManagement -delete()
+17:39:43.152 INFO  AdminUserManagement -(41) Records Found
+17:39:44.321 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:39:44.801 INFO  AdminUserManagement -add button clicked to add user
+17:39:45.297 INFO  AdminUserManagement -Searching....
+17:39:47.299 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:39:47.322 INFO  AdminUserManagement -Honda Swift
+17:39:57.678 INFO  AdminUserManagement -employee : Honda Swift is available
+17:39:57.678 INFO  AdminUserManagement -employee name entered
+17:39:57.678 INFO  AdminUserManagement -user roll entered
+17:39:57.788 INFO  AdminUserManagement -status entered
+17:39:58.359 INFO  AdminUserManagement -username entered
+17:39:58.452 INFO  AdminUserManagement -password entered
+17:39:58.549 INFO  AdminUserManagement -password confirmed
+17:40:00.630 INFO  AdminUserManagement -save button clicked
+17:40:04.400 INFO  AdminUserManagement -user added
+17:40:06.690 INFO  AdminUserManagement -delete button clicked
+17:40:29.453 INFO  AdminUserManagement -Searching....
+17:40:31.467 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:40:31.529 INFO  AdminUserManagement -Alice Duval
+17:44:25.626 INFO  AdminUserManagement -delete()
+17:44:25.630 INFO  AdminUserManagement -(42) Records Found
+17:44:26.807 INFO  AdminUserManagement -username records after refresh: (1) Record Found
+17:44:26.943 INFO  AdminUserManagement -delete button clicked
+17:44:27.011 INFO  AdminUserManagement -confirmed delete
+17:44:29.665 INFO  AdminUserManagement -Searching....
+17:44:31.677 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:44:31.705 INFO  AdminUserManagement -Alice Duval
+17:44:59.887 INFO  AdminUserManagement -delete()
+17:44:59.887 INFO  AdminUserManagement -(41) Records Found
+17:45:00.933 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:45:01.375 INFO  AdminUserManagement -add button clicked to add user
+17:45:01.998 INFO  AdminUserManagement -Searching....
+17:45:04.010 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+17:45:04.069 INFO  AdminUserManagement -Honda Swift
+17:45:04.155 INFO  AdminUserManagement -Honda Swift clicked
+17:45:14.530 INFO  AdminUserManagement -employee : Honda Swift is available
+17:45:14.530 INFO  AdminUserManagement -employee name entered
+17:45:14.530 INFO  AdminUserManagement -user roll entered
+17:45:14.647 INFO  AdminUserManagement -status entered
+17:45:15.188 INFO  AdminUserManagement -username entered
+17:45:15.272 INFO  AdminUserManagement -password entered
+17:45:15.369 INFO  AdminUserManagement -password confirmed
+17:47:19.031 INFO  AdminUserManagement -save button clicked
+17:47:22.881 INFO  AdminUserManagement -user added
+19:13:40.863 INFO  AdminUserManagement -delete()
+19:13:40.863 INFO  AdminUserManagement -(42) Records Found
+19:13:42.454 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:13:43.252 INFO  AdminUserManagement -add button clicked to add user
+19:13:44.141 INFO  AdminUserManagement -Searching....
+19:13:46.155 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:13:46.234 INFO  AdminUserManagement -No Records Found
+19:13:46.851 INFO  AdminUserManagement -Invalid
+19:13:52.555 INFO  AdminUserManagement -addEmployee() : Successfully Saved
+19:13:58.441 INFO  AdminUserManagement -Searching....
+19:14:00.454 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:14:00.542 INFO  AdminUserManagement -Honda Swift
+19:14:00.695 INFO  AdminUserManagement -Honda Swift clicked
+19:14:00.917 INFO  AdminUserManagement -employee name entered
+19:14:00.917 INFO  AdminUserManagement -user roll entered
+19:14:01.240 INFO  AdminUserManagement -status entered
+19:14:01.928 INFO  AdminUserManagement -username entered
+19:14:02.166 INFO  AdminUserManagement -password entered
+19:14:02.416 INFO  AdminUserManagement -password confirmed
+19:14:04.543 INFO  AdminUserManagement -save button clicked
+19:14:08.574 INFO  AdminUserManagement -user added
+19:14:08.592 INFO  AdminUserManagement -befrore wait_pageredirecthttps://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+19:14:09.639 INFO  AdminUserManagement -https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+19:14:10.989 INFO  AdminUserManagement -delete button clicked
+19:14:11.268 INFO  AdminUserManagement -confirmed delete
+19:14:15.647 INFO  AdminUserManagement -Searching....
+19:14:17.665 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:14:17.735 INFO  AdminUserManagement -Alice Duval
+19:16:31.888 INFO  AdminUserManagement -delete()
+19:16:31.896 INFO  AdminUserManagement -(42) Records Found
+19:16:33.501 INFO  AdminUserManagement -username records after refresh: (1) Record Found
+19:16:33.920 INFO  AdminUserManagement -delete button clicked
+19:16:34.116 INFO  AdminUserManagement -confirmed delete
+19:16:38.352 INFO  AdminUserManagement -Searching....
+19:16:40.367 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:16:40.445 INFO  AdminUserManagement -Alice Duval
+19:17:08.849 INFO  AdminUserManagement -delete()
+19:17:08.849 INFO  AdminUserManagement -(42) Records Found
+19:17:10.481 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:17:11.456 INFO  AdminUserManagement -add button clicked to add user
+19:17:12.228 INFO  AdminUserManagement -Searching....
+19:17:14.241 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:17:14.311 INFO  AdminUserManagement -Honda Swift
+19:17:14.587 INFO  AdminUserManagement -Honda Swift clicked
+19:17:24.989 INFO  AdminUserManagement -employee : Honda Swift is available
+19:17:24.989 INFO  AdminUserManagement -employee name entered
+19:17:24.989 INFO  AdminUserManagement -user roll entered
+19:17:25.244 INFO  AdminUserManagement -status entered
+19:17:26.089 INFO  AdminUserManagement -username entered
+19:17:26.367 INFO  AdminUserManagement -password entered
+19:17:26.717 INFO  AdminUserManagement -password confirmed
+19:17:28.872 INFO  AdminUserManagement -save button clicked
+19:17:32.846 INFO  AdminUserManagement -user added
+19:17:32.856 INFO  AdminUserManagement -befrore wait_pageredirecthttps://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+19:17:33.807 INFO  AdminUserManagement -https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+19:17:33.819 INFO  AdminUserManagement -redirected to user management- user page
+19:17:35.073 INFO  AdminUserManagement -UserName entered
+19:17:35.708 INFO  AdminUserManagement -search button clicked
+19:17:36.121 INFO  AdminUserManagement -delete button clicked
+19:17:36.395 INFO  AdminUserManagement -confirmed delete
+19:17:40.451 INFO  AdminUserManagement -Searching....
+19:17:42.468 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:17:42.535 INFO  AdminUserManagement -Alice Duval
+19:24:39.077 INFO  AdminUserManagement -delete()
+19:24:39.077 INFO  AdminUserManagement -(42) Records Found
+19:24:40.713 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:24:41.693 INFO  AdminUserManagement -add button clicked to add user
+19:24:42.663 INFO  AdminUserManagement -Searching....
+19:24:44.674 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:24:44.745 INFO  AdminUserManagement -Honda Swift
+19:24:44.965 INFO  AdminUserManagement -Honda Swift clicked
+19:24:55.316 INFO  AdminUserManagement -employee : Honda Swift is available
+19:24:55.316 INFO  AdminUserManagement -employee name entered
+19:24:55.316 INFO  AdminUserManagement -user roll entered
+19:24:55.558 INFO  AdminUserManagement -status entered
+19:24:56.448 INFO  AdminUserManagement -username entered
+19:24:56.638 INFO  AdminUserManagement -password entered
+19:24:56.853 INFO  AdminUserManagement -password confirmed
+19:24:58.997 INFO  AdminUserManagement -save button clicked
+19:25:03.061 INFO  AdminUserManagement -user added
+19:25:03.077 INFO  AdminUserManagement -befrore wait_pageredirecthttps://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+19:25:04.051 INFO  AdminUserManagement -https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+19:25:04.068 INFO  AdminUserManagement -redirected to user management- user page
+19:25:05.200 INFO  AdminUserManagement -UserName entered
+19:25:05.682 INFO  AdminUserManagement -search button clicked
+19:25:06.093 INFO  AdminUserManagement -delete button clicked
+19:25:06.404 INFO  AdminUserManagement -confirmed delete
+19:25:10.272 INFO  AdminUserManagement -Searching....
+19:25:12.287 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:25:12.353 INFO  AdminUserManagement -Alice Duval
+19:25:12.608 INFO  AdminUserManagement -Alice Duval clicked
+19:27:57.543 INFO  AdminUserManagement -delete()
+19:27:57.543 INFO  AdminUserManagement -(42) Records Found
+19:27:59.190 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:28:00.125 INFO  AdminUserManagement -add button clicked to add user
+19:28:00.960 INFO  AdminUserManagement -Searching....
+19:28:01.122 INFO  AdminUserManagement -Searching.... after wait in getByEmployeeName()
+19:28:03.134 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:28:03.216 INFO  AdminUserManagement -Honda Swift
+19:28:03.511 INFO  AdminUserManagement -Honda Swift clicked
+19:28:13.872 INFO  AdminUserManagement -employee : Honda Swift is available
+19:28:13.872 INFO  AdminUserManagement -employee name entered
+19:28:13.872 INFO  AdminUserManagement -user roll entered
+19:28:14.152 INFO  AdminUserManagement -status entered
+19:28:14.975 INFO  AdminUserManagement -username entered
+19:28:15.261 INFO  AdminUserManagement -password entered
+19:28:15.619 INFO  AdminUserManagement -password confirmed
+19:28:17.770 INFO  AdminUserManagement -save button clicked
+19:28:21.562 INFO  AdminUserManagement -user added
+19:28:21.577 INFO  AdminUserManagement -befrore wait_pageredirecthttps://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+19:28:22.732 INFO  AdminUserManagement -https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+19:28:22.755 INFO  AdminUserManagement -redirected to user management- user page
+19:28:23.891 INFO  AdminUserManagement -UserName entered
+19:28:24.648 INFO  AdminUserManagement -search button clicked
+19:28:25.091 INFO  AdminUserManagement -delete button clicked
+19:28:25.381 INFO  AdminUserManagement -confirmed delete
+19:28:29.762 INFO  AdminUserManagement -Searching....
+19:28:29.929 INFO  AdminUserManagement -Searching.... after wait in getByEmployeeName()
+19:28:31.948 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:28:32.013 INFO  AdminUserManagement -Alice Duval
+19:28:32.250 INFO  AdminUserManagement -Alice Duval clicked
+19:45:14.608 INFO  AdminUserManagement -delete()
+19:45:14.621 INFO  AdminUserManagement -(43) Records Found
+19:45:16.459 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:45:17.345 INFO  AdminUserManagement -add button clicked to add user
+19:45:18.491 INFO  AdminUserManagement -Searching....
+19:45:25.062 INFO  AdminUserManagement -Searching....
+19:46:31.580 INFO  AdminUserManagement -delete()
+19:46:31.588 INFO  AdminUserManagement -(44) Records Found
+19:46:33.736 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:46:34.732 INFO  AdminUserManagement -add button clicked to add user
+19:46:35.493 INFO  AdminUserManagement -Searching....
+19:46:42.117 INFO  AdminUserManagement -Searching....
+19:49:34.316 INFO  AdminUserManagement -delete()
+19:49:34.316 INFO  AdminUserManagement -(43) Records Found
+19:49:35.948 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:49:36.901 INFO  AdminUserManagement -add button clicked to add user
+19:49:37.878 INFO  AdminUserManagement -Searching....
+19:49:44.110 INFO  AdminUserManagement -Searching....
+19:57:16.050 INFO  AdminUserManagement -delete()
+19:57:16.063 INFO  AdminUserManagement -(43) Records Found
+19:57:17.706 INFO  AdminUserManagement -username records after refresh: No Records Found
+19:57:18.672 INFO  AdminUserManagement -add button clicked to add user
+19:57:19.711 INFO  AdminUserManagement -Searching....
+19:57:21.014 INFO  AdminUserManagement -Honda Swift after wait in getByEmployeeName()
+19:57:23.030 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:57:23.108 INFO  AdminUserManagement -Honda Swift
+19:57:23.389 INFO  AdminUserManagement -Honda Swift clicked
+19:57:33.890 INFO  AdminUserManagement -employee : Honda Swift is available
+19:57:33.890 INFO  AdminUserManagement -employee name entered
+19:57:33.902 INFO  AdminUserManagement -user roll entered
+19:57:34.225 INFO  AdminUserManagement -status entered
+19:57:34.933 INFO  AdminUserManagement -username entered
+19:57:35.097 INFO  AdminUserManagement -password entered
+19:57:35.304 INFO  AdminUserManagement -password confirmed
+19:57:37.411 INFO  AdminUserManagement -save button clicked
+19:57:41.034 INFO  AdminUserManagement -user added
+19:57:41.052 INFO  AdminUserManagement -befrore wait_pageredirecthttps://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+19:57:41.980 INFO  AdminUserManagement -https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+19:57:42.003 INFO  AdminUserManagement -redirected to user management- user page
+19:57:43.106 INFO  AdminUserManagement -UserName entered
+19:57:43.600 INFO  AdminUserManagement -search button clicked
+19:57:44.021 INFO  AdminUserManagement -delete button clicked
+19:57:44.305 INFO  AdminUserManagement -confirmed delete
+19:57:48.583 INFO  AdminUserManagement -Searching....
+19:57:49.864 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+19:57:51.886 INFO  AdminUserManagement -after thread.sleep in getByEmployeeName()
+19:57:51.949 INFO  AdminUserManagement -Alice Duval
+19:57:52.194 INFO  AdminUserManagement -Alice Duval clicked
+20:07:00.145 INFO  AdminUserManagement -delete()
+20:07:00.149 INFO  AdminUserManagement -(36) Records Found
+20:07:01.180 INFO  AdminUserManagement -username records after refresh: No Records Found
+20:07:02.664 INFO  AdminUserManagement -add button clicked to add user
+20:07:03.730 INFO  AdminUserManagement -Searching....
+20:07:05.033 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+20:07:05.098 INFO  AdminUserManagement -No Records Found
+20:07:05.662 INFO  AdminUserManagement -Invalid
+20:07:11.889 INFO  AdminUserManagement -addEmployee() : Successfully Saved
+20:07:17.322 INFO  AdminUserManagement -Searching....
+20:07:18.608 INFO  AdminUserManagement -Honda Swift after wait in getByEmployeeName()
+20:07:18.681 INFO  AdminUserManagement -Honda Swift
+20:07:22.262 INFO  AdminUserManagement -Searching....
+20:07:23.583 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+20:07:23.654 INFO  AdminUserManagement -Alice Duval
+20:09:54.175 INFO  AdminUserManagement -delete()
+20:09:54.180 INFO  AdminUserManagement -(36) Records Found
+20:09:55.380 INFO  AdminUserManagement -username records after refresh: No Records Found
+20:09:56.240 INFO  AdminUserManagement -add button clicked to add user
+20:09:57.148 INFO  AdminUserManagement -Searching....
+20:09:58.447 INFO  AdminUserManagement -Honda Swift after wait in getByEmployeeName()
+20:09:58.510 INFO  AdminUserManagement -Honda Swift
+20:09:58.751 INFO  AdminUserManagement -Honda Swift clicked
+20:10:09.149 INFO  AdminUserManagement -employee : Honda Swift is available
+20:10:09.149 INFO  AdminUserManagement -employee name entered
+20:10:09.149 INFO  AdminUserManagement -user roll entered
+20:10:09.406 INFO  AdminUserManagement -status entered
+20:10:09.824 INFO  AdminUserManagement -username entered
+20:10:10.091 INFO  AdminUserManagement -password entered
+20:10:10.373 INFO  AdminUserManagement -password confirmed
+20:10:12.524 INFO  AdminUserManagement -save button clicked
+20:10:14.429 INFO  AdminUserManagement -user added
+20:10:14.449 INFO  AdminUserManagement -before wait_pageRedirecthttps://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+20:10:17.402 INFO  AdminUserManagement -after wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+20:10:17.414 INFO  AdminUserManagement -redirected to user management- user page
+20:10:18.190 INFO  AdminUserManagement -UserName entered
+20:10:18.749 INFO  AdminUserManagement -search button clicked
+20:10:18.967 INFO  AdminUserManagement -delete button clicked
+20:10:19.108 INFO  AdminUserManagement -confirmed delete
+20:10:22.515 INFO  AdminUserManagement -Searching....
+20:10:24.387 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+20:10:24.455 INFO  AdminUserManagement -Alice Duval
+20:10:24.692 INFO  AdminUserManagement -Alice Duval clicked
+20:14:31.891 INFO  LeaveListTest -BaseURL loaded
+20:14:33.543 INFO  LeaveListTest -login successful
+20:14:41.005 INFO  LeaveList -Records: (13) Records Found
+20:14:53.286 INFO  LeaveListTest -status selected
+20:14:53.567 INFO  LeaveList -Records: (13) Records Found
+20:16:09.717 INFO  LeaveListTest -BaseURL loaded
+20:16:11.487 INFO  LeaveListTest -login successful
+20:16:18.949 INFO  LeaveList -Records: (13) Records Found
+20:16:31.424 INFO  LeaveListTest -status selected
+20:16:31.648 INFO  LeaveList -Records: (13) Records Found

@@ -1,0 +1,931 @@
+16:34:05.054 INFO  AdminUserManagement -delete( JJSwifto )
+16:34:05.595 INFO  AdminUserManagement -JJSwifto userName is entered
+16:34:05.635 INFO  AdminUserManagement -(34) Records Found before search button is clicked
+16:34:05.762 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:34:05.922 INFO  AdminUserManagement -search button is clicked
+16:34:06.454 INFO  AdminUserManagement -No Records Found after search button is clicked
+16:34:06.504 INFO  AdminUserManagement -username records after refresh: No Records Found
+16:34:07.205 INFO  AdminUserManagement -add button clicked to add user: JJSwifto
+16:34:07.241 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+16:34:08.234 INFO  AdminUserManagement -Searching....
+16:34:09.531 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+16:34:09.952 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:34:10.274 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:34:10.760 INFO  AdminUserManagement -ESS is selected
+16:34:10.954 INFO  AdminUserManagement -Invalid now add employee: JJ Swifto
+16:34:10.954 INFO  AdminUserManagement -addEmployee() JJ Swifto
+16:34:12.097 INFO  AdminUserManagement -go to pim page
+16:34:12.097 INFO  AdminUserManagement -before pim.add_Employee()JJ Swifto
+16:34:12.097 INFO  PimModule -in addEmployee(): JJ Swifto
+16:34:13.454 INFO  PimModule -add button clicked to add employee
+16:34:14.189 INFO  PimModule -first name entered: JJ
+16:34:14.386 INFO  PimModule -last name entered: Swifto
+16:34:16.715 INFO  PimModule -save button clicked for: JJ Swifto
+16:34:18.873 INFO  PimModule -Successfully Saved
+16:34:18.963 INFO  AdminUserManagement -JJ Swifto Successfully SavedJJ Swifto
+16:34:22.476 INFO  AdminUserManagement -go to admin page
+16:34:23.139 INFO  AdminUserManagement -delete( oLMorgan )
+16:34:23.513 INFO  AdminUserManagement -oLMorgan userName is entered
+16:34:23.573 INFO  AdminUserManagement -(34) Records Found before search button is clicked
+16:34:23.692 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:34:24.008 INFO  AdminUserManagement -search button is clicked
+16:34:24.205 INFO  AdminUserManagement -No Records Found after search button is clicked
+16:34:24.230 INFO  AdminUserManagement -username records after refresh: No Records Found
+16:34:24.370 INFO  AdminUserManagement -go to user management page
+16:34:24.908 INFO  AdminUserManagement -add button clicked to add user: oLMorgan
+16:34:24.920 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+16:34:26.058 INFO  AdminUserManagement -Searching....
+16:34:27.251 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+16:34:27.569 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:34:28.296 INFO  AdminUserManagement -navigate to viewSystemUsers page after addEmployee() JJ Swiftoin catch block
+16:34:28.957 INFO  AdminUserManagement -add button clicked to add user: JJSwifto after addEmployee() in addUser(JJSwifto)
+16:34:29.857 INFO  AdminUserManagement -user roll list after wait for: ESSin catch block
+16:34:30.261 INFO  AdminUserManagement -ESS is selected
+16:34:40.272 INFO  AdminUserManagement -employee : oLisa Morgan is available
+16:34:40.272 INFO  AdminUserManagement -employee name entered oLisa Morgan in addUser(oLMorgan)
+16:34:40.272 INFO  AdminUserManagement -user roll entered in addUser(oLMorgan)
+16:34:40.903 INFO  AdminUserManagement -navigate to saveSystemUsers page in catch block of addUser(JJSwifto )
+16:34:41.263 INFO  AdminUserManagement -Searching....
+16:34:43.132 INFO  AdminUserManagement -JJ Swifto after wait in getByEmployeeName()
+16:34:43.337 INFO  AdminUserManagement -JJ Swifto clicked
+16:34:43.466 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:34:43.661 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:34:44.153 INFO  AdminUserManagement -ESS is selected
+16:34:44.153 INFO  AdminUserManagement -employee name entered JJ Swifto in addUser(JJSwifto)
+16:34:44.153 INFO  AdminUserManagement -user roll entered in addUser(JJSwifto)
+16:34:44.350 INFO  AdminUserManagement -after wait_isClickable(status)
+16:34:44.556 INFO  AdminUserManagement -clicked on status
+16:34:44.855 INFO  AdminUserManagement -status list after wait for Enabled
+16:34:44.909 INFO  AdminUserManagement --- Select --
+16:34:44.962 INFO  AdminUserManagement -Enabled
+16:34:45.307 INFO  AdminUserManagement -Enabled is selected
+16:34:45.307 INFO  AdminUserManagement -status entered in addUser(JJSwifto)
+16:34:45.497 INFO  AdminUserManagement -Alice.Duval userName is entered
+16:34:45.662 INFO  AdminUserManagement -JJSwifto userName is entered
+16:34:45.671 INFO  AdminUserManagement -username entered JJSwifto in addUser(JJSwifto)
+16:34:45.734 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:34:45.884 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:34:45.925 INFO  AdminUserManagement -password entered JJSwifto
+16:34:46.224 INFO  AdminUserManagement -password confirmed JJSwifto
+16:34:46.255 INFO  AdminUserManagement -ESS is selected
+16:34:46.379 INFO  AdminUserManagement -after wait_isClickable(saveButton) JJSwifto in addUser(JJSwifto)
+16:34:46.543 INFO  AdminUserManagement -save button clicked JJSwifto in addUser(JJSwifto)
+16:34:46.611 INFO  AdminUserManagement -Searching....
+16:34:48.321 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+16:34:48.415 INFO  AdminUserManagement -Successfully Saved
+16:34:48.415 INFO  AdminUserManagement -user added: JJSwiftoSuccessfully Saved in addUser(JJSwifto)
+16:34:48.426 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+16:34:48.487 INFO  AdminUserManagement -after wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+16:34:48.487 INFO  AdminUserManagement -redirected to user management- user page
+16:34:48.499 INFO  AdminUserManagement -after wait_isClickable(status)
+16:34:48.810 INFO  AdminUserManagement -clicked on status
+16:34:48.996 INFO  AdminUserManagement -status list after wait for Enabled
+16:34:49.031 INFO  AdminUserManagement --- Select --
+16:34:49.077 INFO  AdminUserManagement -Enabled
+16:34:49.391 INFO  AdminUserManagement -Enabled is selected
+16:34:49.410 INFO  AdminUserManagement -(34) Records Found before search button is clicked
+16:34:49.501 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:34:49.776 INFO  AdminUserManagement -search button is clicked
+16:34:53.612 INFO  AdminUserManagement -Alice.Duval userName is entered
+16:34:53.876 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:34:54.010 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:34:54.279 INFO  AdminUserManagement -ESS is selected
+16:34:54.693 INFO  AdminUserManagement -Searching....
+16:34:55.888 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+16:34:56.015 INFO  AdminUserManagement -after wait_isClickable(status)
+16:34:56.155 INFO  AdminUserManagement -clicked on status
+16:34:56.276 INFO  AdminUserManagement -status list after wait for Enabled
+16:34:56.324 INFO  AdminUserManagement --- Select --
+16:34:56.355 INFO  AdminUserManagement -Enabled
+16:34:56.547 INFO  AdminUserManagement -Enabled is selected
+16:34:56.585 INFO  AdminUserManagement -(35) Records Found before search button is clicked
+16:34:56.656 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:34:56.751 INFO  AdminUserManagement -search button is clicked
+16:35:08.028 INFO  LeaveListTest -BaseURL loaded
+16:35:09.033 INFO  LeaveListTest -BaseURL loaded
+16:35:09.715 INFO  LeaveListTest -login successful
+16:35:11.345 INFO  LeaveListTest -login successful
+16:35:14.128 INFO  LeaveMenu -clicked on leaveListPage
+16:35:14.296 INFO  LeaveMenu -clicked on leaveListPage
+16:35:36.125 INFO  LeaveList -Records: (11) Records Found
+16:35:37.810 INFO  LeaveMenu -clicked on leaveListPage
+16:35:37.811 INFO  LeaveList -setFromDate()
+16:35:38.088 INFO  LeaveList -clicked on fromDate
+16:35:38.340 INFO  LeaveList -clicked on from month selector
+16:35:38.547 INFO  LeaveList -June
+16:35:45.330 INFO  LeaveList -Records: (11) Records Found
+16:35:48.113 INFO  LeaveMenu -clicked on leaveListPage
+16:35:48.113 INFO  LeaveList -setFromDate()
+16:35:49.112 INFO  LeaveList -clicked on fromDate
+16:35:49.446 INFO  LeaveList -clicked on from month selector
+16:35:49.776 INFO  LeaveList -June
+16:35:50.009 INFO  LeaveList -from month selected
+16:35:50.442 INFO  LeaveList -clicked on from year selector
+16:35:52.201 INFO  LeaveList -2020
+16:35:52.365 INFO  LeaveList -from year selected
+16:35:52.714 INFO  LeaveList -2
+16:35:52.843 INFO  LeaveList -from date selected
+16:35:52.844 INFO  LeaveList -setToDate()
+16:35:53.141 INFO  LeaveList -toDate is clear
+16:35:53.444 INFO  LeaveList -to date is clicked
+16:35:53.587 INFO  LeaveList -to month selector clicked
+16:35:53.947 INFO  LeaveList -July
+16:35:54.108 INFO  LeaveList -to month is selected
+16:35:54.390 INFO  LeaveList -to year is clicked
+16:35:55.583 INFO  LeaveList -2021
+16:35:55.759 INFO  LeaveList -to year is selected
+16:35:56.212 INFO  LeaveList -to date is selected
+16:35:57.007 INFO  LeaveListTest -status selected
+16:35:57.225 INFO  LeaveList -Records: (11) Records Found
+16:59:07.326 INFO  AdminUserManagement -delete( oLMorgan )
+16:59:07.592 INFO  AdminUserManagement -oLMorgan userName is entered
+16:59:07.604 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+16:59:07.650 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:59:07.879 INFO  AdminUserManagement -search button is clicked
+16:59:08.116 INFO  AdminUserManagement -No Records Found after search button is clicked
+16:59:08.123 INFO  AdminUserManagement -username records after refresh: No Records Found
+16:59:08.661 INFO  AdminUserManagement -add button clicked to add user: oLMorgan
+16:59:08.672 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+16:59:09.270 INFO  AdminUserManagement -Searching....
+16:59:11.422 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+16:59:11.434 INFO  AdminUserManagement -employee not available
+16:59:11.670 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:59:11.737 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:59:12.006 INFO  AdminUserManagement -ESS is selected
+16:59:12.026 INFO  AdminUserManagement -Invalid now add employee: oLisa Morgan
+16:59:12.026 INFO  AdminUserManagement -addEmployee() oLisa Morgan
+16:59:12.832 INFO  AdminUserManagement -go to pim page
+16:59:12.832 INFO  AdminUserManagement -before pim.add_Employee()oLisa Morgan
+16:59:12.833 INFO  PimModule -in addEmployee(): oLisa Morgan
+16:59:14.122 INFO  PimModule -add button clicked to add employee
+16:59:14.525 INFO  PimModule -first name entered: oLisa
+16:59:14.543 INFO  PimModule -last name entered: Morgan
+16:59:16.816 INFO  PimModule -save button clicked for: oLisa Morgan
+16:59:18.851 INFO  PimModule -Successfully Saved
+16:59:18.863 INFO  AdminUserManagement -oLisa Morgan Successfully SavedoLisa Morgan
+16:59:21.987 INFO  AdminUserManagement -go to admin page
+16:59:22.957 INFO  AdminUserManagement -go to user management page
+16:59:22.959 INFO  AdminUserManagement -navigate to viewSystemUsers page after addEmployee() oLisa Morgan
+16:59:24.100 INFO  AdminUserManagement -add button clicked to add user: oLMorgan after addEmployee() in addUser(oLMorgan)
+16:59:24.106 INFO  AdminUserManagement -after pageRedirect in addUser(oLMorgan ) https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+16:59:24.767 INFO  AdminUserManagement -Searching....
+16:59:26.373 INFO  AdminUserManagement -oLisa Morgan after wait in getByEmployeeName()
+16:59:26.620 INFO  AdminUserManagement -oLisa Morgan clicked
+16:59:26.855 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:59:26.917 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:59:27.183 INFO  AdminUserManagement -ESS is selected
+16:59:27.184 INFO  AdminUserManagement -employee name entered oLisa Morgan in addUser(oLMorgan)
+16:59:27.184 INFO  AdminUserManagement -user roll entered in addUser(oLMorgan)
+16:59:27.212 INFO  AdminUserManagement -after wait_isClickable(status)
+16:59:27.436 INFO  AdminUserManagement -clicked on status
+16:59:27.503 INFO  AdminUserManagement -status list after wait for Enabled
+16:59:27.513 INFO  AdminUserManagement --- Select --
+16:59:27.522 INFO  AdminUserManagement -Enabled
+16:59:27.793 INFO  AdminUserManagement -Enabled is selected
+16:59:27.793 INFO  AdminUserManagement -status entered in addUser(oLMorgan)
+16:59:28.066 INFO  AdminUserManagement -oLMorgan userName is entered
+16:59:28.068 INFO  AdminUserManagement -username entered oLMorgan in addUser(oLMorgan)
+16:59:28.085 INFO  AdminUserManagement -password entered oLMorgan
+16:59:28.102 INFO  AdminUserManagement -password confirmed oLMorgan
+16:59:28.129 INFO  AdminUserManagement -after wait_isClickable(saveButton) oLMorgan in addUser(oLMorgan)
+16:59:28.360 INFO  AdminUserManagement -save button clicked oLMorgan in addUser(oLMorgan)
+16:59:29.709 INFO  AdminUserManagement -
+16:59:29.709 INFO  AdminUserManagement -user added: oLMorgan in addUser(oLMorgan)
+16:59:29.712 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+16:59:32.817 INFO  AdminUserManagement -after wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+16:59:32.818 INFO  AdminUserManagement -redirected to user management- user page
+16:59:33.282 INFO  AdminUserManagement -oLMorgan userName is entered
+16:59:33.283 INFO  AdminUserManagement -oLMorgan UserName entered
+16:59:33.433 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+16:59:33.461 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:59:33.687 INFO  AdminUserManagement -search button is clicked
+16:59:33.832 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+16:59:34.076 INFO  AdminUserManagement -delete button clicked for oLMorgan
+16:59:34.306 INFO  AdminUserManagement -confirmed delete: oLMorgan
+16:59:37.247 INFO  AdminUserManagement -Alice.Duval userName is entered
+16:59:37.464 INFO  AdminUserManagement -clicked on userRoll for ESS
+16:59:37.508 INFO  AdminUserManagement -user roll list after wait for: ESS
+16:59:37.768 INFO  AdminUserManagement -ESS is selected
+16:59:38.063 INFO  AdminUserManagement -Searching....
+16:59:39.641 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+16:59:39.651 INFO  AdminUserManagement -employee not available
+16:59:39.678 INFO  AdminUserManagement -after wait_isClickable(status)
+16:59:39.907 INFO  AdminUserManagement -clicked on status
+16:59:39.979 INFO  AdminUserManagement -status list after wait for Enabled
+16:59:39.987 INFO  AdminUserManagement --- Select --
+16:59:39.996 INFO  AdminUserManagement -Enabled
+16:59:40.263 INFO  AdminUserManagement -Enabled is selected
+16:59:40.287 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+16:59:40.322 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+16:59:40.546 INFO  AdminUserManagement -search button is clicked
+16:59:52.315 INFO  LeaveListTest -BaseURL loaded
+16:59:53.833 INFO  LeaveListTest -login successful
+16:59:55.876 INFO  LeaveMenu -clicked on leaveListPage
+17:00:07.534 INFO  LeaveList -Records: (11) Records Found
+17:00:08.737 INFO  LeaveMenu -clicked on leaveListPage
+17:00:08.737 INFO  LeaveList -setFromDate()
+17:00:09.015 INFO  LeaveList -clicked on fromDate
+17:00:09.255 INFO  LeaveList -clicked on from month selector
+17:00:09.321 INFO  LeaveList -June
+17:00:09.542 INFO  LeaveList -from month selected
+17:00:09.768 INFO  LeaveList -clicked on from year selector
+17:13:27.086 INFO  AdminUserManagement -delete( JJSwifto )
+17:13:27.210 INFO  AdminUserManagement -JJSwifto userName is entered
+17:13:27.231 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+17:13:27.294 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:13:27.350 INFO  AdminUserManagement -search button is clicked
+17:13:27.720 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+17:13:27.735 INFO  AdminUserManagement -username records after refresh: (1) Record Found
+17:13:27.885 INFO  AdminUserManagement -delete button clicked for JJSwifto
+17:13:27.967 INFO  AdminUserManagement -confirmed delete: JJSwifto
+17:13:30.645 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:13:30.712 INFO  AdminUserManagement -clicked on userRoll for ESS
+17:13:30.787 INFO  AdminUserManagement -user roll list after wait for: ESS
+17:13:30.979 INFO  AdminUserManagement -ESS is selected
+17:13:31.157 INFO  AdminUserManagement -Searching....
+17:13:32.269 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+17:13:32.289 INFO  AdminUserManagement -employee not available
+17:13:32.341 INFO  AdminUserManagement -after wait_isClickable(status)
+17:13:32.396 INFO  AdminUserManagement -clicked on status
+17:13:32.468 INFO  AdminUserManagement -status list after wait for Enabled
+17:13:32.488 INFO  AdminUserManagement --- Select --
+17:13:32.509 INFO  AdminUserManagement -Enabled
+17:13:32.596 INFO  AdminUserManagement -Enabled is selected
+17:13:32.619 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:13:32.668 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:13:32.737 INFO  AdminUserManagement -search button is clicked
+17:13:36.055 INFO  AdminUserManagement -employee Invalid
+17:13:38.062 INFO  AdminUserManagement -delete( oLMorgan )
+17:13:38.342 INFO  AdminUserManagement -oLMorgan userName is entered
+17:13:38.357 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:13:38.391 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:13:38.626 INFO  AdminUserManagement -search button is clicked
+17:13:38.764 INFO  AdminUserManagement -No Records Found after search button is clicked
+17:13:38.771 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:13:39.267 INFO  AdminUserManagement -add button clicked to add user: oLMorgan
+17:13:39.272 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+17:13:39.984 INFO  AdminUserManagement -Searching....
+17:13:41.105 INFO  AdminUserManagement -oLisa Morgan after wait in getByEmployeeName()
+17:13:41.346 INFO  AdminUserManagement -oLisa Morgan clicked
+17:13:41.595 INFO  AdminUserManagement -clicked on userRoll for ESS
+17:13:41.670 INFO  AdminUserManagement -user roll list after wait for: ESS
+17:13:41.953 INFO  AdminUserManagement -ESS is selected
+17:13:45.798 INFO  LeaveListTest -BaseURL loaded
+17:13:46.994 INFO  LeaveListTest -login successful
+17:13:50.673 INFO  LeaveMenu -clicked on leaveListPage
+17:13:51.974 INFO  AdminUserManagement -employee : oLisa Morgan is available
+17:13:51.974 INFO  AdminUserManagement -employee name entered oLisa Morgan in addUser(oLMorgan)
+17:13:51.974 INFO  AdminUserManagement -user roll entered in addUser(oLMorgan)
+17:13:52.025 INFO  AdminUserManagement -after wait_isClickable(status)
+17:13:52.270 INFO  AdminUserManagement -clicked on status
+17:13:52.324 INFO  AdminUserManagement -status list after wait for Enabled
+17:13:52.340 INFO  AdminUserManagement --- Select --
+17:13:52.355 INFO  AdminUserManagement -Enabled
+17:13:52.613 INFO  AdminUserManagement -Enabled is selected
+17:13:52.613 INFO  AdminUserManagement -status entered in addUser(oLMorgan)
+17:13:52.656 INFO  LeaveList -Records: (11) Records Found
+17:13:52.854 INFO  AdminUserManagement -oLMorgan userName is entered
+17:13:52.854 INFO  AdminUserManagement -username entered oLMorgan in addUser(oLMorgan)
+17:13:52.887 INFO  AdminUserManagement -password entered oLMorgan
+17:13:52.912 INFO  AdminUserManagement -password confirmed oLMorgan
+17:13:52.943 INFO  AdminUserManagement -after wait_isClickable(saveButton) oLMorgan in addUser(oLMorgan)
+17:13:53.168 INFO  AdminUserManagement -save button clicked oLMorgan in addUser(oLMorgan)
+17:13:54.538 INFO  LeaveMenu -clicked on leaveListPage
+17:13:54.539 INFO  LeaveList -setFromDate()
+17:13:54.551 INFO  AdminUserManagement -
+17:13:54.552 INFO  AdminUserManagement -user added: oLMorgan in addUser(oLMorgan)
+17:13:54.910 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+17:13:54.985 INFO  LeaveList -clicked on fromDate
+17:13:55.067 INFO  LeaveList -clicked on from month selector
+17:13:55.206 INFO  LeaveList -June
+17:13:55.260 INFO  LeaveList -from month selected
+17:13:55.552 INFO  LeaveList -clicked on from year selector
+17:13:56.141 INFO  LeaveList -2020
+17:13:56.192 INFO  LeaveList -from year selected
+17:13:56.361 INFO  LeaveList -2
+17:13:56.549 INFO  LeaveList -from date selected
+17:13:56.549 INFO  LeaveList -setToDate()
+17:13:56.662 INFO  LeaveList -toDate is clear
+17:13:56.764 INFO  LeaveList -to date is clicked
+17:13:56.827 INFO  LeaveList -to month selector clicked
+17:13:56.987 INFO  LeaveList -July
+17:13:57.037 INFO  LeaveList -to month is selected
+17:13:57.151 INFO  LeaveList -to year is clicked
+17:13:57.792 INFO  LeaveList -2021
+17:13:57.844 INFO  LeaveList -to year is selected
+17:13:58.180 INFO  LeaveList -to date is selected
+17:13:58.676 INFO  AdminUserManagement -navigate to viewSystemUsers page in catch block
+17:13:58.676 INFO  AdminUserManagement -redirected to user management- user page
+17:13:58.946 INFO  AdminUserManagement -oLMorgan userName is entered
+17:13:58.947 INFO  AdminUserManagement -oLMorgan UserName entered
+17:13:58.972 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+17:13:59.002 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:13:59.250 INFO  AdminUserManagement -search button is clicked
+17:13:59.418 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+17:13:59.680 INFO  AdminUserManagement -delete button clicked for oLMorgan
+17:13:59.929 INFO  AdminUserManagement -confirmed delete: oLMorgan
+17:14:02.887 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:14:03.110 INFO  AdminUserManagement -clicked on userRoll for ESS
+17:14:03.242 INFO  AdminUserManagement -user roll list after wait for: ESS
+17:14:03.503 INFO  AdminUserManagement -ESS is selected
+17:14:03.784 INFO  AdminUserManagement -Searching....
+17:14:05.406 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+17:14:05.415 INFO  AdminUserManagement -employee not available
+17:14:05.440 INFO  AdminUserManagement -after wait_isClickable(status)
+17:14:05.663 INFO  AdminUserManagement -clicked on status
+17:14:05.735 INFO  AdminUserManagement -status list after wait for Enabled
+17:14:05.746 INFO  AdminUserManagement --- Select --
+17:14:05.757 INFO  AdminUserManagement -Enabled
+17:14:06.031 INFO  AdminUserManagement -Enabled is selected
+17:14:06.063 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+17:14:06.129 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:14:06.391 INFO  AdminUserManagement -search button is clicked
+17:14:09.640 INFO  AdminUserManagement -employee Invalid
+17:14:23.931 INFO  LeaveListTest -BaseURL loaded
+17:14:25.436 INFO  LeaveListTest -login successful
+17:14:27.299 INFO  LeaveMenu -clicked on leaveListPage
+17:14:39.098 INFO  LeaveList -Records: (11) Records Found
+17:14:41.005 INFO  LeaveMenu -clicked on leaveListPage
+17:14:41.005 INFO  LeaveList -setFromDate()
+17:14:41.257 INFO  LeaveList -clicked on fromDate
+17:14:41.514 INFO  LeaveList -clicked on from month selector
+17:14:41.588 INFO  LeaveList -June
+17:14:41.818 INFO  LeaveList -from month selected
+17:44:56.655 INFO  AdminUserManagement -delete( JJSwifto )
+17:44:56.783 INFO  AdminUserManagement -JJSwifto userName is entered
+17:44:56.804 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+17:44:56.867 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:44:56.937 INFO  AdminUserManagement -search button is clicked
+17:44:57.276 INFO  AdminUserManagement -No Records Found after search button is clicked
+17:44:57.292 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:44:57.887 INFO  AdminUserManagement -add button clicked to add user: JJSwifto
+17:44:57.928 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+17:44:58.446 INFO  AdminUserManagement -Searching....
+17:44:59.564 INFO  AdminUserManagement -JJ Swifto after wait in getByEmployeeName()
+17:44:59.702 INFO  AdminUserManagement -JJ Swifto clicked
+17:44:59.768 INFO  AdminUserManagement -clicked on userRoll for ESS
+17:44:59.856 INFO  AdminUserManagement -user roll list after wait for: ESS
+17:44:59.998 INFO  AdminUserManagement -ESS is selected
+17:45:06.649 INFO  AdminUserManagement -delete( oLMorgan )
+17:45:06.895 INFO  AdminUserManagement -oLMorgan userName is entered
+17:45:06.908 INFO  AdminUserManagement -(39) Records Found before search button is clicked
+17:45:06.936 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:45:07.193 INFO  AdminUserManagement -search button is clicked
+17:45:07.463 INFO  AdminUserManagement -No Records Found after search button is clicked
+17:45:07.468 INFO  AdminUserManagement -username records after refresh: No Records Found
+17:45:08.000 INFO  AdminUserManagement -add button clicked to add user: oLMorgan
+17:45:08.000 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+17:45:08.693 INFO  AdminUserManagement -Searching....
+17:45:10.077 INFO  AdminUserManagement -employee : JJ Swifto is available
+17:45:10.077 INFO  AdminUserManagement -employee name entered JJ Swifto in addUser(JJSwifto)
+17:45:10.077 INFO  AdminUserManagement -user roll entered in addUser(JJSwifto)
+17:45:10.147 INFO  AdminUserManagement -after wait_isClickable(status)
+17:45:10.197 INFO  AdminUserManagement -clicked on status
+17:45:10.289 INFO  AdminUserManagement -status list after wait for Enabled
+17:45:10.307 INFO  AdminUserManagement -oLisa Morgan after wait in getByEmployeeName()
+17:45:10.309 INFO  AdminUserManagement --- Select --
+17:45:10.333 INFO  AdminUserManagement -Enabled
+17:45:10.425 INFO  AdminUserManagement -Enabled is selected
+17:45:10.425 INFO  AdminUserManagement -status entered in addUser(JJSwifto)
+17:45:10.538 INFO  AdminUserManagement -oLisa Morgan clicked
+17:45:10.538 INFO  AdminUserManagement -JJSwifto userName is entered
+17:45:10.538 INFO  AdminUserManagement -username entered JJSwifto in addUser(JJSwifto)
+17:45:10.615 INFO  AdminUserManagement -password entered JJSwifto
+17:45:10.699 INFO  AdminUserManagement -password confirmed JJSwifto
+17:45:10.740 INFO  AdminUserManagement -after wait_isClickable(saveButton) JJSwifto in addUser(JJSwifto)
+17:45:10.755 INFO  AdminUserManagement -clicked on userRoll for ESS
+17:45:10.802 INFO  AdminUserManagement -user roll list after wait for: ESS
+17:45:10.804 INFO  AdminUserManagement -save button clicked JJSwifto in addUser(JJSwifto)
+17:45:11.069 INFO  AdminUserManagement -ESS is selected
+17:45:13.194 INFO  AdminUserManagement -Successfully Saved
+17:45:13.194 INFO  AdminUserManagement -user added: JJSwiftoSuccessfully Saved in addUser(JJSwifto)
+17:45:21.091 INFO  AdminUserManagement -employee : oLisa Morgan is available
+17:45:21.091 INFO  AdminUserManagement -employee name entered oLisa Morgan in addUser(oLMorgan)
+17:45:21.091 INFO  AdminUserManagement -user roll entered in addUser(oLMorgan)
+17:45:21.096 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+17:45:21.144 INFO  AdminUserManagement -after wait_isClickable(status)
+17:45:21.365 INFO  AdminUserManagement -clicked on status
+17:45:21.462 INFO  AdminUserManagement -status list after wait for Enabled
+17:45:21.474 INFO  AdminUserManagement --- Select --
+17:45:21.482 INFO  AdminUserManagement -Enabled
+17:45:21.774 INFO  AdminUserManagement -Enabled is selected
+17:45:21.774 INFO  AdminUserManagement -status entered in addUser(oLMorgan)
+17:45:22.012 INFO  AdminUserManagement -oLMorgan userName is entered
+17:45:22.012 INFO  AdminUserManagement -username entered oLMorgan in addUser(oLMorgan)
+17:45:22.020 INFO  AdminUserManagement -password entered oLMorgan
+17:45:22.037 INFO  AdminUserManagement -password confirmed oLMorgan
+17:45:22.068 INFO  AdminUserManagement -after wait_isClickable(saveButton) oLMorgan in addUser(oLMorgan)
+17:45:22.300 INFO  AdminUserManagement -save button clicked oLMorgan in addUser(oLMorgan)
+17:45:23.562 INFO  AdminUserManagement -
+17:45:23.562 INFO  AdminUserManagement -user added: oLMorgan in addUser(oLMorgan)
+17:45:23.562 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+17:45:24.990 INFO  AdminUserManagement -navigate to viewSystemUsers page in catch block
+17:45:24.990 INFO  AdminUserManagement -redirected to user management- user page
+17:45:24.997 INFO  AdminUserManagement -after wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+17:45:24.997 INFO  AdminUserManagement -redirected to user management- user page
+17:45:25.104 INFO  AdminUserManagement -JJSwifto userName is entered
+17:45:25.104 INFO  AdminUserManagement -JJSwifto UserName entered
+17:45:25.124 INFO  AdminUserManagement -(40) Records Found before search button is clicked
+17:45:25.164 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:45:25.233 INFO  AdminUserManagement -search button is clicked
+17:45:25.635 INFO  AdminUserManagement -oLMorgan userName is entered
+17:45:25.635 INFO  AdminUserManagement -oLMorgan UserName entered
+17:45:25.857 INFO  AdminUserManagement -(41) Records Found before search button is clicked
+17:45:25.875 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+17:45:25.885 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:45:26.061 INFO  AdminUserManagement -delete button clicked for JJSwifto
+17:45:26.146 INFO  AdminUserManagement -confirmed delete: JJSwifto
+17:45:26.169 INFO  AdminUserManagement -search button is clicked
+17:45:26.315 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+17:45:26.566 INFO  AdminUserManagement -delete button clicked for oLMorgan
+17:45:26.801 INFO  AdminUserManagement -confirmed delete: oLMorgan
+17:45:28.827 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:45:28.888 INFO  AdminUserManagement -clicked on userRoll for ESS
+17:45:28.950 INFO  AdminUserManagement -user roll list after wait for: ESS
+17:45:29.149 INFO  AdminUserManagement -ESS is selected
+17:45:29.320 INFO  AdminUserManagement -Searching....
+17:45:29.439 INFO  AdminUserManagement -Alice.Duval userName is entered
+17:45:29.667 INFO  AdminUserManagement -clicked on userRoll for ESS
+17:45:29.743 INFO  AdminUserManagement -user roll list after wait for: ESS
+17:45:29.999 INFO  AdminUserManagement -ESS is selected
+17:45:30.301 INFO  AdminUserManagement -Searching....
+17:45:31.057 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+17:45:31.088 INFO  AdminUserManagement -employee not available
+17:45:31.132 INFO  AdminUserManagement -after wait_isClickable(status)
+17:45:31.198 INFO  AdminUserManagement -clicked on status
+17:45:31.261 INFO  AdminUserManagement -status list after wait for Enabled
+17:45:31.279 INFO  AdminUserManagement --- Select --
+17:45:31.296 INFO  AdminUserManagement -Enabled
+17:45:31.391 INFO  AdminUserManagement -Enabled is selected
+17:45:31.411 INFO  AdminUserManagement -(39) Records Found before search button is clicked
+17:45:31.451 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:45:31.499 INFO  AdminUserManagement -search button is clicked
+17:45:31.918 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+17:45:31.931 INFO  AdminUserManagement -employee not available
+17:45:31.952 INFO  AdminUserManagement -after wait_isClickable(status)
+17:45:32.207 INFO  AdminUserManagement -clicked on status
+17:45:32.251 INFO  AdminUserManagement -status list after wait for Enabled
+17:45:32.259 INFO  AdminUserManagement --- Select --
+17:45:32.262 INFO  AdminUserManagement -Enabled
+17:45:32.521 INFO  AdminUserManagement -Enabled is selected
+17:45:32.536 INFO  AdminUserManagement -(39) Records Found before search button is clicked
+17:45:32.563 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+17:45:32.790 INFO  AdminUserManagement -search button is clicked
+17:45:34.798 INFO  AdminUserManagement -employee Invalid
+17:45:35.969 INFO  AdminUserManagement -employee Invalid
+17:45:44.881 INFO  LeaveListTest -BaseURL loaded
+17:45:46.882 INFO  LeaveListTest -login successful
+17:45:48.465 INFO  LeaveListTest -BaseURL loaded
+17:45:49.635 INFO  LeaveMenu -clicked on leaveListPage
+17:45:50.204 INFO  LeaveListTest -login successful
+17:46:01.649 INFO  LeaveMenu -clicked on leaveListPage
+17:46:10.446 INFO  LeaveList -Records: (11) Records Found
+17:46:12.376 INFO  LeaveMenu -clicked on leaveListPage
+17:46:12.378 INFO  LeaveList -setFromDate()
+17:46:13.056 INFO  LeaveList -clicked on fromDate
+17:46:13.158 INFO  LeaveList -clicked on from month selector
+17:46:13.369 INFO  LeaveList -June
+17:46:13.527 INFO  LeaveList -Records: (11) Records Found
+17:46:13.538 INFO  LeaveList -from month selected
+17:46:13.823 INFO  LeaveList -clicked on from year selector
+17:46:14.441 INFO  LeaveList -2020
+17:46:14.502 INFO  LeaveList -from year selected
+17:46:14.714 INFO  LeaveList -2
+17:46:14.851 INFO  LeaveMenu -clicked on leaveListPage
+17:46:14.851 INFO  LeaveList -setFromDate()
+17:46:14.863 INFO  LeaveList -from date selected
+17:46:14.863 INFO  LeaveList -setToDate()
+17:46:15.003 INFO  LeaveList -toDate is clear
+17:46:15.118 INFO  LeaveList -to date is clicked
+17:46:15.146 INFO  LeaveList -clicked on fromDate
+17:46:15.199 INFO  LeaveList -to month selector clicked
+17:46:15.344 INFO  LeaveList -July
+17:46:15.376 INFO  LeaveList -clicked on from month selector
+17:46:15.411 INFO  LeaveList -to month is selected
+17:46:15.468 INFO  LeaveList -June
+17:46:15.543 INFO  LeaveList -to year is clicked
+17:46:15.738 INFO  LeaveList -from month selected
+17:46:16.168 INFO  LeaveList -2021
+17:46:16.214 INFO  LeaveList -to year is selected
+17:46:16.594 INFO  LeaveList -to date is selected
+17:46:16.862 INFO  LeaveList -Rejected selected in else block
+17:46:16.862 INFO  LeaveListTest -status selected
+17:46:16.943 INFO  LeaveList -Records: (11) Records Found
+18:03:52.331 INFO  AdminUserManagement -delete( JJSwifto )
+18:03:52.475 INFO  AdminUserManagement -JJSwifto userName is entered
+18:03:52.495 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:03:52.550 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:03:52.620 INFO  AdminUserManagement -search button is clicked
+18:03:52.992 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:03:53.010 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:03:53.512 INFO  AdminUserManagement -add button clicked to add user: JJSwifto
+18:03:53.529 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:03:54.045 INFO  AdminUserManagement -Searching....
+18:03:55.164 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+18:03:55.183 INFO  AdminUserManagement -employee not available
+18:03:55.249 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:03:55.317 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:03:55.440 INFO  AdminUserManagement -ESS is selected
+18:03:55.485 INFO  AdminUserManagement -Invalid now add employee: JJ Swifto
+18:03:55.485 INFO  AdminUserManagement -addEmployee() JJ Swifto
+18:03:56.258 INFO  AdminUserManagement -go to pim page
+18:03:56.258 INFO  AdminUserManagement -before pim.add_Employee()JJ Swifto
+18:03:56.258 INFO  PimModule -in addEmployee(): JJ Swifto
+18:03:57.211 INFO  PimModule -add button clicked to add employee
+18:03:57.888 INFO  PimModule -first name entered: JJ
+18:03:57.986 INFO  PimModule -last name entered: Swifto
+18:04:00.104 INFO  PimModule -save button clicked for: JJ Swifto
+18:04:02.171 INFO  PimModule -Successfully Saved
+18:04:02.208 INFO  AdminUserManagement -JJ Swifto Successfully SavedJJ Swifto
+18:04:04.285 INFO  AdminUserManagement -delete( oLMorgan )
+18:04:04.560 INFO  AdminUserManagement -oLMorgan userName is entered
+18:04:04.569 INFO  AdminUserManagement -(36) Records Found before search button is clicked
+18:04:04.602 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:04:04.843 INFO  AdminUserManagement -search button is clicked
+18:04:05.051 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:04:05.051 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:04:05.686 INFO  AdminUserManagement -go to admin page
+18:04:05.724 INFO  AdminUserManagement -add button clicked to add user: oLMorgan
+18:04:05.732 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:04:06.481 INFO  AdminUserManagement -Searching....
+18:04:06.814 INFO  AdminUserManagement -go to user management page
+18:04:08.121 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+18:04:08.134 INFO  AdminUserManagement -employee not available
+18:04:08.362 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:04:08.429 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:04:08.700 INFO  AdminUserManagement -ESS is selected
+18:04:08.719 INFO  AdminUserManagement -Invalid now add employee: oLisa Morgan
+18:04:08.719 INFO  AdminUserManagement -addEmployee() oLisa Morgan
+18:04:09.452 INFO  AdminUserManagement -go to pim page
+18:04:09.452 INFO  AdminUserManagement -before pim.add_Employee()oLisa Morgan
+18:04:09.452 INFO  PimModule -in addEmployee(): oLisa Morgan
+18:04:10.718 INFO  PimModule -add button clicked to add employee
+18:04:11.920 INFO  AdminUserManagement -navigate to viewSystemUsers page after addEmployee() JJ Swiftoin catch block
+18:04:12.434 INFO  AdminUserManagement -add button clicked to add user: JJSwifto after addEmployee() in addUser(JJSwifto)
+18:04:15.053 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:04:15.309 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:04:15.416 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:04:16.182 INFO  AdminUserManagement -navigate to saveSystemUsers page in catch block of addUser(JJSwifto )
+18:04:16.386 INFO  AdminUserManagement -Searching....
+18:04:18.010 INFO  AdminUserManagement -JJ Swifto after wait in getByEmployeeName()
+18:04:18.078 INFO  AdminUserManagement -JJ Swifto clicked
+18:04:18.115 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:04:18.182 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:04:18.289 INFO  AdminUserManagement -ESS is selected
+18:04:18.289 INFO  AdminUserManagement -employee name entered JJ Swifto in addUser(JJSwifto)
+18:04:18.289 INFO  AdminUserManagement -user roll entered in addUser(JJSwifto)
+18:04:18.339 INFO  AdminUserManagement -after wait_isClickable(status)
+18:04:18.396 INFO  AdminUserManagement -clicked on status
+18:04:18.470 INFO  AdminUserManagement -status list after wait for Enabled
+18:04:18.488 INFO  AdminUserManagement --- Select --
+18:04:18.508 INFO  AdminUserManagement -Enabled
+18:04:18.629 INFO  AdminUserManagement -Enabled is selected
+18:04:18.629 INFO  AdminUserManagement -status entered in addUser(JJSwifto)
+18:04:18.750 INFO  AdminUserManagement -JJSwifto userName is entered
+18:04:18.750 INFO  AdminUserManagement -username entered JJSwifto in addUser(JJSwifto)
+18:04:18.861 INFO  AdminUserManagement -password entered JJSwifto
+18:04:19.005 INFO  AdminUserManagement -password confirmed JJSwifto
+18:04:19.041 INFO  AdminUserManagement -after wait_isClickable(saveButton) JJSwifto in addUser(JJSwifto)
+18:04:19.080 INFO  AdminUserManagement -save button clicked JJSwifto in addUser(JJSwifto)
+18:04:20.828 INFO  AdminUserManagement -Successfully Saved
+18:04:20.828 INFO  AdminUserManagement -user added: JJSwiftoSuccessfully Saved in addUser(JJSwifto)
+18:04:23.178 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:04:23.240 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:04:23.295 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:04:23.484 INFO  AdminUserManagement -ESS is selected
+18:04:23.654 INFO  AdminUserManagement -Searching....
+18:04:24.764 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:04:24.833 INFO  AdminUserManagement -Alice Duval clicked
+18:04:24.873 INFO  AdminUserManagement -after wait_isClickable(status)
+18:04:24.921 INFO  AdminUserManagement -clicked on status
+18:04:24.975 INFO  AdminUserManagement -status list after wait for Enabled
+18:04:24.990 INFO  AdminUserManagement --- Select --
+18:04:25.003 INFO  AdminUserManagement -Enabled
+18:04:25.100 INFO  AdminUserManagement -Enabled is selected
+18:04:25.120 INFO  AdminUserManagement -(37) Records Found before search button is clicked
+18:04:25.156 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:04:25.207 INFO  AdminUserManagement -search button is clicked
+18:04:25.590 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:04:27.851 INFO  LeaveListTest -BaseURL loaded
+18:04:29.413 INFO  LeaveListTest -login successful
+18:04:31.362 INFO  LeaveMenu -clicked on leaveListPage
+18:04:33.018 INFO  LeaveListTest -BaseURL loaded
+18:04:33.878 INFO  LeaveListTest -login successful
+18:04:37.836 INFO  LeaveMenu -clicked on leaveListPage
+18:04:39.862 INFO  LeaveList -Records: (13) Records Found
+18:04:41.672 INFO  LeaveMenu -clicked on leaveListPage
+18:04:41.672 INFO  LeaveList -setFromDate()
+18:04:42.128 INFO  LeaveList -clicked on fromDate
+18:04:42.207 INFO  LeaveList -clicked on from month selector
+18:04:42.329 INFO  LeaveList -June
+18:04:42.387 INFO  LeaveList -from month selected
+18:04:42.692 INFO  LeaveList -clicked on from year selector
+18:04:43.070 INFO  LeaveList -Records: (13) Records Found
+18:04:43.421 INFO  LeaveList -2020
+18:04:43.468 INFO  LeaveList -from year selected
+18:04:43.624 INFO  LeaveList -2
+18:04:43.825 INFO  LeaveList -from date selected
+18:04:43.825 INFO  LeaveList -setToDate()
+18:04:43.975 INFO  LeaveList -toDate is clear
+18:04:44.067 INFO  LeaveList -to date is clicked
+18:04:44.148 INFO  LeaveList -to month selector clicked
+18:04:44.320 INFO  LeaveList -July
+18:04:44.403 INFO  LeaveList -to month is selected
+18:04:44.418 INFO  LeaveMenu -clicked on leaveListPage
+18:04:44.418 INFO  LeaveList -setFromDate()
+18:04:44.717 INFO  LeaveList -to year is clicked
+18:04:44.719 INFO  LeaveList -clicked on fromDate
+18:04:44.943 INFO  LeaveList -clicked on from month selector
+18:04:45.245 INFO  LeaveList -clicked on from year selector
+18:04:45.306 INFO  LeaveList -2021
+18:04:45.356 INFO  LeaveList -to year is selected
+18:04:45.543 INFO  LeaveList -5
+18:04:45.693 INFO  LeaveList -to date is selected
+18:04:45.963 INFO  LeaveList -Rejected selected in else block
+18:04:45.963 INFO  LeaveListTest -status selected
+18:04:46.041 INFO  LeaveList -Records: (13) Records Found
+18:47:20.788 INFO  AdminUserManagement -delete( JJSwifto )
+18:47:20.924 INFO  AdminUserManagement -JJSwifto userName is entered
+18:47:20.947 INFO  AdminUserManagement -(39) Records Found before search button is clicked
+18:47:21.021 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:47:21.095 INFO  AdminUserManagement -search button is clicked
+18:47:21.466 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:47:21.491 INFO  AdminUserManagement -username records after refresh: (1) Record Found
+18:47:21.634 INFO  AdminUserManagement -delete button clicked for JJSwifto
+18:47:21.714 INFO  AdminUserManagement -confirmed delete: JJSwifto
+18:47:24.364 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:47:24.450 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:47:24.529 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:47:24.634 INFO  AdminUserManagement -clicked on ESS
+18:47:24.660 INFO  AdminUserManagement -ESS is selected
+18:47:24.902 INFO  AdminUserManagement -Searching....
+18:47:26.075 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:47:26.146 INFO  AdminUserManagement -Alice Duval clicked
+18:47:26.201 INFO  AdminUserManagement -after wait_isClickable(status)
+18:47:26.251 INFO  AdminUserManagement -clicked on status
+18:47:26.378 INFO  AdminUserManagement -status list after wait for Enabled
+18:47:26.401 INFO  AdminUserManagement --- Select --
+18:47:26.426 INFO  AdminUserManagement -Enabled
+18:47:26.503 INFO  AdminUserManagement -Enabled is selected
+18:47:26.522 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+18:47:26.563 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:47:26.609 INFO  AdminUserManagement -search button is clicked
+18:47:27.010 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:47:32.540 INFO  AdminUserManagement -delete( oLMorgan )
+18:47:32.906 INFO  AdminUserManagement -oLMorgan userName is entered
+18:47:32.919 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+18:47:32.958 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:47:33.189 INFO  AdminUserManagement -search button is clicked
+18:47:33.315 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:47:33.321 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:47:33.790 INFO  AdminUserManagement -add button clicked to add user: oLMorgan
+18:47:33.796 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:47:34.438 INFO  AdminUserManagement -Searching....
+18:47:35.551 INFO  AdminUserManagement -No Records Found after wait in getByEmployeeName()
+18:47:35.570 INFO  AdminUserManagement -employee not available
+18:47:35.819 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:47:35.905 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:47:36.154 INFO  AdminUserManagement -clicked on ESS
+18:47:36.188 INFO  AdminUserManagement -ESS is selected
+18:47:36.220 INFO  AdminUserManagement -Invalid now add employee: oLisa Morgan
+18:47:36.220 INFO  AdminUserManagement -addEmployee() oLisa Morgan
+18:47:36.870 INFO  LeaveListTest -BaseURL loaded
+18:47:36.951 INFO  AdminUserManagement -go to pim page
+18:47:36.957 INFO  AdminUserManagement -before pim.add_Employee()oLisa Morgan
+18:47:36.957 INFO  PimModule -in addEmployee(): oLisa Morgan
+18:47:38.062 INFO  PimModule -add button clicked to add employee
+18:47:38.789 INFO  LeaveListTest -login successful
+18:47:38.799 INFO  PimModule -After refresh in add_Employee(oLisa Morgan)
+18:47:38.853 INFO  PimModule -first name entered: oLisa
+18:47:38.874 INFO  PimModule -last name entered: Morgan
+18:47:41.150 INFO  PimModule -save button clicked for: oLisa Morgan
+18:47:41.865 INFO  LeaveMenu -clicked on leaveListPage
+18:47:43.167 INFO  PimModule -Successfully Saved
+18:47:43.176 INFO  AdminUserManagement -oLisa Morgan Successfully SavedoLisa Morgan
+18:47:43.899 INFO  LeaveList -Records: (11) Records Found
+18:47:45.962 INFO  LeaveMenu -clicked on leaveListPage
+18:47:45.962 INFO  LeaveList -setFromDate()
+18:47:46.473 INFO  AdminUserManagement -go to admin page
+18:47:46.552 INFO  LeaveList -clicked on fromDate
+18:47:46.624 INFO  LeaveList -clicked on from month selector
+18:47:46.769 INFO  LeaveList -June
+18:47:46.947 INFO  LeaveList -from month selected
+18:47:47.233 INFO  LeaveList -clicked on from year selector
+18:47:47.518 INFO  AdminUserManagement -go to user management page
+18:47:47.866 INFO  LeaveList -2020
+18:47:47.919 INFO  LeaveList -from year selected
+18:47:48.071 INFO  LeaveList -2
+18:47:48.264 INFO  LeaveList -from date selected
+18:47:48.264 INFO  LeaveList -setToDate()
+18:47:48.389 INFO  LeaveList -toDate is clear
+18:47:48.493 INFO  LeaveList -to date is clicked
+18:47:48.563 INFO  LeaveList -to month selector clicked
+18:47:48.680 INFO  LeaveList -July
+18:47:48.736 INFO  LeaveList -to month is selected
+18:47:48.835 INFO  LeaveList -to year is clicked
+18:47:49.402 INFO  LeaveList -2021
+18:47:49.454 INFO  LeaveList -to year is selected
+18:47:49.639 INFO  LeaveList -5
+18:47:49.825 INFO  LeaveList -to date is selected
+18:47:50.112 INFO  LeaveList -Rejected selected in else block
+18:47:50.112 INFO  LeaveListTest -status selected
+18:47:50.181 INFO  LeaveList -Records: (11) Records Found
+18:47:53.587 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:47:53.808 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:47:53.844 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:47:54.095 INFO  AdminUserManagement -clicked on ESS
+18:47:54.109 INFO  AdminUserManagement -ESS is selected
+18:47:54.409 INFO  AdminUserManagement -Searching....
+18:47:56.047 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:47:56.287 INFO  AdminUserManagement -Alice Duval clicked
+18:47:56.335 INFO  AdminUserManagement -after wait_isClickable(status)
+18:47:56.561 INFO  AdminUserManagement -clicked on status
+18:47:56.649 INFO  AdminUserManagement -status list after wait for Enabled
+18:47:56.662 INFO  AdminUserManagement --- Select --
+18:47:56.676 INFO  AdminUserManagement -Enabled
+18:47:56.937 INFO  AdminUserManagement -Enabled is selected
+18:47:56.959 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+18:47:57.002 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:47:57.230 INFO  AdminUserManagement -search button is clicked
+18:47:57.432 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:48:11.247 INFO  LeaveListTest -BaseURL loaded
+18:48:12.951 INFO  LeaveListTest -login successful
+18:48:15.179 INFO  LeaveMenu -clicked on leaveListPage
+18:48:26.972 INFO  LeaveList -Records: (11) Records Found
+18:48:28.140 INFO  LeaveMenu -clicked on leaveListPage
+18:48:28.140 INFO  LeaveList -setFromDate()
+18:48:28.388 INFO  LeaveList -clicked on fromDate
+18:48:28.637 INFO  LeaveList -clicked on from month selector
+18:48:28.716 INFO  LeaveList -June
+18:48:28.925 INFO  LeaveList -from month selected
+18:51:55.317 INFO  AdminUserManagement -delete( JJSwifto )
+18:51:55.455 INFO  AdminUserManagement -JJSwifto userName is entered
+18:51:55.477 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+18:51:55.588 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:51:55.682 INFO  AdminUserManagement -search button is clicked
+18:51:56.018 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:51:56.038 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:51:56.552 INFO  AdminUserManagement -add button clicked to add user: JJSwifto
+18:51:56.564 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:51:57.185 INFO  AdminUserManagement -Searching....
+18:51:58.283 INFO  AdminUserManagement -JJ Swifto after wait in getByEmployeeName()
+18:51:58.366 INFO  AdminUserManagement -JJ Swifto clicked
+18:51:58.435 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:51:58.506 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:51:58.595 INFO  AdminUserManagement -clicked on ESS
+18:51:58.615 INFO  AdminUserManagement -ESS is selected
+18:52:06.739 INFO  AdminUserManagement -delete( oLMorgan )
+18:52:07.006 INFO  AdminUserManagement -oLMorgan userName is entered
+18:52:07.018 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+18:52:07.048 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:52:07.276 INFO  AdminUserManagement -search button is clicked
+18:52:07.398 INFO  AdminUserManagement -No Records Found after search button is clicked
+18:52:07.405 INFO  AdminUserManagement -username records after refresh: No Records Found
+18:52:07.904 INFO  AdminUserManagement -add button clicked to add user: oLMorgan
+18:52:07.909 INFO  AdminUserManagement -after pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:52:08.631 INFO  AdminUserManagement -employee : JJ Swifto is available
+18:52:08.631 INFO  AdminUserManagement -employee name entered JJ Swifto in addUser(JJSwifto)
+18:52:08.631 INFO  AdminUserManagement -user roll entered in addUser(JJSwifto)
+18:52:08.644 INFO  AdminUserManagement -Searching....
+18:52:08.681 INFO  AdminUserManagement -after wait_isClickable(status)
+18:52:08.742 INFO  AdminUserManagement -clicked on status
+18:52:08.806 INFO  AdminUserManagement -status list after wait for Enabled
+18:52:08.826 INFO  AdminUserManagement --- Select --
+18:52:08.845 INFO  AdminUserManagement -Enabled
+18:52:08.946 INFO  AdminUserManagement -Enabled is selected
+18:52:08.946 INFO  AdminUserManagement -status entered in addUser(JJSwifto)
+18:52:09.066 INFO  AdminUserManagement -JJSwifto userName is entered
+18:52:09.066 INFO  AdminUserManagement -username entered JJSwifto in addUser(JJSwifto)
+18:52:09.140 INFO  AdminUserManagement -password entered JJSwifto
+18:52:09.224 INFO  AdminUserManagement -password confirmed JJSwifto
+18:52:09.263 INFO  AdminUserManagement -after wait_isClickable(saveButton) JJSwifto in addUser(JJSwifto)
+18:52:09.332 INFO  AdminUserManagement -save button clicked JJSwifto in addUser(JJSwifto)
+18:52:10.247 INFO  AdminUserManagement -oLisa Morgan after wait in getByEmployeeName()
+18:52:10.518 INFO  AdminUserManagement -oLisa Morgan clicked
+18:52:10.748 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:52:10.809 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:52:10.847 INFO  AdminUserManagement -Successfully Saved
+18:52:10.849 INFO  AdminUserManagement -user added: JJSwiftoSuccessfully Saved in addUser(JJSwifto)
+18:52:11.061 INFO  AdminUserManagement -clicked on ESS
+18:52:11.064 INFO  AdminUserManagement -before wait_pageRedirect https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+18:52:11.076 INFO  AdminUserManagement -ESS is selected
+18:52:21.084 INFO  AdminUserManagement -employee : oLisa Morgan is available
+18:52:21.084 INFO  AdminUserManagement -employee name entered oLisa Morgan in addUser(oLMorgan)
+18:52:21.084 INFO  AdminUserManagement -user roll entered in addUser(oLMorgan)
+18:52:21.660 INFO  AdminUserManagement -navigate to viewSystemUsers page in catch block
+18:52:21.660 INFO  AdminUserManagement -redirected to user management- user page
+18:52:21.772 INFO  AdminUserManagement -JJSwifto userName is entered
+18:52:21.773 INFO  AdminUserManagement -JJSwifto UserName entered
+18:52:21.794 INFO  AdminUserManagement -(39) Records Found before search button is clicked
+18:52:21.833 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:52:21.882 INFO  AdminUserManagement -search button is clicked
+18:52:22.052 INFO  AdminUserManagement -after wait_isClickable(status)
+18:52:22.266 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:52:22.288 INFO  AdminUserManagement -clicked on status
+18:52:22.347 INFO  AdminUserManagement -status list after wait for Enabled
+18:52:22.358 INFO  AdminUserManagement --- Select --
+18:52:22.371 INFO  AdminUserManagement -Enabled
+18:52:22.396 INFO  AdminUserManagement -delete button clicked for JJSwifto
+18:52:22.476 INFO  AdminUserManagement -confirmed delete: JJSwifto
+18:52:22.741 INFO  AdminUserManagement -Enabled is selected
+18:52:22.741 INFO  AdminUserManagement -status entered in addUser(oLMorgan)
+18:52:22.997 INFO  AdminUserManagement -oLMorgan userName is entered
+18:52:22.997 INFO  AdminUserManagement -username entered oLMorgan in addUser(oLMorgan)
+18:52:25.320 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:52:25.393 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:52:25.464 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:52:25.661 INFO  AdminUserManagement -clicked on ESS
+18:52:25.683 INFO  AdminUserManagement -ESS is selected
+18:52:25.832 INFO  AdminUserManagement -Searching....
+18:52:27.584 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:52:27.686 INFO  AdminUserManagement -Alice Duval clicked
+18:52:27.733 INFO  AdminUserManagement -after wait_isClickable(status)
+18:52:27.779 INFO  AdminUserManagement -clicked on status
+18:52:27.837 INFO  AdminUserManagement -status list after wait for Enabled
+18:52:27.856 INFO  AdminUserManagement --- Select --
+18:52:27.874 INFO  AdminUserManagement -Enabled
+18:52:27.954 INFO  AdminUserManagement -Enabled is selected
+18:52:27.972 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+18:52:28.011 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:52:28.065 INFO  AdminUserManagement -search button is clicked
+18:52:28.518 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:52:37.460 INFO  AdminUserManagement -Alice.Duval userName is entered
+18:52:37.700 INFO  AdminUserManagement -clicked on userRoll for ESS
+18:52:37.766 INFO  AdminUserManagement -user roll list after wait for: ESS
+18:52:38.020 INFO  AdminUserManagement -clicked on ESS
+18:52:38.043 INFO  AdminUserManagement -ESS is selected
+18:52:38.327 INFO  AdminUserManagement -Searching....
+18:52:39.983 INFO  AdminUserManagement -Alice Duval after wait in getByEmployeeName()
+18:52:40.235 INFO  AdminUserManagement -Alice Duval clicked
+18:52:40.302 INFO  AdminUserManagement -after wait_isClickable(status)
+18:52:40.538 INFO  AdminUserManagement -clicked on status
+18:52:40.605 INFO  AdminUserManagement -status list after wait for Enabled
+18:52:40.614 INFO  AdminUserManagement --- Select --
+18:52:40.629 INFO  AdminUserManagement -Enabled
+18:52:40.876 INFO  AdminUserManagement -Enabled is selected
+18:52:40.885 INFO  AdminUserManagement -(38) Records Found before search button is clicked
+18:52:40.911 INFO  AdminUserManagement -after wait_isClickable(searchButton)
+18:52:41.148 INFO  AdminUserManagement -search button is clicked
+18:52:41.264 INFO  AdminUserManagement -(1) Record Found after search button is clicked
+18:52:43.093 INFO  LeaveListTest -BaseURL loaded
+18:52:44.396 INFO  LeaveListTest -login successful
+18:52:48.280 INFO  LeaveMenu -clicked on leaveListPage
+18:52:50.196 INFO  LeaveList -Records: (11) Records Found
+18:52:52.197 INFO  LeaveMenu -clicked on leaveListPage
+18:52:52.197 INFO  LeaveList -setFromDate()
+18:52:52.628 INFO  LeaveList -clicked on fromDate
+18:52:52.699 INFO  LeaveList -clicked on from month selector
+18:52:52.816 INFO  LeaveList -June
+18:52:52.878 INFO  LeaveList -from month selected
+18:52:52.972 INFO  LeaveList -clicked on from year selector
+18:52:53.770 INFO  LeaveList -2020
+18:52:53.818 INFO  LeaveList -from year selected
+18:52:53.997 INFO  LeaveList -2
+18:52:54.139 INFO  LeaveList -from date selected
+18:52:54.141 INFO  LeaveList -setToDate()
+18:52:54.239 INFO  LeaveList -toDate is clear
+18:52:54.331 INFO  LeaveList -to date is clicked
+18:52:54.389 INFO  LeaveList -to month selector clicked
+18:52:54.522 INFO  LeaveList -July
+18:52:54.573 INFO  LeaveList -to month is selected
+18:52:54.655 INFO  LeaveList -to year is clicked
+18:52:55.217 INFO  LeaveList -2021
+18:52:55.263 INFO  LeaveList -to year is selected
+18:52:55.448 INFO  LeaveList -5
+18:52:55.638 INFO  LeaveList -to date is selected
+18:52:55.671 INFO  LeaveListTest -BaseURL loaded
+18:52:55.934 INFO  LeaveList -Rejected selected in else block
+18:52:55.934 INFO  LeaveListTest -status selected
+18:52:56.047 INFO  LeaveList -Records: (11) Records Found
+18:52:57.301 INFO  LeaveListTest -login successful
+18:52:59.313 INFO  LeaveMenu -clicked on leaveListPage
+18:53:11.126 INFO  LeaveList -Records: (11) Records Found
+18:53:12.555 INFO  LeaveMenu -clicked on leaveListPage
+18:53:12.555 INFO  LeaveList -setFromDate()
+18:53:12.827 INFO  LeaveList -clicked on fromDate
+18:53:13.068 INFO  LeaveList -clicked on from month selector
+18:53:13.155 INFO  LeaveList -June
+18:53:13.359 INFO  LeaveList -from month selected
+18:53:23.640 INFO  LeaveList -clicked on fromDate in catch block
+18:53:23.880 INFO  LeaveList -clicked on from month selector in catch block
+18:53:23.958 INFO  LeaveList -June
+18:53:24.184 INFO  LeaveList -from month selected in catch block
+18:53:24.455 INFO  LeaveList -clicked on from year selector in catch block
+18:53:24.755 INFO  LeaveList -2020
+18:53:24.994 INFO  LeaveList -from year selected
+18:53:25.103 INFO  LeaveList -2
+18:53:25.331 INFO  LeaveList -from date selected
+18:53:25.331 INFO  LeaveList -setToDate()
+18:53:25.404 INFO  LeaveList -toDate is clear
+18:53:25.665 INFO  LeaveList -to date is clicked
+18:53:25.889 INFO  LeaveList -to month selector clicked
+18:53:25.985 INFO  LeaveList -July
+18:53:26.223 INFO  LeaveList -to month is selected
+18:53:26.528 INFO  LeaveList -to year is clicked
+18:53:26.776 INFO  LeaveList -2021
+18:53:27.003 INFO  LeaveList -to year is selected
+18:53:27.132 INFO  LeaveList -5
+18:53:27.354 INFO  LeaveList -to date is selected
+18:53:28.145 INFO  LeaveList -Rejected selected in else block
+18:53:28.145 INFO  LeaveListTest -status selected
+18:53:28.429 INFO  LeaveList -Records: (11) Records Found

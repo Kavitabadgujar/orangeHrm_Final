@@ -18,7 +18,7 @@ import java.time.Duration;
 
 public class LeaveListTest extends BaseTest {
    //
-    public WebDriver driver = getDriver();
+   // public WebDriver driver = getDriver();
     MainMenu mainMenu;
     LeaveMenu leaveMenu ;
     LeaveList leaveList ;
@@ -26,11 +26,11 @@ public class LeaveListTest extends BaseTest {
 
     private static final Logger log = LogManager.getLogger(LeaveListTest.class.getName());
 
-    @BeforeClass
-    public void set() throws InterruptedException {
+    @Test
+    public void aset() throws InterruptedException {
         //driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
-        driver.manage().window().maximize();
+       //driver.manage().timeouts().implicitlyWait(Duration.ofMillis(5000));
+        //driver.manage().window().maximize();
         driver.get(baseURL);
         try {
             test = extent.createTest("Leave list setup");

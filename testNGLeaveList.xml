@@ -1,5 +1,6 @@
 <suite name ="OrangeHRM Final Project">
     <test name = "Leave list test">
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name ="testClasses.LeaveListTest" />
         </classes>

@@ -1,0 +1,91 @@
+08:34:34.182 INFO  LeaveListTest -BaseURL loaded
+08:34:46.248 INFO  LeaveListTest -login successful
+08:34:57.808 INFO  LeaveList -Records: (1) Record Found
+08:35:08.052 INFO  LeaveListTest -status selected
+08:35:08.134 INFO  LeaveList -Records: (1) Record Found
+08:35:49.278 INFO  LeaveListTest -BaseURL loaded
+08:35:51.157 INFO  LeaveListTest -login successful
+08:36:06.783 INFO  LeaveListTest -BaseURL loaded
+08:36:08.732 INFO  LeaveListTest -login successful
+08:36:16.693 INFO  LeaveList -Records: (1) Record Found
+08:36:24.759 INFO  LeaveListTest -status selected
+08:36:24.821 INFO  LeaveList -Records: (1) Record Found
+10:31:18.905 INFO  LeaveListTest -BaseURL loaded
+10:31:20.850 INFO  LeaveListTest -login successful
+10:32:10.192 INFO  LeaveListTest -BaseURL loaded
+10:32:12.758 INFO  LeaveListTest -login successful
+10:32:19.896 INFO  LeaveList -Records: No Records Found
+10:32:27.549 INFO  LeaveListTest -status selected
+10:32:27.622 INFO  LeaveList -Records: No Records Found
+10:33:30.906 INFO  LeaveListTest -BaseURL loaded
+10:33:33.682 INFO  LeaveListTest -login successful
+10:33:39.717 INFO  LeaveList -Records: No Records Found
+10:33:45.296 INFO  LeaveListTest -status selected
+10:33:45.366 INFO  LeaveList -Records: No Records Found
+11:02:51.319 INFO  LeaveListTest -BaseURL loaded
+11:02:53.449 INFO  LeaveListTest -login successful
+11:02:59.115 INFO  LeaveList -Records: (1) Record Found
+11:03:06.755 INFO  LeaveListTest -status selected
+11:03:06.833 INFO  LeaveList -Records: (1) Record Found
+11:03:15.878 INFO  LeaveListTest -BaseURL loaded
+11:03:17.116 INFO  LeaveListTest -login successful
+11:03:23.035 INFO  LeaveList -Records: No Records Found
+11:03:29.092 INFO  LeaveListTest -status selected
+11:03:29.167 INFO  LeaveList -Records: (1) Record Found
+11:05:48.587 INFO  LeaveListTest -BaseURL loaded
+11:05:50.884 INFO  LeaveListTest -login successful
+11:24:35.534 INFO  LeaveListTest -BaseURL loaded
+11:24:37.476 INFO  LeaveListTest -login successful
+11:24:45.115 INFO  LeaveListTest -BaseURL loaded
+11:24:45.780 INFO  LeaveListTest -login successful
+11:24:51.848 INFO  LeaveList -Records: (1) Record Found
+11:24:59.084 INFO  LeaveListTest -status selected
+11:24:59.178 INFO  LeaveList -Records: (1) Record Found
+11:30:25.859 INFO  LeaveListTest -BaseURL loaded
+11:30:27.146 INFO  LeaveListTest -login successful
+11:30:30.589 INFO  LeaveListTest -BaseURL loaded
+11:30:44.508 INFO  LeaveListTest -login successful
+11:33:15.865 INFO  LeaveListTest -BaseURL loaded
+11:33:18.742 INFO  LeaveListTest -login successful
+11:33:24.074 INFO  LeaveList -Records: (1) Record Found
+11:33:30.670 INFO  LeaveListTest -status selected
+11:33:30.768 INFO  LeaveList -Records: (1) Record Found
+11:33:37.800 INFO  LeaveListTest -BaseURL loaded
+11:33:39.388 INFO  LeaveListTest -login successful
+16:29:55.741 INFO  LeaveListTest -BaseURL loaded
+16:29:57.523 INFO  LeaveListTest -login successful
+16:30:14.012 INFO  LeaveListTest -BaseURL loaded
+16:30:14.617 INFO  LeaveListTest -status selected
+16:30:14.801 INFO  LeaveList -Records: (13) Records Found
+16:30:17.187 INFO  LeaveListTest -login successful
+16:51:29.800 INFO  LeaveListTest -BaseURL loaded
+16:51:31.722 INFO  LeaveListTest -login successful
+16:51:37.830 INFO  LeaveList -Records: (13) Records Found
+16:51:50.143 INFO  LeaveListTest -BaseURL loaded
+16:51:53.240 INFO  LeaveListTest -login successful
+17:14:41.893 INFO  LeaveListTest -BaseURL loaded
+17:14:43.876 INFO  LeaveListTest -login successful
+17:14:50.909 INFO  LeaveList -Records: (13) Records Found
+17:15:00.359 INFO  LeaveListTest -BaseURL loaded
+17:15:01.704 INFO  LeaveListTest -status selected
+17:15:01.974 INFO  LeaveList -Records: (13) Records Found
+17:15:03.601 INFO  LeaveListTest -login successful
+18:44:14.589 INFO  LeaveListTest -BaseURL loaded
+18:44:15.772 INFO  LeaveListTest -login successful
+18:44:21.443 INFO  LeaveList -Records: (11) Records Found
+18:44:24.872 INFO  LeaveListTest -BaseURL loaded
+18:44:26.707 INFO  LeaveListTest -login successful
+18:44:27.105 INFO  LeaveListTest -status selected
+18:44:27.233 INFO  LeaveList -Records: (11) Records Found
+19:15:23.331 INFO  LeaveListTest -BaseURL loaded
+19:15:24.857 INFO  LeaveListTest -login successful
+19:15:31.240 INFO  LeaveList -Records: (11) Records Found
+19:15:48.482 INFO  LeaveListTest -BaseURL loaded
+19:15:50.533 INFO  LeaveListTest -login successful
+19:26:00.606 INFO  LeaveListTest -BaseURL loaded
+19:26:02.607 INFO  LeaveListTest -login successful
+19:26:09.429 INFO  LeaveList -Records: (11) Records Found
+19:26:21.293 INFO  LeaveListTest -status selected
+19:26:21.428 INFO  LeaveList -Records: (11) Records Found
+19:26:22.318 INFO  LeaveListTest -BaseURL loaded
+19:26:24.841 INFO  LeaveListTest -login successful

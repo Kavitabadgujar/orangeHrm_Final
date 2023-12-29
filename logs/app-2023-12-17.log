@@ -1,0 +1,184 @@
+09:14:22.942 INFO  AdminUserManagement -delete()
+09:14:22.943 INFO  AdminUserManagement -(24) Records Found
+09:14:25.695 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+09:14:28.913 INFO  AdminUserManagement -No Records Found
+09:14:29.118 INFO  AdminUserManagement -employee name entered
+09:14:29.118 INFO  AdminUserManagement -user roll entered
+09:14:29.206 INFO  AdminUserManagement -status entered
+09:14:29.361 INFO  AdminUserManagement -username entered
+09:14:29.471 INFO  AdminUserManagement -password entered
+09:14:29.591 INFO  AdminUserManagement -password confirmed
+09:14:31.653 INFO  AdminUserManagement -save button clicked
+09:14:34.635 INFO  AdminUserManagement -No Records Found
+09:14:34.821 INFO  AdminUserManagement -employee name entered
+09:14:34.821 INFO  AdminUserManagement -user roll entered
+09:14:34.887 INFO  AdminUserManagement -status entered
+09:14:35.031 INFO  AdminUserManagement -username entered
+09:14:35.125 INFO  AdminUserManagement -password entered
+09:14:35.290 INFO  AdminUserManagement -password confirmed
+09:14:37.455 INFO  AdminUserManagement -save button clicked
+09:14:52.357 INFO  AdminUserManagement -Alice Duval
+20:52:02.325 INFO  AdminUserManagement -delete()
+20:52:02.340 INFO  AdminUserManagement -(40) Records Found
+20:52:05.885 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+20:52:10.806 INFO  AdminUserManagement -No Records Found
+20:52:11.158 INFO  AdminUserManagement -employee name entered
+20:52:11.158 INFO  AdminUserManagement -user roll entered
+20:52:11.340 INFO  AdminUserManagement -status entered
+20:52:11.619 INFO  AdminUserManagement -username entered
+20:52:11.830 INFO  AdminUserManagement -password entered
+20:52:12.202 INFO  AdminUserManagement -password confirmed
+20:52:14.338 INFO  AdminUserManagement -save button clicked
+20:53:32.261 INFO  AdminUserManagement -delete()
+20:53:32.271 INFO  AdminUserManagement -(40) Records Found
+20:53:35.138 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+20:53:38.511 INFO  AdminUserManagement -No Records Found
+20:53:38.882 INFO  AdminUserManagement -Invalid
+20:53:45.401 INFO  AdminUserManagement -addEmployee() : Successfully Saved
+20:53:53.350 INFO  AdminUserManagement -Honda Swift
+20:53:53.909 INFO  AdminUserManagement -employee name entered
+20:53:53.909 INFO  AdminUserManagement -user roll entered
+20:53:54.157 INFO  AdminUserManagement -status entered
+20:53:54.410 INFO  AdminUserManagement -username entered
+20:53:54.588 INFO  AdminUserManagement -password entered
+20:53:54.768 INFO  AdminUserManagement -password confirmed
+20:53:56.866 INFO  AdminUserManagement -save button clicked
+20:54:15.208 INFO  AdminUserManagement -Alice Duval
+20:56:13.100 INFO  AdminUserManagement -delete()
+20:56:13.100 INFO  AdminUserManagement -(41) Records Found
+20:56:16.245 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+20:56:19.735 INFO  AdminUserManagement -Honda Swift
+20:56:35.464 INFO  AdminUserManagement -Alice Duval
+20:59:28.527 INFO  AdminUserManagement -delete()
+20:59:28.527 INFO  AdminUserManagement -(43) Records Found
+20:59:31.599 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+20:59:35.262 INFO  AdminUserManagement -Honda Swift
+20:59:45.833 INFO  AdminUserManagement -employee : Honda Swift is available
+20:59:45.833 INFO  AdminUserManagement -employee name entered
+20:59:45.833 INFO  AdminUserManagement -user roll entered
+20:59:46.005 INFO  AdminUserManagement -status entered
+20:59:46.222 INFO  AdminUserManagement -username entered
+20:59:46.365 INFO  AdminUserManagement -password entered
+20:59:46.528 INFO  AdminUserManagement -password confirmed
+20:59:48.715 INFO  AdminUserManagement -save button clicked
+21:00:04.739 INFO  AdminUserManagement -Alice Duval
+21:21:40.225 INFO  AdminUserManagement -delete()
+21:21:40.231 INFO  AdminUserManagement -(44) Records Found
+21:21:43.206 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+21:21:46.877 INFO  AdminUserManagement -Honda Swift
+21:21:57.555 INFO  AdminUserManagement -employee : Honda Swift is available
+21:21:57.555 INFO  AdminUserManagement -employee name entered
+21:21:57.555 INFO  AdminUserManagement -user roll entered
+21:22:00.733 INFO  AdminUserManagement -status entered
+21:22:34.599 INFO  AdminUserManagement -delete()
+21:22:34.605 INFO  AdminUserManagement -(44) Records Found
+21:22:37.693 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+21:22:41.610 INFO  AdminUserManagement -Honda Swift
+21:22:52.210 INFO  AdminUserManagement -employee : Honda Swift is available
+21:22:52.212 INFO  AdminUserManagement -employee name entered
+21:22:52.213 INFO  AdminUserManagement -user roll entered
+21:22:52.471 INFO  AdminUserManagement -status entered
+21:22:52.763 INFO  AdminUserManagement -username entered
+21:22:52.933 INFO  AdminUserManagement -password entered
+21:22:53.120 INFO  AdminUserManagement -password confirmed
+21:22:55.374 INFO  AdminUserManagement -save button clicked
+21:23:11.604 INFO  AdminUserManagement -Alice Duval
+21:26:09.113 INFO  AdminUserManagement -delete()
+21:26:09.121 INFO  AdminUserManagement -(45) Records Found
+21:26:12.283 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+21:26:15.944 INFO  AdminUserManagement -Honda Swift
+21:27:50.058 INFO  AdminUserManagement -employee : Honda Swift is available
+21:27:50.058 INFO  AdminUserManagement -employee name entered
+21:27:50.059 INFO  AdminUserManagement -user roll entered
+21:27:50.955 INFO  AdminUserManagement -status entered
+21:27:51.828 INFO  AdminUserManagement -username entered
+21:27:52.410 INFO  AdminUserManagement -password entered
+21:27:52.947 INFO  AdminUserManagement -password confirmed
+21:30:54.098 INFO  AdminUserManagement -delete()
+21:30:54.102 INFO  AdminUserManagement -(49) Records Found
+21:30:57.243 INFO  AdminUserManagement -username records after thread.sleep: (1) Record Found
+21:31:03.073 INFO  AdminUserManagement -Alice Duval
+21:31:33.908 INFO  AdminUserManagement -delete()
+21:31:33.914 INFO  AdminUserManagement -(48) Records Found
+21:31:36.821 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+21:31:40.239 INFO  AdminUserManagement -Honda Swift
+21:31:50.871 INFO  AdminUserManagement -employee : Honda Swift is available
+21:31:50.872 INFO  AdminUserManagement -employee name entered
+21:31:50.872 INFO  AdminUserManagement -user roll entered
+21:31:51.081 INFO  AdminUserManagement -status entered
+21:31:51.528 INFO  AdminUserManagement -username entered
+21:31:51.811 INFO  AdminUserManagement -password entered
+21:31:52.172 INFO  AdminUserManagement -password confirmed
+21:31:54.347 INFO  AdminUserManagement -save button clicked
+21:32:10.683 INFO  AdminUserManagement -Alice Duval
+21:37:21.689 INFO  AdminUserManagement -delete()
+21:37:21.694 INFO  AdminUserManagement -(51) Records Found
+21:37:24.649 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+21:37:28.401 INFO  AdminUserManagement -Honda Swift
+21:37:38.895 INFO  AdminUserManagement -employee : Honda Swift is available
+21:37:38.895 INFO  AdminUserManagement -employee name entered
+21:37:38.896 INFO  AdminUserManagement -user roll entered
+21:37:39.174 INFO  AdminUserManagement -status entered
+21:37:39.433 INFO  AdminUserManagement -username entered
+21:37:39.643 INFO  AdminUserManagement -password entered
+21:37:39.855 INFO  AdminUserManagement -password confirmed
+21:37:42.136 INFO  AdminUserManagement -save button clicked
+21:37:44.088 INFO  AdminUserManagement -user added
+21:37:51.012 INFO  AdminUserManagement -Alice Duval
+21:40:01.899 INFO  AdminUserManagement -delete()
+21:40:01.906 INFO  AdminUserManagement -(53) Records Found
+21:40:05.094 INFO  AdminUserManagement -username records after thread.sleep: (1) Record Found
+21:40:05.211 INFO  AdminUserManagement -user added 4
+21:40:05.360 INFO  AdminUserManagement -delete butoon clicked
+21:40:11.305 INFO  AdminUserManagement -Alice Duval
+21:40:46.009 INFO  AdminUserManagement -delete()
+21:40:46.014 INFO  AdminUserManagement -(52) Records Found
+21:40:49.255 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+21:40:52.687 INFO  AdminUserManagement -Honda Swift
+21:41:03.210 INFO  AdminUserManagement -employee : Honda Swift is available
+21:41:03.211 INFO  AdminUserManagement -employee name entered
+21:41:03.212 INFO  AdminUserManagement -user roll entered
+21:41:03.545 INFO  AdminUserManagement -status entered
+21:41:04.082 INFO  AdminUserManagement -username entered
+21:41:04.472 INFO  AdminUserManagement -password entered
+21:41:04.837 INFO  AdminUserManagement -password confirmed
+21:41:06.997 INFO  AdminUserManagement -save button clicked
+21:41:11.065 INFO  AdminUserManagement -user added
+21:41:17.519 INFO  AdminUserManagement -Alice Duval
+21:43:52.057 INFO  AdminUserManagement -delete()
+21:43:52.064 INFO  AdminUserManagement -(53) Records Found
+21:43:55.382 INFO  AdminUserManagement -username records after thread.sleep: (1) Record Found
+21:43:55.480 INFO  AdminUserManagement -user added 4
+21:43:55.639 INFO  AdminUserManagement -delete butoon clicked
+21:44:01.941 INFO  AdminUserManagement -Alice Duval
+21:44:31.598 INFO  AdminUserManagement -delete()
+21:44:31.604 INFO  AdminUserManagement -(52) Records Found
+21:44:35.293 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+21:44:38.994 INFO  AdminUserManagement -Honda Swift
+21:44:49.520 INFO  AdminUserManagement -employee : Honda Swift is available
+21:44:49.521 INFO  AdminUserManagement -employee name entered
+21:44:49.521 INFO  AdminUserManagement -user roll entered
+21:44:49.736 INFO  AdminUserManagement -status entered
+21:44:50.633 INFO  AdminUserManagement -username entered
+21:44:50.908 INFO  AdminUserManagement -password entered
+21:44:51.196 INFO  AdminUserManagement -password confirmed
+21:44:53.429 INFO  AdminUserManagement -save button clicked
+21:44:57.275 INFO  AdminUserManagement -user added
+21:45:03.840 INFO  AdminUserManagement -Alice Duval
+22:28:19.231 INFO  AdminUserManagement -delete()
+22:28:19.236 INFO  AdminUserManagement -(4) Records Found
+22:28:22.303 INFO  AdminUserManagement -username records after thread.sleep: No Records Found
+22:28:25.558 INFO  AdminUserManagement -No Records Found
+22:28:25.846 INFO  AdminUserManagement -Invalid
+22:28:30.564 INFO  AdminUserManagement -addEmployee() : Successfully Saved
+22:28:37.315 INFO  AdminUserManagement -Honda Swift
+22:28:37.576 INFO  AdminUserManagement -employee name entered
+22:28:37.576 INFO  AdminUserManagement -user roll entered
+22:28:37.656 INFO  AdminUserManagement -status entered
+22:28:38.223 INFO  AdminUserManagement -username entered
+22:28:38.324 INFO  AdminUserManagement -password entered
+22:28:38.423 INFO  AdminUserManagement -password confirmed
+22:28:40.509 INFO  AdminUserManagement -save button clicked
+22:28:45.895 INFO  AdminUserManagement -user added 4
+22:28:45.970 INFO  AdminUserManagement -delete button clicked
+22:29:10.842 INFO  AdminUserManagement -No Records Found

@@ -1,5 +1,8 @@
 <suite name ="OrangeHRM Final Project" >
-    <test name = "Admin User management test 2.2 " >
+    <test name = "Admin User management test " >
+        <parameter name="browser" value="chrome"/>
+        <parameter name = "name" value="Honda Swift"/>
+        <parameter name = "userName" value="HondaSwift"/>
         <classes>
             <class  name="testClasses.UserManagementTest" />
         </classes>

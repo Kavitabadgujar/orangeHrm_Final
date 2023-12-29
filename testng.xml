@@ -1,19 +1,31 @@
-<suite name="OrangeHRM Final Project">
-    <test name="login Test " >
+<suite name="OrangeHRM Final Project" parallel="tests" thread-count="3">
+    <test name="Chrome Test " >
+        <parameter name="browser" value="chrome"/>
+        <parameter name = "name" value="JJ Swifto"/>
+        <parameter name = "userName" value="JJSwifto"/>
         <classes>
             <class name="testClasses.LoginTest"/>
             <class name="testClasses.UserManagementTest"/>
             <class name="testClasses.LeaveListTest"/>
         </classes>
     </test>
-    <!--<test name = "usermanagement test" >
+     <test name = "FireFox test"  >
+         <parameter name="browser" value="firefox"/>
+         <parameter name = "name" value="oLisa Morgan"/>
+         <parameter name = "userName" value="oLMorgan"/>
+         <classes>
+             <class name="testClasses.LoginTest"/>
+             <class name="testClasses.UserManagementTest"/>
+             <class name="testClasses.LeaveListTest"/>
+         </classes>
+     </test>
+    <!--<test name = "Edge test">
+        <parameter name="browser" value="edge"/>
+        <parameter name = "name" value="obamaba"/>
         <classes>
+            <class name="testClasses.LoginTest"/>
             <class name="testClasses.UserManagementTest"/>
-        </classes>
-    </test>
-    <test name = "vleave test">
-        <classes>
             <class name="testClasses.LeaveListTest"/>
         </classes>
-    </test> -->>
+    </test>-->
 </suite>
